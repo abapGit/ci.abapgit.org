@@ -1,1 +1,1 @@
-{"ciHasErrors":false,"timestamp":20181104210720.1547870,"list":[{"name":"DOMA","cloneUrl":"https://github.com/abapGit-tests/DOMA.git","package":"$___DOMA","createPackage":"OK","clone":"OK","pull":"OK","syntaxCheck":"OK","purge":"OK","status":"OK","message":""},{"name":"img","cloneUrl":"https://github.com/abapGit-tests/img.git","package":"$___IMG","createPackage":"OK","clone":"OK","pull":"OK","syntaxCheck":"OK","purge":"OK","status":"OK","message":""}]}
+{"CI_HAS_ERRORS":false,"TIMESTAMP":20181104210838.2894650,"LIST":[]}
