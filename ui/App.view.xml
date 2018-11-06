@@ -1,8 +1,15 @@
 <mvc:View controllerName="Main.App" 
   xmlns:mvc="sap.ui.core.mvc" 
+  xmlns:core="sap.ui.core"
   xmlns="sap.m">
   <Page title="abapGit CI results viewer">
     <content>
+      <Panel>
+        <Text class="status" text="{path: '/CI_HAS_ERRORS', formatter: '.formatStatus' }"/>
+      </Panel>
+      <Panel>
+        <Text text="{path: '/TIMESTAMP', formatter: '.formatTimestamp' }"/>
+      </Panel>
       <Table id="resultTable" items="{/LIST}">
         <columns>
           <Column>
@@ -48,22 +55,22 @@
               <Text text="{PACKAGE}"/>
             </cells>
             <cells>
-              <Text text="{CREATE_PACKAGE}"/>
+              <Text class="status" text="{CREATE_PACKAGE}"/>
             </cells>
             <cells>
-              <Text text="{CLONE}"/>
+              <Text class="status" text="{CLONE}"/>
             </cells>
             <cells>
-              <Text text="{PULL}"/>
+              <Text class="status" text="{PULL}"/>
             </cells>
             <cells>
-              <Text text="{SYNTAX_CHECK}"/>
+              <Text class="status" text="{SYNTAX_CHECK}"/>
             </cells>
             <cells>
-              <Text text="{PURGE}"/>
+              <Text class="status" text="{PURGE}"/>
             </cells>
             <cells>
-              <Text text="{STATUS}"/>
+              <Text class="status" text="{STATUS}"/>
             </cells>
             <cells>
               <Text text="{MESSAGE}"/>

@@ -1,0 +1,7 @@
+.ci_error {
+    background-color: red;
+}
+
+.ci_success {
+    background-color: lightgreen;
+}
