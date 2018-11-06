@@ -1,0 +1,76 @@
+<mvc:View controllerName="Main.App" 
+  xmlns:mvc="sap.ui.core.mvc" 
+  xmlns="sap.m">
+  <Page title="abapGit CI results viewer">
+    <content>
+      <Table id="resultTable" items="{/LIST}">
+        <columns>
+          <Column>
+            <Text text="Name"/>
+          </Column>
+          <Column>
+            <Text text="Clone url"/>
+          </Column>
+          <Column>
+            <Text text="Package"/>
+          </Column>
+          <Column>
+            <Text text="Create package"/>
+          </Column>
+          <Column>
+            <Text text="Clone"/>
+          </Column>
+          <Column>
+            <Text text="Pull"/>
+          </Column>
+          <Column>
+            <Text text="Syntax check"/>
+          </Column>
+          <Column>
+            <Text text="Purge"/>
+          </Column>
+          <Column>
+            <Text text="Status"/>
+          </Column>
+          <Column>
+            <Text text="Message"/>
+          </Column>
+        </columns>
+        <items>
+          <ColumnListItem>
+            <cells>
+              <Text text="{NAME}"/>
+            </cells>
+            <cells>
+              <Text text="{CLONE_URL}"/>
+            </cells>
+            <cells>
+              <Text text="{PACKAGE}"/>
+            </cells>
+            <cells>
+              <Text text="{CREATE_PACKAGE}"/>
+            </cells>
+            <cells>
+              <Text text="{CLONE}"/>
+            </cells>
+            <cells>
+              <Text text="{PULL}"/>
+            </cells>
+            <cells>
+              <Text text="{SYNTAX_CHECK}"/>
+            </cells>
+            <cells>
+              <Text text="{PURGE}"/>
+            </cells>
+            <cells>
+              <Text text="{STATUS}"/>
+            </cells>
+            <cells>
+              <Text text="{MESSAGE}"/>
+            </cells>
+          </ColumnListItem>
+        </items>
+      </Table>
+    </content>
+  </Page>
+</mvc:View>
