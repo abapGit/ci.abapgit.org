@@ -5,3 +5,11 @@
 .ci_success {
     background-color: lightgreen;
 }
+
+.headText {
+    font-size: 32px !important
+}
+
+.marginLeft10{
+    margin-left: 10px
+}

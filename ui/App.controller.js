@@ -2,13 +2,15 @@ sap.ui.define(['sap/ui/core/mvc/Controller', 'sap/m/MessageToast'], function (
   Controller
 ) {
   'use strict';
-  return Controller.extend('Main.App', {
+  return Controller.extend("abapGit.ci.ui.App", {
     onInit: function () {
       const oModel = new sap.ui.model.json.JSONModel();
 
       oModel.loadData(
-        '../src/08002743b1381ed8b88e1bec14b814e4.smim.abapgit_ci_result.json', {} , false
+        '/src/08002743b1381ed8b88e1bec14b814e4.smim.abapgit_ci_result.json', {} , false
       );
+
+      console.log(oModel);
         
       this.getView().setModel(oModel);
     },

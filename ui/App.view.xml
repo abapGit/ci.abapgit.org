@@ -1,83 +1,111 @@
-<mvc:View controllerName="Main.App" 
+<mvc:View controllerName="abapGit.ci.ui.App." 
   xmlns:mvc="sap.ui.core.mvc" 
-  xmlns:core="sap.ui.core"
+  xmlns:core="sap.ui.core" 
   xmlns="sap.m">
   <Page title="abapGit CI results viewer">
     <content>
       <Panel>
-        <Text class="status" text="{path: '/CI_HAS_ERRORS', formatter: '.formatStatus' }"/>
+        <Text class="status headText" text="{path: '/CI_HAS_ERRORS', formatter: '.formatStatus' }"/>
+        <Text class="marginLeft10" text="{path: '/TIMESTAMP', formatter: '.formatTimestamp' }"/>
       </Panel>
-      <Panel>
-        <Text text="{path: '/TIMESTAMP', formatter: '.formatTimestamp' }"/>
+      <Panel expandable="true" expanded="true" headerText="Generic CI checks">
+        <Table id="genericResultTable" items="{/GENERIC_RESULT_LIST}">
+          <columns>
+            <Column>
+              <Text text="Description"/>
+            </Column>
+            <Column>
+              <Text text="Status"/>
+            </Column>
+            <Column>
+              <Text text="Message"/>
+            </Column>
+          </columns>
+          <items>
+            <ColumnListItem>
+              <cells>
+                <Text text="{DESCRIPTION}"/>
+              </cells>
+              <cells>
+                <Text class="status" text="{STATUS}"/>
+              </cells>
+              <cells>
+                <Text text="{MESSAGE}"/>
+              </cells>
+            </ColumnListItem>
+          </items>
+        </Table>
       </Panel>
-      <Table id="resultTable" items="{/LIST}">
-        <columns>
-          <Column>
-            <Text text="Name"/>
-          </Column>
-          <Column>
-            <Text text="Clone url"/>
-          </Column>
-          <Column>
-            <Text text="Package"/>
-          </Column>
-          <Column>
-            <Text text="Create package"/>
-          </Column>
-          <Column>
-            <Text text="Clone"/>
-          </Column>
-          <Column>
-            <Text text="Pull"/>
-          </Column>
-          <Column>
-            <Text text="Syntax check"/>
-          </Column>
-          <Column>
-            <Text text="Purge"/>
-          </Column>
-          <Column>
-            <Text text="Status"/>
-          </Column>
-          <Column>
-            <Text text="Message"/>
-          </Column>
-        </columns>
-        <items>
-          <ColumnListItem>
-            <cells>
-              <Text text="{NAME}"/>
-            </cells>
-            <cells>
-              <Text text="{CLONE_URL}"/>
-            </cells>
-            <cells>
-              <Text text="{PACKAGE}"/>
-            </cells>
-            <cells>
-              <Text class="status" text="{CREATE_PACKAGE}"/>
-            </cells>
-            <cells>
-              <Text class="status" text="{CLONE}"/>
-            </cells>
-            <cells>
-              <Text class="status" text="{PULL}"/>
-            </cells>
-            <cells>
-              <Text class="status" text="{SYNTAX_CHECK}"/>
-            </cells>
-            <cells>
-              <Text class="status" text="{PURGE}"/>
-            </cells>
-            <cells>
-              <Text class="status" text="{STATUS}"/>
-            </cells>
-            <cells>
-              <Text text="{MESSAGE}"/>
-            </cells>
-          </ColumnListItem>
-        </items>
-      </Table>
+      <Panel expandable="true" expanded="true" headerText="Repository CI checks">
+        <Table id="repositoryResultTable" items="{/REPO_RESULT_LIST}">
+          <columns>
+            <Column>
+              <Text text="Name"/>
+            </Column>
+            <Column>
+              <Text text="Clone url"/>
+            </Column>
+            <Column>
+              <Text text="Package"/>
+            </Column>
+            <Column>
+              <Text text="Create package"/>
+            </Column>
+            <Column>
+              <Text text="Clone"/>
+            </Column>
+            <Column>
+              <Text text="Pull"/>
+            </Column>
+            <Column>
+              <Text text="Syntax check"/>
+            </Column>
+            <Column>
+              <Text text="Purge"/>
+            </Column>
+            <Column>
+              <Text text="Status"/>
+            </Column>
+            <Column>
+              <Text text="Message"/>
+            </Column>
+          </columns>
+          <items>
+            <ColumnListItem>
+              <cells>
+                <Text text="{NAME}"/>
+              </cells>
+              <cells>
+                <Text text="{CLONE_URL}"/>
+              </cells>
+              <cells>
+                <Text text="{PACKAGE}"/>
+              </cells>
+              <cells>
+                <Text class="status" text="{CREATE_PACKAGE}"/>
+              </cells>
+              <cells>
+                <Text class="status" text="{CLONE}"/>
+              </cells>
+              <cells>
+                <Text class="status" text="{PULL}"/>
+              </cells>
+              <cells>
+                <Text class="status" text="{SYNTAX_CHECK}"/>
+              </cells>
+              <cells>
+                <Text class="status" text="{PURGE}"/>
+              </cells>
+              <cells>
+                <Text class="status" text="{STATUS}"/>
+              </cells>
+              <cells>
+                <Text text="{MESSAGE}"/>
+              </cells>
+            </ColumnListItem>
+          </items>
+        </Table>
+      </Panel>
     </content>
   </Page>
 </mvc:View>
