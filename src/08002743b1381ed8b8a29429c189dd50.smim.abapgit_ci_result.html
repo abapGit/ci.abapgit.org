@@ -15,13 +15,13 @@ body { font-family:Arial, sans-serif; font-size:14px;}
   <title>ci.abapgit.org</title>
   </head>
   <body>
-    <h2 class="ok">CI successful</h2>
-<h3>Date: 17.01.2019 - Time: 21:41:23 CET - Duration 457 seconds</h3>
+    <h2 class="not_ok">CI failed</h2>
+<h3>Date: 24.01.2019 - Time: 15:36:44 CET - Duration 422 seconds</h3>
 <h3>Repo links: 
 <a href='https://github.com/larshp/abapGit'>abapGit</a> | 
 <a href='https://github.com/abapGit/CI'>abapGit CI</a> | 
 <a href='https://github.com/abapGit/ci.abapgit.org'>abapGit CI results</a></h3>
-<h3>Test cases: Total 70 | Successful 70 | Failed 0 
+<h3>Test cases: Total 72 | Successful 55 | Failed 17 
 <br/><br/>
 
     <table class="tg">
@@ -32,8 +32,8 @@ body { font-family:Arial, sans-serif; font-size:14px;}
 </tr>
   <tr>
 <td class="tg-xldj ">Check latest abapGit build</td>
-<td class="tg-xldj ok">OK</td>
-<td class="tg-xldj "></td>
+<td class="tg-xldj not_ok">NOT_OK</td>
+<td class="tg-xldj ">Latest build - Syntax Error: A PUBLIC class can only be defined within a global CLASSPOOL. -, line 005885</td>
 </tr>
 <tr>
 <td class="tg-xldj ">Run abapGit unit tests</td>
@@ -258,43 +258,43 @@ body { font-family:Arial, sans-serif; font-size:14px;}
 <td class="tg-xldj ">DDLX</td>
 <td class="tg-xldj "><a href="https://github.com/abapGit-tests/DDLX.git">https://github.com/abapGit-tests/DDLX.git</a></td>
 <td class="tg-xldj ">$___DDLX</td>
-<td class="tg-xldj ok">OK</td>
-<td class="tg-xldj ok">OK</td>
-<td class="tg-xldj ok">OK</td>
-<td class="tg-xldj ok">OK</td>
-<td class="tg-xldj ok">OK</td>
-<td class="tg-xldj ok">OK</td>
-<td class="tg-xldj ok">OK</td>
-<td class="tg-xldj ok">OK</td>
 <td class="tg-xldj "></td>
+<td class="tg-xldj "></td>
+<td class="tg-xldj "></td>
+<td class="tg-xldj "></td>
+<td class="tg-xldj "></td>
+<td class="tg-xldj "></td>
+<td class="tg-xldj "></td>
+<td class="tg-xldj not_ok">NOT_OK</td>
+<td class="tg-xldj ">Failure in ZABAPGIT_CI_PROCESS_REPO. Subrc = 2</td>
 </tr>
 <tr>
 <td class="tg-xldj ">DOMA</td>
 <td class="tg-xldj "><a href="https://github.com/abapGit-tests/DOMA.git">https://github.com/abapGit-tests/DOMA.git</a></td>
 <td class="tg-xldj ">$___DOMA</td>
-<td class="tg-xldj ok">OK</td>
-<td class="tg-xldj ok">OK</td>
-<td class="tg-xldj ok">OK</td>
-<td class="tg-xldj ok">OK</td>
-<td class="tg-xldj ok">OK</td>
-<td class="tg-xldj ok">OK</td>
-<td class="tg-xldj ok">OK</td>
-<td class="tg-xldj ok">OK</td>
 <td class="tg-xldj "></td>
+<td class="tg-xldj "></td>
+<td class="tg-xldj "></td>
+<td class="tg-xldj "></td>
+<td class="tg-xldj "></td>
+<td class="tg-xldj "></td>
+<td class="tg-xldj "></td>
+<td class="tg-xldj not_ok">NOT_OK</td>
+<td class="tg-xldj ">Failure in ZABAPGIT_CI_PROCESS_REPO. Subrc = 2</td>
 </tr>
 <tr>
 <td class="tg-xldj ">DTEL</td>
 <td class="tg-xldj "><a href="https://github.com/abapGit-tests/DTEL.git">https://github.com/abapGit-tests/DTEL.git</a></td>
 <td class="tg-xldj ">$___DTEL</td>
-<td class="tg-xldj ok">OK</td>
-<td class="tg-xldj ok">OK</td>
-<td class="tg-xldj ok">OK</td>
-<td class="tg-xldj ok">OK</td>
-<td class="tg-xldj ok">OK</td>
-<td class="tg-xldj ok">OK</td>
-<td class="tg-xldj ok">OK</td>
-<td class="tg-xldj ok">OK</td>
 <td class="tg-xldj "></td>
+<td class="tg-xldj "></td>
+<td class="tg-xldj "></td>
+<td class="tg-xldj "></td>
+<td class="tg-xldj "></td>
+<td class="tg-xldj "></td>
+<td class="tg-xldj "></td>
+<td class="tg-xldj not_ok">NOT_OK</td>
+<td class="tg-xldj ">Failure in ZABAPGIT_CI_PROCESS_REPO. Subrc = 2</td>
 </tr>
 <tr>
 <td class="tg-xldj ">DTEL_with_DOMA</td>
@@ -329,14 +329,14 @@ body { font-family:Arial, sans-serif; font-size:14px;}
 <td class="tg-xldj "><a href="https://github.com/abapGit-tests/ENHC.git">https://github.com/abapGit-tests/ENHC.git</a></td>
 <td class="tg-xldj ">$___ENHC</td>
 <td class="tg-xldj ok">OK</td>
-<td class="tg-xldj ok">OK</td>
-<td class="tg-xldj ok">OK</td>
-<td class="tg-xldj ok">OK</td>
-<td class="tg-xldj ok">OK</td>
-<td class="tg-xldj ok">OK</td>
-<td class="tg-xldj ok">OK</td>
-<td class="tg-xldj ok">OK</td>
+<td class="tg-xldj not_ok">NOT_OK</td>
 <td class="tg-xldj "></td>
+<td class="tg-xldj "></td>
+<td class="tg-xldj "></td>
+<td class="tg-xldj "></td>
+<td class="tg-xldj "></td>
+<td class="tg-xldj not_ok">NOT_OK</td>
+<td class="tg-xldj ">Could not aquire lock REPO 000000000021</td>
 </tr>
 <tr>
 <td class="tg-xldj ">ENHO</td>
@@ -563,18 +563,32 @@ body { font-family:Arial, sans-serif; font-size:14px;}
 <td class="tg-xldj "></td>
 </tr>
 <tr>
+<td class="tg-xldj ">PINF</td>
+<td class="tg-xldj "><a href="https://github.com/abapGit-tests/PINF.git">https://github.com/abapGit-tests/PINF.git</a></td>
+<td class="tg-xldj ">$___PINF</td>
+<td class="tg-xldj ok">OK</td>
+<td class="tg-xldj not_ok">NOT_OK</td>
+<td class="tg-xldj "></td>
+<td class="tg-xldj "></td>
+<td class="tg-xldj "></td>
+<td class="tg-xldj "></td>
+<td class="tg-xldj "></td>
+<td class="tg-xldj not_ok">NOT_OK</td>
+<td class="tg-xldj ">Could not aquire lock REPO 000000000022</td>
+</tr>
+<tr>
 <td class="tg-xldj ">PROG</td>
 <td class="tg-xldj "><a href="https://github.com/abapGit-tests/PROG.git">https://github.com/abapGit-tests/PROG.git</a></td>
 <td class="tg-xldj ">$___PROG</td>
 <td class="tg-xldj ok">OK</td>
 <td class="tg-xldj ok">OK</td>
-<td class="tg-xldj ok">OK</td>
-<td class="tg-xldj ok">OK</td>
-<td class="tg-xldj ok">OK</td>
-<td class="tg-xldj ok">OK</td>
-<td class="tg-xldj ok">OK</td>
-<td class="tg-xldj ok">OK</td>
+<td class="tg-xldj not_ok">NOT_OK</td>
 <td class="tg-xldj "></td>
+<td class="tg-xldj "></td>
+<td class="tg-xldj not_ok">NOT_OK</td>
+<td class="tg-xldj "></td>
+<td class="tg-xldj not_ok">NOT_OK</td>
+<td class="tg-xldj ">Could not aquire lock REPO 000000000023</td>
 </tr>
 <tr>
 <td class="tg-xldj ">PROG_dynpro_resize</td>
@@ -582,13 +596,13 @@ body { font-family:Arial, sans-serif; font-size:14px;}
 <td class="tg-xldj ">$___PROG_DYNPRO_RESIZE</td>
 <td class="tg-xldj ok">OK</td>
 <td class="tg-xldj ok">OK</td>
-<td class="tg-xldj ok">OK</td>
-<td class="tg-xldj ok">OK</td>
-<td class="tg-xldj ok">OK</td>
-<td class="tg-xldj ok">OK</td>
-<td class="tg-xldj ok">OK</td>
-<td class="tg-xldj ok">OK</td>
+<td class="tg-xldj not_ok">NOT_OK</td>
 <td class="tg-xldj "></td>
+<td class="tg-xldj "></td>
+<td class="tg-xldj not_ok">NOT_OK</td>
+<td class="tg-xldj "></td>
+<td class="tg-xldj not_ok">NOT_OK</td>
+<td class="tg-xldj ">Could not aquire lock REPO 000000000024</td>
 </tr>
 <tr>
 <td class="tg-xldj ">SCP1</td>
@@ -596,13 +610,13 @@ body { font-family:Arial, sans-serif; font-size:14px;}
 <td class="tg-xldj ">$___SCP1</td>
 <td class="tg-xldj ok">OK</td>
 <td class="tg-xldj ok">OK</td>
-<td class="tg-xldj ok">OK</td>
-<td class="tg-xldj ok">OK</td>
-<td class="tg-xldj ok">OK</td>
-<td class="tg-xldj ok">OK</td>
-<td class="tg-xldj ok">OK</td>
-<td class="tg-xldj ok">OK</td>
+<td class="tg-xldj not_ok">NOT_OK</td>
 <td class="tg-xldj "></td>
+<td class="tg-xldj "></td>
+<td class="tg-xldj not_ok">NOT_OK</td>
+<td class="tg-xldj "></td>
+<td class="tg-xldj not_ok">NOT_OK</td>
+<td class="tg-xldj ">Could not aquire lock REPO 000000000025</td>
 </tr>
 <tr>
 <td class="tg-xldj ">SFBF</td>
@@ -610,13 +624,13 @@ body { font-family:Arial, sans-serif; font-size:14px;}
 <td class="tg-xldj ">$___SFBF</td>
 <td class="tg-xldj ok">OK</td>
 <td class="tg-xldj ok">OK</td>
-<td class="tg-xldj ok">OK</td>
-<td class="tg-xldj ok">OK</td>
-<td class="tg-xldj ok">OK</td>
-<td class="tg-xldj ok">OK</td>
-<td class="tg-xldj ok">OK</td>
-<td class="tg-xldj ok">OK</td>
+<td class="tg-xldj not_ok">NOT_OK</td>
 <td class="tg-xldj "></td>
+<td class="tg-xldj "></td>
+<td class="tg-xldj not_ok">NOT_OK</td>
+<td class="tg-xldj "></td>
+<td class="tg-xldj not_ok">NOT_OK</td>
+<td class="tg-xldj ">Could not aquire lock REPO 000000000026</td>
 </tr>
 <tr>
 <td class="tg-xldj ">SFBS</td>
@@ -624,13 +638,13 @@ body { font-family:Arial, sans-serif; font-size:14px;}
 <td class="tg-xldj ">$___SFBS</td>
 <td class="tg-xldj ok">OK</td>
 <td class="tg-xldj ok">OK</td>
-<td class="tg-xldj ok">OK</td>
-<td class="tg-xldj ok">OK</td>
-<td class="tg-xldj ok">OK</td>
-<td class="tg-xldj ok">OK</td>
-<td class="tg-xldj ok">OK</td>
-<td class="tg-xldj ok">OK</td>
+<td class="tg-xldj not_ok">NOT_OK</td>
 <td class="tg-xldj "></td>
+<td class="tg-xldj "></td>
+<td class="tg-xldj not_ok">NOT_OK</td>
+<td class="tg-xldj "></td>
+<td class="tg-xldj not_ok">NOT_OK</td>
+<td class="tg-xldj ">Could not aquire lock REPO 000000000027</td>
 </tr>
 <tr>
 <td class="tg-xldj ">SHI3</td>
@@ -638,13 +652,13 @@ body { font-family:Arial, sans-serif; font-size:14px;}
 <td class="tg-xldj ">$___SHI3</td>
 <td class="tg-xldj ok">OK</td>
 <td class="tg-xldj ok">OK</td>
-<td class="tg-xldj ok">OK</td>
-<td class="tg-xldj ok">OK</td>
-<td class="tg-xldj ok">OK</td>
-<td class="tg-xldj ok">OK</td>
-<td class="tg-xldj ok">OK</td>
-<td class="tg-xldj ok">OK</td>
+<td class="tg-xldj not_ok">NOT_OK</td>
 <td class="tg-xldj "></td>
+<td class="tg-xldj "></td>
+<td class="tg-xldj not_ok">NOT_OK</td>
+<td class="tg-xldj "></td>
+<td class="tg-xldj not_ok">NOT_OK</td>
+<td class="tg-xldj ">Could not aquire lock REPO 000000000028</td>
 </tr>
 <tr>
 <td class="tg-xldj ">SHLP</td>
@@ -652,13 +666,13 @@ body { font-family:Arial, sans-serif; font-size:14px;}
 <td class="tg-xldj ">$___SHLP</td>
 <td class="tg-xldj ok">OK</td>
 <td class="tg-xldj ok">OK</td>
-<td class="tg-xldj ok">OK</td>
-<td class="tg-xldj ok">OK</td>
-<td class="tg-xldj ok">OK</td>
-<td class="tg-xldj ok">OK</td>
-<td class="tg-xldj ok">OK</td>
-<td class="tg-xldj ok">OK</td>
+<td class="tg-xldj not_ok">NOT_OK</td>
 <td class="tg-xldj "></td>
+<td class="tg-xldj "></td>
+<td class="tg-xldj not_ok">NOT_OK</td>
+<td class="tg-xldj "></td>
+<td class="tg-xldj not_ok">NOT_OK</td>
+<td class="tg-xldj ">Could not aquire lock REPO 000000000029</td>
 </tr>
 <tr>
 <td class="tg-xldj ">SHMA</td>
@@ -666,13 +680,13 @@ body { font-family:Arial, sans-serif; font-size:14px;}
 <td class="tg-xldj ">$___SHMA</td>
 <td class="tg-xldj ok">OK</td>
 <td class="tg-xldj ok">OK</td>
-<td class="tg-xldj ok">OK</td>
-<td class="tg-xldj ok">OK</td>
-<td class="tg-xldj ok">OK</td>
-<td class="tg-xldj ok">OK</td>
-<td class="tg-xldj ok">OK</td>
-<td class="tg-xldj ok">OK</td>
+<td class="tg-xldj not_ok">NOT_OK</td>
 <td class="tg-xldj "></td>
+<td class="tg-xldj "></td>
+<td class="tg-xldj not_ok">NOT_OK</td>
+<td class="tg-xldj "></td>
+<td class="tg-xldj not_ok">NOT_OK</td>
+<td class="tg-xldj ">Could not aquire lock REPO 000000000030</td>
 </tr>
 <tr>
 <td class="tg-xldj ">SICF</td>
@@ -680,13 +694,13 @@ body { font-family:Arial, sans-serif; font-size:14px;}
 <td class="tg-xldj ">$___SICF</td>
 <td class="tg-xldj ok">OK</td>
 <td class="tg-xldj ok">OK</td>
-<td class="tg-xldj ok">OK</td>
-<td class="tg-xldj ok">OK</td>
-<td class="tg-xldj ok">OK</td>
-<td class="tg-xldj ok">OK</td>
-<td class="tg-xldj ok">OK</td>
-<td class="tg-xldj ok">OK</td>
+<td class="tg-xldj not_ok">NOT_OK</td>
 <td class="tg-xldj "></td>
+<td class="tg-xldj "></td>
+<td class="tg-xldj not_ok">NOT_OK</td>
+<td class="tg-xldj "></td>
+<td class="tg-xldj not_ok">NOT_OK</td>
+<td class="tg-xldj ">Could not aquire lock REPO 000000000031</td>
 </tr>
 <tr>
 <td class="tg-xldj ">SMIM</td>
@@ -694,13 +708,27 @@ body { font-family:Arial, sans-serif; font-size:14px;}
 <td class="tg-xldj ">$___SMIM</td>
 <td class="tg-xldj ok">OK</td>
 <td class="tg-xldj ok">OK</td>
-<td class="tg-xldj ok">OK</td>
-<td class="tg-xldj ok">OK</td>
-<td class="tg-xldj ok">OK</td>
-<td class="tg-xldj ok">OK</td>
-<td class="tg-xldj ok">OK</td>
-<td class="tg-xldj ok">OK</td>
+<td class="tg-xldj not_ok">NOT_OK</td>
 <td class="tg-xldj "></td>
+<td class="tg-xldj "></td>
+<td class="tg-xldj not_ok">NOT_OK</td>
+<td class="tg-xldj "></td>
+<td class="tg-xldj not_ok">NOT_OK</td>
+<td class="tg-xldj ">Could not aquire lock REPO 000000000032</td>
+</tr>
+<tr>
+<td class="tg-xldj ">SOTS</td>
+<td class="tg-xldj "><a href="https://github.com/abapGit-tests/SOTS.git">https://github.com/abapGit-tests/SOTS.git</a></td>
+<td class="tg-xldj ">$___SOTS</td>
+<td class="tg-xldj ok">OK</td>
+<td class="tg-xldj ok">OK</td>
+<td class="tg-xldj not_ok">NOT_OK</td>
+<td class="tg-xldj "></td>
+<td class="tg-xldj "></td>
+<td class="tg-xldj not_ok">NOT_OK</td>
+<td class="tg-xldj "></td>
+<td class="tg-xldj not_ok">NOT_OK</td>
+<td class="tg-xldj ">Could not aquire lock REPO 000000000033</td>
 </tr>
 <tr>
 <td class="tg-xldj ">SPLO</td>
