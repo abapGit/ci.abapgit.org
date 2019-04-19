@@ -16,12 +16,12 @@ body { font-family:Arial, sans-serif; font-size:14px;}
   </head>
   <body>
     <h2 class="not_ok">CI failed</h2>
-<h3>Date: 07.04.2019 - Time: 21:30:58 CET - Duration 396 seconds</h3>
+<h3>Date: 19.04.2019 - Time: 21:45:02 CET - Duration 444 seconds</h3>
 <h3>Repo links: 
 <a href='https://github.com/larshp/abapGit'>abapGit</a> | 
 <a href='https://github.com/abapGit/CI'>abapGit CI</a> | 
 <a href='https://github.com/abapGit/ci.abapgit.org'>abapGit CI results</a></h3>
-<h3>Test cases: Total 82 | Successful 72 | Failed 10 
+<h3>Test cases: Total 84 | Successful 71 | Failed 13 
 <br/><br/>
 
     <table class="tg">
@@ -98,11 +98,11 @@ body { font-family:Arial, sans-serif; font-size:14px;}
 <td class="tg-xldj ok">OK</td>
 <td class="tg-xldj ok">OK</td>
 <td class="tg-xldj ok">OK</td>
+<td class="tg-xldj not_ok">NOT_OK</td>
 <td class="tg-xldj ok">OK</td>
 <td class="tg-xldj ok">OK</td>
-<td class="tg-xldj ok">OK</td>
-<td class="tg-xldj ok">OK</td>
-<td class="tg-xldj "></td>
+<td class="tg-xldj not_ok">NOT_OK</td>
+<td class="tg-xldj ">HTTP error 411 occured: Connect to github.com:443 failed: NIECONN_REFUSED(-10)</td>
 </tr>
 <tr>
 <td class="tg-xldj ">AUTH</td>
@@ -233,11 +233,11 @@ body { font-family:Arial, sans-serif; font-size:14px;}
 <td class="tg-xldj ok">OK</td>
 <td class="tg-xldj ok">OK</td>
 <td class="tg-xldj ok">OK</td>
-<td class="tg-xldj not_ok">NOT_OK</td>
 <td class="tg-xldj ok">OK</td>
 <td class="tg-xldj ok">OK</td>
-<td class="tg-xldj not_ok">NOT_OK</td>
-<td class="tg-xldj ">Local file diffs to remote: zcl_abapgit_test_textpool.clas.xml</td>
+<td class="tg-xldj ok">OK</td>
+<td class="tg-xldj ok">OK</td>
+<td class="tg-xldj "></td>
 </tr>
 <tr>
 <td class="tg-xldj ">CLAS_wf</td>
@@ -615,6 +615,21 @@ body { font-family:Arial, sans-serif; font-size:14px;}
 <td class="tg-xldj "></td>
 </tr>
 <tr>
+<td class="tg-xldj ">IARP_IASP_IATU</td>
+<td class="tg-xldj "><a href="https://github.com/abapGit-tests/IARP_IASP_IATU.git">https://github.com/abapGit-tests/IARP_IASP_IATU.git</a></td>
+<td class="tg-xldj ">$___IARP_IASP_IATU</td>
+<td class="tg-xldj ok">OK</td>
+<td class="tg-xldj "></td>
+<td class="tg-xldj ok">OK</td>
+<td class="tg-xldj ok">OK</td>
+<td class="tg-xldj ok">OK</td>
+<td class="tg-xldj ok">OK</td>
+<td class="tg-xldj ok">OK</td>
+<td class="tg-xldj ok">OK</td>
+<td class="tg-xldj ok">OK</td>
+<td class="tg-xldj "></td>
+</tr>
+<tr>
 <td class="tg-xldj ">IDOC</td>
 <td class="tg-xldj "><a href="https://github.com/abapGit-tests/IDOC.git">https://github.com/abapGit-tests/IDOC.git</a></td>
 <td class="tg-xldj ">$___IDOC</td>
@@ -845,14 +860,14 @@ body { font-family:Arial, sans-serif; font-size:14px;}
 <td class="tg-xldj ">$___PROG_CI_VARIANT</td>
 <td class="tg-xldj "></td>
 <td class="tg-xldj "></td>
+<td class="tg-xldj "></td>
+<td class="tg-xldj "></td>
+<td class="tg-xldj "></td>
+<td class="tg-xldj "></td>
+<td class="tg-xldj "></td>
+<td class="tg-xldj "></td>
 <td class="tg-xldj not_ok">NOT_OK</td>
-<td class="tg-xldj "></td>
-<td class="tg-xldj "></td>
-<td class="tg-xldj "></td>
-<td class="tg-xldj "></td>
-<td class="tg-xldj "></td>
-<td class="tg-xldj not_ok">NOT_OK</td>
-<td class="tg-xldj ">Package $___PROG_CI_VARIANT already versioned as PROG_ci_variant by DEVELOPER</td>
+<td class="tg-xldj ">Failure in ZABAPGIT_CI_PROCESS_REPO. Subrc = 2</td>
 </tr>
 <tr>
 <td class="tg-xldj ">PROG_dynpro_resize</td>
@@ -1118,11 +1133,11 @@ body { font-family:Arial, sans-serif; font-size:14px;}
 <td class="tg-xldj ok">OK</td>
 <td class="tg-xldj ok">OK</td>
 <td class="tg-xldj ok">OK</td>
+<td class="tg-xldj not_ok">NOT_OK</td>
 <td class="tg-xldj ok">OK</td>
 <td class="tg-xldj ok">OK</td>
-<td class="tg-xldj ok">OK</td>
-<td class="tg-xldj ok">OK</td>
-<td class="tg-xldj "></td>
+<td class="tg-xldj not_ok">NOT_OK</td>
+<td class="tg-xldj ">Local file diffs to remote: zabapgit_unit_test.ssfo.xml</td>
 </tr>
 <tr>
 <td class="tg-xldj ">SSFO_multiple_pages</td>
@@ -1133,11 +1148,11 @@ body { font-family:Arial, sans-serif; font-size:14px;}
 <td class="tg-xldj ok">OK</td>
 <td class="tg-xldj ok">OK</td>
 <td class="tg-xldj ok">OK</td>
+<td class="tg-xldj not_ok">NOT_OK</td>
 <td class="tg-xldj ok">OK</td>
 <td class="tg-xldj ok">OK</td>
-<td class="tg-xldj ok">OK</td>
-<td class="tg-xldj ok">OK</td>
-<td class="tg-xldj "></td>
+<td class="tg-xldj not_ok">NOT_OK</td>
+<td class="tg-xldj ">Local file diffs to remote: zlv_issue_2011.ssfo.xml</td>
 </tr>
 <tr>
 <td class="tg-xldj ">SSST</td>
@@ -1378,6 +1393,21 @@ body { font-family:Arial, sans-serif; font-size:14px;}
 <td class="tg-xldj ok">OK</td>
 <td class="tg-xldj ok">OK</td>
 <td class="tg-xldj "></td>
+</tr>
+<tr>
+<td class="tg-xldj ">W3MI</td>
+<td class="tg-xldj "><a href="https://github.com/abapGit-tests/W3MI.git">https://github.com/abapGit-tests/W3MI.git</a></td>
+<td class="tg-xldj ">$___W3MI</td>
+<td class="tg-xldj ok">OK</td>
+<td class="tg-xldj "></td>
+<td class="tg-xldj ok">OK</td>
+<td class="tg-xldj ok">OK</td>
+<td class="tg-xldj ok">OK</td>
+<td class="tg-xldj not_ok">NOT_OK</td>
+<td class="tg-xldj ok">OK</td>
+<td class="tg-xldj ok">OK</td>
+<td class="tg-xldj not_ok">NOT_OK</td>
+<td class="tg-xldj ">Local file diffs to remote: .abapgit.xml</td>
 </tr>
 <tr>
 <td class="tg-xldj ">WAPA</td>
