@@ -1,5 +1,5 @@
 {
-  "ci_has_errors": false,
+  "ci_has_errors": true,
   "generic_result_list": [],
   "repo_result_list": [
     {
@@ -23,73 +23,33 @@
       "syntax_check": "OK"
     },
     {
-      "check_create_transport": "OK",
-      "check_delete_transport": "OK",
-      "check_leftovers": "OK",
-      "clone": "OK",
-      "clone_url": "https://github.com/abapGit-tests/DTEL.git",
-      "create_package": "",
-      "do_not_purge": "",
-      "duration": 11.4,
-      "layer": "ZA4H",
-      "message": "",
-      "name": "DTEL",
-      "object_check": "OK",
-      "package": "Z___DTEL",
-      "pull": "OK",
-      "purge": "OK",
-      "skip": "",
-      "status": "OK",
-      "syntax_check": "OK"
-    },
-    {
       "check_create_transport": "",
       "check_delete_transport": "",
-      "check_leftovers": "OK",
+      "check_leftovers": "",
       "clone": "OK",
       "clone_url": "https://github.com/abapGit-tests/TABL.git",
       "create_package": "OK",
       "do_not_purge": "",
-      "duration": 1.3,
+      "duration": 0.6,
       "layer": "",
-      "message": "",
+      "message": "Remote file diffs to local: zabapgit_unit_t2.tabl.xml",
       "name": "TABL",
-      "object_check": "OK",
+      "object_check": "NOT_OK",
       "package": "$___TABL",
       "pull": "OK",
       "purge": "OK",
       "skip": "",
-      "status": "OK",
-      "syntax_check": "OK"
-    },
-    {
-      "check_create_transport": "OK",
-      "check_delete_transport": "OK",
-      "check_leftovers": "OK",
-      "clone": "OK",
-      "clone_url": "https://github.com/abapGit-tests/TABL.git",
-      "create_package": "",
-      "do_not_purge": "",
-      "duration": 11.7,
-      "layer": "ZA4H",
-      "message": "",
-      "name": "TABL",
-      "object_check": "OK",
-      "package": "Z___TABL",
-      "pull": "OK",
-      "purge": "OK",
-      "skip": "",
-      "status": "OK",
+      "status": "NOT_OK",
       "syntax_check": "OK"
     }
   ],
   "statistics": {
-    "duration_in_seconds": 28,
-    "finish_timestamp": 20210605094141.0377840,
+    "duration_in_seconds": 4,
+    "finish_timestamp": 20210605094214.3377220,
     "test_cases": {
-      "failed": 0,
-      "successful": 4,
-      "total": 4
+      "failed": 1,
+      "successful": 1,
+      "total": 2
     }
   }
 }
