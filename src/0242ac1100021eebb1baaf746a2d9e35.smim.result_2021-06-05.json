@@ -1,19 +1,6 @@
 {
   "ci_has_errors": false,
-  "generic_result_list": [
-    {
-      "description": "Check latest abapGit build",
-      "duration": 6.4,
-      "message": "",
-      "status": "OK"
-    },
-    {
-      "description": "Run abapGit unit tests",
-      "duration": 4.0,
-      "message": "",
-      "status": "OK"
-    }
-  ],
+  "generic_result_list": [],
   "repo_result_list": [
     {
       "check_create_transport": "",
@@ -23,7 +10,7 @@
       "clone_url": "https://github.com/abapGit-tests/DTEL.git",
       "create_package": "OK",
       "do_not_purge": "",
-      "duration": 1.6,
+      "duration": 1.4,
       "layer": "",
       "message": "",
       "name": "DTEL",
@@ -43,7 +30,7 @@
       "clone_url": "https://github.com/abapGit-tests/DTEL.git",
       "create_package": "",
       "do_not_purge": "",
-      "duration": 13.9,
+      "duration": 11.2,
       "layer": "ZA4H",
       "message": "",
       "name": "DTEL",
@@ -63,7 +50,7 @@
       "clone_url": "https://github.com/abapGit-tests/TABL.git",
       "create_package": "OK",
       "do_not_purge": "",
-      "duration": 2.0,
+      "duration": 1.2,
       "layer": "",
       "message": "",
       "name": "TABL",
@@ -83,7 +70,7 @@
       "clone_url": "https://github.com/abapGit-tests/TABL.git",
       "create_package": "",
       "do_not_purge": "",
-      "duration": 12.1,
+      "duration": 11.7,
       "layer": "ZA4H",
       "message": "",
       "name": "TABL",
@@ -97,12 +84,12 @@
     }
   ],
   "statistics": {
-    "duration_in_seconds": 42,
-    "finish_timestamp": 20210605081025.8406760,
+    "duration_in_seconds": 28,
+    "finish_timestamp": 20210605081944.2392850,
     "test_cases": {
       "failed": 0,
-      "successful": 6,
-      "total": 6
+      "successful": 4,
+      "total": 4
     }
   }
 }
