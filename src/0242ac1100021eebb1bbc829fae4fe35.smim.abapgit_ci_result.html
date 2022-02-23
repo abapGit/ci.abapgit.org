@@ -20,14 +20,14 @@ td.status { width:80px; }
   </head>
   <body>
     <h1>abapGit CI Results</h1>
-    <h2 class="ok">CI Successful</h2>
-<h3>Date: 2022-02-23 - Time: 18:05:10 UTC - Duration: 11 seconds</h3>
+    <h2 class="not_ok">CI Failed</h2>
+<h3>Date: 2022-02-23 - Time: 18:10:09 UTC - Duration: 6 seconds</h3>
 <h3>abapGit Version: 1.114.0</h3>
 <h3>Repo Links: 
 <a href='https://github.com/abapGit/abapGit'>abapGit</a> | 
 <a href='https://github.com/abapGit/CI'>abapGit CI</a> | 
 <a href='https://github.com/abapGit/ci.abapgit.org'>abapGit CI results</a></h3>
-<h3>Test Cases: Total 2 | Successful 2 | Failed 0 
+<h3>Test Cases: Total 2 | Successful 1 | Failed 1 
 
     <br/><br/>
     <h2>abapGit CI - Repository Tests</h2>
@@ -56,10 +56,30 @@ td.status { width:80px; }
 </thead>
   <tbody>
 <tr>
+<td class="tg-xldj key">AOBJ</td>
+<td class="tg-xldj key">$___AOBJ</td>
+<td class="tg-xldj "></td>
+<td class="tg-xldj status undefined"></td>
+<td class="tg-xldj status ok">&#10003;</td>
+<td class="tg-xldj status ok">&#10003;</td>
+<td class="tg-xldj status not_ok">&#10007;</td>
+<td class="tg-xldj status undefined"></td>
+<td class="tg-xldj status undefined"></td>
+<td class="tg-xldj status undefined"></td>
+<td class="tg-xldj status ok">&#10003;</td>
+<td class="tg-xldj status undefined"></td>
+<td class="tg-xldj status undefined"></td>
+<td class="tg-xldj ">0.8</td>
+<td class="tg-xldj status not_ok">&#10007;</td>
+<td class="tg-xldj">No files found to deserialize</td>
+<td class="tg-xldj"><a href="https://github.com/abapGit-tests/AOBJ.git">Repo</a></td>
+<td class="tg-xldj "></td>
+</tr>
+<tr>
 <td class="tg-xldj key">CHKC</td>
 <td class="tg-xldj key">$___CHKC</td>
 <td class="tg-xldj "></td>
-<td class="tg-xldj ">X</td>
+<td class="tg-xldj skipped">&#9197;</td>
 <td class="tg-xldj status undefined"></td>
 <td class="tg-xldj status undefined"></td>
 <td class="tg-xldj status undefined"></td>
@@ -71,35 +91,15 @@ td.status { width:80px; }
 <td class="tg-xldj status undefined"></td>
 <td class="tg-xldj ">0.0</td>
 <td class="tg-xldj status undefined"></td>
-<td class="tg-xldj ">Requires support for ABAP File Format (AFF)</td>
+<td class="tg-xldj">Requires support for ABAP File Format (AFF)</td>
 <td class="tg-xldj"><a href="https://github.com/abapGit-tests/CHKC.git">Repo</a></td>
-<td class="tg-xldj "></td>
-</tr>
-<tr>
-<td class="tg-xldj key">DTEL</td>
-<td class="tg-xldj key">$___DTEL</td>
-<td class="tg-xldj "></td>
-<td class="tg-xldj "></td>
-<td class="tg-xldj status ok">&#10003;</td>
-<td class="tg-xldj status ok">&#10003;</td>
-<td class="tg-xldj status ok">&#10003;</td>
-<td class="tg-xldj status ok">&#10003;</td>
-<td class="tg-xldj status ok">&#10003;</td>
-<td class="tg-xldj status undefined"></td>
-<td class="tg-xldj status ok">&#10003;</td>
-<td class="tg-xldj status undefined"></td>
-<td class="tg-xldj status ok">&#10003;</td>
-<td class="tg-xldj ">1.5</td>
-<td class="tg-xldj status ok">&#10003;</td>
-<td class="tg-xldj "></td>
-<td class="tg-xldj"><a href="https://github.com/abapGit-tests/DTEL.git">Repo</a></td>
 <td class="tg-xldj "></td>
 </tr>
 <tr>
 <td class="tg-xldj key">TABL</td>
 <td class="tg-xldj key">$___TABL</td>
 <td class="tg-xldj "></td>
-<td class="tg-xldj "></td>
+<td class="tg-xldj status undefined"></td>
 <td class="tg-xldj status ok">&#10003;</td>
 <td class="tg-xldj status ok">&#10003;</td>
 <td class="tg-xldj status ok">&#10003;</td>
@@ -109,9 +109,9 @@ td.status { width:80px; }
 <td class="tg-xldj status ok">&#10003;</td>
 <td class="tg-xldj status undefined"></td>
 <td class="tg-xldj status ok">&#10003;</td>
-<td class="tg-xldj ">1.4</td>
+<td class="tg-xldj ">1.7</td>
 <td class="tg-xldj status ok">&#10003;</td>
-<td class="tg-xldj "></td>
+<td class="tg-xldj"></td>
 <td class="tg-xldj"><a href="https://github.com/abapGit-tests/TABL.git">Repo</a></td>
 <td class="tg-xldj "></td>
 </tr>

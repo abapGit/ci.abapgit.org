@@ -1,7 +1,27 @@
 {
-  "ci_has_errors": false,
+  "ci_has_errors": true,
   "generic_result_list": [],
   "repo_result_list": [
+    {
+      "check_create_transport": "",
+      "check_delete_transport": "",
+      "check_leftovers": "",
+      "clone": "OK",
+      "clone_url": "https://github.com/abapGit-tests/AOBJ.git",
+      "create_package": "OK",
+      "do_not_purge": "",
+      "duration": 0.8,
+      "layer": "",
+      "message": "No files found to deserialize",
+      "name": "AOBJ",
+      "object_check": "",
+      "package": "$___AOBJ",
+      "pull": "NOT_OK",
+      "purge": "OK",
+      "skip": "",
+      "status": "NOT_OK",
+      "syntax_check": ""
+    },
     {
       "check_create_transport": "",
       "check_delete_transport": "",
@@ -27,30 +47,10 @@
       "check_delete_transport": "",
       "check_leftovers": "OK",
       "clone": "OK",
-      "clone_url": "https://github.com/abapGit-tests/DTEL.git",
-      "create_package": "OK",
-      "do_not_purge": "",
-      "duration": 1.5,
-      "layer": "",
-      "message": "",
-      "name": "DTEL",
-      "object_check": "OK",
-      "package": "$___DTEL",
-      "pull": "OK",
-      "purge": "OK",
-      "skip": "",
-      "status": "OK",
-      "syntax_check": "OK"
-    },
-    {
-      "check_create_transport": "",
-      "check_delete_transport": "",
-      "check_leftovers": "OK",
-      "clone": "OK",
       "clone_url": "https://github.com/abapGit-tests/TABL.git",
       "create_package": "OK",
       "do_not_purge": "",
-      "duration": 1.4,
+      "duration": 1.7,
       "layer": "",
       "message": "",
       "name": "TABL",
@@ -64,11 +64,11 @@
     }
   ],
   "statistics": {
-    "duration_in_seconds": 11,
-    "finish_timestamp": 20220223180510.3837370,
+    "duration_in_seconds": 6,
+    "finish_timestamp": 20220223181009.6753540,
     "test_cases": {
-      "failed": 0,
-      "successful": 2,
+      "failed": 1,
+      "successful": 1,
       "total": 2
     }
   }
