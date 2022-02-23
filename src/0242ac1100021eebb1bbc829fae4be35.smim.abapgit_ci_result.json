@@ -10,7 +10,7 @@
       "clone_url": "https://github.com/abapGit-tests/AOBJ.git",
       "create_package": "OK",
       "do_not_purge": "",
-      "duration": 1.2,
+      "duration": 3.0,
       "layer": "",
       "message": "No files found to deserialize",
       "name": "AOBJ",
@@ -50,7 +50,7 @@
       "clone_url": "https://github.com/abapGit-tests/TABL.git",
       "create_package": "OK",
       "do_not_purge": "",
-      "duration": 5.6,
+      "duration": 1.6,
       "layer": "",
       "message": "",
       "name": "TABL",
@@ -64,8 +64,8 @@
     }
   ],
   "statistics": {
-    "duration_in_seconds": 10,
-    "finish_timestamp": 20220223192856.9358560,
+    "duration_in_seconds": 8,
+    "finish_timestamp": 20220223195201.7981360,
     "test_cases": {
       "failed": 1,
       "skipped": 1,

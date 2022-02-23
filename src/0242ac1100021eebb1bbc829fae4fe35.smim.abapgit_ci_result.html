@@ -9,12 +9,13 @@ body { font-family:Arial, sans-serif; font-size:14px;}
 .tg .tg-kiyi{font-weight:bold;border-color:inherit;text-align:left;}
 .tg .tg-xldj{border-color:inherit;text-align:left;}
 td.status { width:70px; }
-.box { border-style:solid;border-width:1px;border-radius:2px; }
+.box { border-style:solid;border-width:1px;border-radius:3px;padding:3px;margin-right:5px; }
 .ok { background-color: #2dc937; }
 .not_ok { background-color: #cc3232; }
 .undefined { background-color: lightgray; }
 .skipped { background-color: #e7b416; }
 .key { background-color: lightblue; }
+.total { font-weight:bold; }
 </style>
 
   <title>abapGit CI Results</title>
@@ -22,13 +23,13 @@ td.status { width:70px; }
   <body>
     <h1>abapGit CI Results</h1>
     <h2 class="not_ok">CI Failed</h2>
-<h3>Date: 2022-02-23 - Time: 19:28:56 UTC - Duration: 10 seconds</h3>
+<h3>Date: 2022-02-23 - Time: 19:52:01 UTC - Duration: 8 seconds</h3>
 <h3>abapGit Version: 1.114.0</h3>
 <h3>Repo Links: 
 <a href='https://github.com/abapGit/abapGit'>abapGit</a> | 
 <a href='https://github.com/abapGit/CI'>abapGit CI</a> | 
 <a href='https://github.com/abapGit/ci.abapgit.org'>abapGit CI results</a></h3>
-<h3>Test Cases: <span class="box key">Total 3</span> <span class="box ok">Successful 1</span> <span class="box skipped">Skipped 1</span> <span class="box not_ok">Failed 1</span>
+<h3>Test Cases: <span class="box key">Total: 3</span> <span class="box ok">Successful: 1</span> <span class="box skipped">Skipped: 1</span> <span class="box not_ok">Failed: 1</span>
 
     <br/><br/>
     <h2>abapGit CI - Repository Tests</h2>
@@ -59,17 +60,17 @@ td.status { width:70px; }
 <td class="tg-xldj key">AOBJ</td>
 <td class="tg-xldj key">$___AOBJ</td>
 <td class="tg-xldj "></td>
-<td class="tg-xldj status ok">&#10003;</td>
-<td class="tg-xldj status ok">&#10003;</td>
-<td class="tg-xldj status not_ok">&#10007;</td>
-<td class="tg-xldj status undefined"></td>
-<td class="tg-xldj status undefined"></td>
-<td class="tg-xldj status undefined"></td>
-<td class="tg-xldj status ok">&#10003;</td>
-<td class="tg-xldj status undefined"></td>
-<td class="tg-xldj status undefined"></td>
-<td class="tg-xldj ">1.2</td>
-<td class="tg-xldj status not_ok">&#10007;</td>
+<td class="tg-xldj status ok ">&#10003;</td>
+<td class="tg-xldj status ok ">&#10003;</td>
+<td class="tg-xldj status not_ok ">&#10007;</td>
+<td class="tg-xldj status undefined "></td>
+<td class="tg-xldj status undefined "></td>
+<td class="tg-xldj status undefined "></td>
+<td class="tg-xldj status ok ">&#10003;</td>
+<td class="tg-xldj status undefined "></td>
+<td class="tg-xldj status undefined "></td>
+<td class="tg-xldj ">3.0</td>
+<td class="tg-xldj status not_ok total">&#10007;</td>
 <td class="tg-xldj">No files found to deserialize</td>
 <td class="tg-xldj"><a href="https://github.com/abapGit-tests/AOBJ.git">Repo</a></td>
 <td class="tg-xldj "></td>
@@ -78,17 +79,17 @@ td.status { width:70px; }
 <td class="tg-xldj key">CHKC</td>
 <td class="tg-xldj key">$___CHKC</td>
 <td class="tg-xldj "></td>
-<td class="tg-xldj status undefined"></td>
-<td class="tg-xldj status undefined"></td>
-<td class="tg-xldj status undefined"></td>
-<td class="tg-xldj status undefined"></td>
-<td class="tg-xldj status undefined"></td>
-<td class="tg-xldj status undefined"></td>
-<td class="tg-xldj status undefined"></td>
-<td class="tg-xldj status undefined"></td>
-<td class="tg-xldj status undefined"></td>
+<td class="tg-xldj status undefined "></td>
+<td class="tg-xldj status undefined "></td>
+<td class="tg-xldj status undefined "></td>
+<td class="tg-xldj status undefined "></td>
+<td class="tg-xldj status undefined "></td>
+<td class="tg-xldj status undefined "></td>
+<td class="tg-xldj status undefined "></td>
+<td class="tg-xldj status undefined "></td>
+<td class="tg-xldj status undefined "></td>
 <td class="tg-xldj ">0.0</td>
-<td class="tg-xldj skipped">&#8677;</td>
+<td class="tg-xldj skipped total">&#8677;</td>
 <td class="tg-xldj">Requires support for ABAP File Format (AFF)</td>
 <td class="tg-xldj"><a href="https://github.com/abapGit-tests/CHKC.git">Repo</a></td>
 <td class="tg-xldj "></td>
@@ -97,17 +98,17 @@ td.status { width:70px; }
 <td class="tg-xldj key">TABL</td>
 <td class="tg-xldj key">$___TABL</td>
 <td class="tg-xldj "></td>
-<td class="tg-xldj status ok">&#10003;</td>
-<td class="tg-xldj status ok">&#10003;</td>
-<td class="tg-xldj status ok">&#10003;</td>
-<td class="tg-xldj status ok">&#10003;</td>
-<td class="tg-xldj status ok">&#10003;</td>
-<td class="tg-xldj status undefined"></td>
-<td class="tg-xldj status ok">&#10003;</td>
-<td class="tg-xldj status undefined"></td>
-<td class="tg-xldj status ok">&#10003;</td>
-<td class="tg-xldj ">5.6</td>
-<td class="tg-xldj status ok">&#10003;</td>
+<td class="tg-xldj status ok ">&#10003;</td>
+<td class="tg-xldj status ok ">&#10003;</td>
+<td class="tg-xldj status ok ">&#10003;</td>
+<td class="tg-xldj status ok ">&#10003;</td>
+<td class="tg-xldj status ok ">&#10003;</td>
+<td class="tg-xldj status undefined "></td>
+<td class="tg-xldj status ok ">&#10003;</td>
+<td class="tg-xldj status undefined "></td>
+<td class="tg-xldj status ok ">&#10003;</td>
+<td class="tg-xldj ">1.6</td>
+<td class="tg-xldj status ok total">&#10003;</td>
 <td class="tg-xldj"></td>
 <td class="tg-xldj"><a href="https://github.com/abapGit-tests/TABL.git">Repo</a></td>
 <td class="tg-xldj "></td>
