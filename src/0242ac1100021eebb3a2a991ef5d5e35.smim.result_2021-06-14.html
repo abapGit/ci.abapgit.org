@@ -1,0 +1,3609 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <style type="text/css">
+body { font-family:Arial, sans-serif; font-size:14px;}
+.tg  {border-collapse:collapse;border-spacing:0;}
+.tg td{font-family:Arial, sans-serif;font-size:14px;padding:10px 5px;border-style:solid;border-width:1px;overflow:hidden;word-break:normal;border-color:black;}
+.tg th{font-family:Arial, sans-serif;font-size:14px;font-weight:normal;padding:10px 5px;border-style:solid;border-width:1px;overflow:hidden;word-break:normal;border-color:black;background-color:darkgray;}
+.tg .tg-kiyi{font-weight:bold;border-color:inherit;text-align:left;}
+.tg .tg-xldj{border-color:inherit;text-align:left;}
+td.status { width:80px; }
+.ok { background-color: lightgreen; }
+.not_ok { background-color: red; }
+.undefined { background-color: lightgray; }
+.key { background-color: lightblue; }
+</style>
+
+  <title>abapGit CI Results</title>
+  </head>
+  <body>
+    <h1>abapGit CI Results</h1>
+    <h2 class="not_ok">CI Failed</h2>
+<h3>Date: 2021-06-14 - Time: 19:10:01 UTC - Duration: 683 seconds</h3>
+<h3>abapGit Version: 1.108.0</h3>
+<h3>Repo Links: 
+<a href='https://github.com/abapGit/abapGit'>abapGit</a> | 
+<a href='https://github.com/abapGit/CI'>abapGit CI</a> | 
+<a href='https://github.com/abapGit/ci.abapgit.org'>abapGit CI results</a></h3>
+<h3>Test Cases: Total 178 | Successful 108 | Failed 70 
+
+    <br/><br/>
+    <h2>abapGit CI - Generic Tests</h2>
+    <table class="tg">
+  <thead>
+<tr>
+<th class="tg-kiyi">Description</th>
+<th class="tg-kiyi">Duration in Sec</th>
+<th class="tg-kiyi">Status</th>
+<th class="tg-kiyi">Error Message</th>
+</tr>
+</thead>
+  <tbody>
+<tr>
+<td class="tg-xldj key">Check latest abapGit build</td>
+<td class="tg-xldj ">11.0</td>
+<td class="tg-xldj status ok">OK</td>
+<td class="tg-xldj "></td>
+</tr>
+<tr>
+<td class="tg-xldj key">Run abapGit unit tests</td>
+<td class="tg-xldj ">17.2</td>
+<td class="tg-xldj status ok">OK</td>
+<td class="tg-xldj "></td>
+</tr>
+</tbody>
+</table>
+
+    <br/><br/>
+    <h2>abapGit CI - Repository Tests</h2>
+    <table class="tg">
+  <thead>
+<tr>
+<th class="tg-kiyi">Repo Name</th>
+<th class="tg-kiyi">Package</th>
+<th class="tg-kiyi">Transport Layer</th>
+<th class="tg-kiyi">Create Package</th>
+<th class="tg-kiyi">Skip Repo</th>
+<th class="tg-kiyi">Clone</th>
+<th class="tg-kiyi">Pull</th>
+<th class="tg-kiyi">Syntax Check</th>
+<th class="tg-kiyi">Object Check</th>
+<th class="tg-kiyi">Create TR</th>
+<th class="tg-kiyi">Purge</th>
+<th class="tg-kiyi">Delete TR</th>
+<th class="tg-kiyi">Leftovers</th>
+<th class="tg-kiyi">Duration in Sec</th>
+<th class="tg-kiyi">Status</th>
+<th class="tg-kiyi">Error Message</th>
+<th class="tg-kiyi">Clone URL</th>
+<th class="tg-kiyi">No Purge</th>
+</tr>
+</thead>
+  <tbody>
+<tr>
+<td class="tg-xldj key">ACID</td>
+<td class="tg-xldj key">$___ACID</td>
+<td class="tg-xldj "></td>
+<td class="tg-xldj status ok">OK</td>
+<td class="tg-xldj "></td>
+<td class="tg-xldj status ok">OK</td>
+<td class="tg-xldj status ok">OK</td>
+<td class="tg-xldj status ok">OK</td>
+<td class="tg-xldj status ok">OK</td>
+<td class="tg-xldj status undefined"></td>
+<td class="tg-xldj status ok">OK</td>
+<td class="tg-xldj status undefined"></td>
+<td class="tg-xldj status ok">OK</td>
+<td class="tg-xldj ">1.5</td>
+<td class="tg-xldj status ok">OK</td>
+<td class="tg-xldj "></td>
+<td class="tg-xldj"><a href="https://github.com/abapGit-tests/ACID.git">Repo</a></td>
+<td class="tg-xldj "></td>
+</tr>
+<tr>
+<td class="tg-xldj key">ACID_referenced</td>
+<td class="tg-xldj key">$___ACID_REFERENCED</td>
+<td class="tg-xldj "></td>
+<td class="tg-xldj status ok">OK</td>
+<td class="tg-xldj "></td>
+<td class="tg-xldj status ok">OK</td>
+<td class="tg-xldj status ok">OK</td>
+<td class="tg-xldj status ok">OK</td>
+<td class="tg-xldj status ok">OK</td>
+<td class="tg-xldj status undefined"></td>
+<td class="tg-xldj status ok">OK</td>
+<td class="tg-xldj status undefined"></td>
+<td class="tg-xldj status ok">OK</td>
+<td class="tg-xldj ">2.3</td>
+<td class="tg-xldj status ok">OK</td>
+<td class="tg-xldj "></td>
+<td class="tg-xldj"><a href="https://github.com/abapGit-tests/ACID_referenced.git">Repo</a></td>
+<td class="tg-xldj "></td>
+</tr>
+<tr>
+<td class="tg-xldj key">AMSD</td>
+<td class="tg-xldj key">$___AMSD</td>
+<td class="tg-xldj "></td>
+<td class="tg-xldj status ok">OK</td>
+<td class="tg-xldj "></td>
+<td class="tg-xldj status ok">OK</td>
+<td class="tg-xldj status ok">OK</td>
+<td class="tg-xldj status ok">OK</td>
+<td class="tg-xldj status not_ok">NOT_OK</td>
+<td class="tg-xldj status undefined"></td>
+<td class="tg-xldj status ok">OK</td>
+<td class="tg-xldj status undefined"></td>
+<td class="tg-xldj status undefined"></td>
+<td class="tg-xldj ">1.4</td>
+<td class="tg-xldj status not_ok">NOT_OK</td>
+<td class="tg-xldj ">Local file diffs to remote: zlogical_db_schema.amsd.xml</td>
+<td class="tg-xldj"><a href="https://github.com/abapGit-tests/AMSD.git">Repo</a></td>
+<td class="tg-xldj "></td>
+</tr>
+<tr>
+<td class="tg-xldj key">AOBJ</td>
+<td class="tg-xldj key">$___AOBJ</td>
+<td class="tg-xldj "></td>
+<td class="tg-xldj status ok">OK</td>
+<td class="tg-xldj "></td>
+<td class="tg-xldj status ok">OK</td>
+<td class="tg-xldj status ok">OK</td>
+<td class="tg-xldj status ok">OK</td>
+<td class="tg-xldj status not_ok">NOT_OK</td>
+<td class="tg-xldj status undefined"></td>
+<td class="tg-xldj status ok">OK</td>
+<td class="tg-xldj status undefined"></td>
+<td class="tg-xldj status undefined"></td>
+<td class="tg-xldj ">0.5</td>
+<td class="tg-xldj status not_ok">NOT_OK</td>
+<td class="tg-xldj ">Local file diffs to remote: .abapgit.xml</td>
+<td class="tg-xldj"><a href="https://github.com/abapGit-tests/AOBJ.git">Repo</a></td>
+<td class="tg-xldj "></td>
+</tr>
+<tr>
+<td class="tg-xldj key">AREA</td>
+<td class="tg-xldj key">$___AREA</td>
+<td class="tg-xldj "></td>
+<td class="tg-xldj status ok">OK</td>
+<td class="tg-xldj "></td>
+<td class="tg-xldj status ok">OK</td>
+<td class="tg-xldj status ok">OK</td>
+<td class="tg-xldj status ok">OK</td>
+<td class="tg-xldj status ok">OK</td>
+<td class="tg-xldj status undefined"></td>
+<td class="tg-xldj status ok">OK</td>
+<td class="tg-xldj status undefined"></td>
+<td class="tg-xldj status ok">OK</td>
+<td class="tg-xldj ">1.7</td>
+<td class="tg-xldj status ok">OK</td>
+<td class="tg-xldj "></td>
+<td class="tg-xldj"><a href="https://github.com/abapGit-tests/AREA.git">Repo</a></td>
+<td class="tg-xldj "></td>
+</tr>
+<tr>
+<td class="tg-xldj key">ASFC</td>
+<td class="tg-xldj key">$___ASFC</td>
+<td class="tg-xldj "></td>
+<td class="tg-xldj status ok">OK</td>
+<td class="tg-xldj "></td>
+<td class="tg-xldj status ok">OK</td>
+<td class="tg-xldj status ok">OK</td>
+<td class="tg-xldj status ok">OK</td>
+<td class="tg-xldj status ok">OK</td>
+<td class="tg-xldj status undefined"></td>
+<td class="tg-xldj status ok">OK</td>
+<td class="tg-xldj status undefined"></td>
+<td class="tg-xldj status ok">OK</td>
+<td class="tg-xldj ">1.2</td>
+<td class="tg-xldj status ok">OK</td>
+<td class="tg-xldj "></td>
+<td class="tg-xldj"><a href="https://github.com/abapGit-tests/ASFC.git">Repo</a></td>
+<td class="tg-xldj "></td>
+</tr>
+<tr>
+<td class="tg-xldj key">AUTH</td>
+<td class="tg-xldj key">$___AUTH</td>
+<td class="tg-xldj "></td>
+<td class="tg-xldj status ok">OK</td>
+<td class="tg-xldj "></td>
+<td class="tg-xldj status ok">OK</td>
+<td class="tg-xldj status ok">OK</td>
+<td class="tg-xldj status ok">OK</td>
+<td class="tg-xldj status ok">OK</td>
+<td class="tg-xldj status undefined"></td>
+<td class="tg-xldj status ok">OK</td>
+<td class="tg-xldj status undefined"></td>
+<td class="tg-xldj status ok">OK</td>
+<td class="tg-xldj ">0.9</td>
+<td class="tg-xldj status ok">OK</td>
+<td class="tg-xldj "></td>
+<td class="tg-xldj"><a href="https://github.com/abapGit-tests/AUTH.git">Repo</a></td>
+<td class="tg-xldj "></td>
+</tr>
+<tr>
+<td class="tg-xldj key">AVAR</td>
+<td class="tg-xldj key">$___AVAR</td>
+<td class="tg-xldj "></td>
+<td class="tg-xldj status ok">OK</td>
+<td class="tg-xldj "></td>
+<td class="tg-xldj status ok">OK</td>
+<td class="tg-xldj status ok">OK</td>
+<td class="tg-xldj status ok">OK</td>
+<td class="tg-xldj status not_ok">NOT_OK</td>
+<td class="tg-xldj status undefined"></td>
+<td class="tg-xldj status ok">OK</td>
+<td class="tg-xldj status undefined"></td>
+<td class="tg-xldj status undefined"></td>
+<td class="tg-xldj ">1.0</td>
+<td class="tg-xldj status not_ok">NOT_OK</td>
+<td class="tg-xldj ">Remote file diffs to local: zag_avar_unit_test.avar.xml</td>
+<td class="tg-xldj"><a href="https://github.com/abapGit-tests/AVAR.git">Repo</a></td>
+<td class="tg-xldj "></td>
+</tr>
+<tr>
+<td class="tg-xldj key">AVAS</td>
+<td class="tg-xldj key">$___AVAS</td>
+<td class="tg-xldj "></td>
+<td class="tg-xldj status ok">OK</td>
+<td class="tg-xldj "></td>
+<td class="tg-xldj status ok">OK</td>
+<td class="tg-xldj status ok">OK</td>
+<td class="tg-xldj status ok">OK</td>
+<td class="tg-xldj status not_ok">NOT_OK</td>
+<td class="tg-xldj status undefined"></td>
+<td class="tg-xldj status ok">OK</td>
+<td class="tg-xldj status undefined"></td>
+<td class="tg-xldj status undefined"></td>
+<td class="tg-xldj ">1.8</td>
+<td class="tg-xldj status not_ok">NOT_OK</td>
+<td class="tg-xldj ">Local file diffs to remote: 42b8957792081ee8a18688342b0bd6a4.avas.xml</td>
+<td class="tg-xldj"><a href="https://github.com/abapGit-tests/AVAS.git">Repo</a></td>
+<td class="tg-xldj "></td>
+</tr>
+<tr>
+<td class="tg-xldj key">BDEF</td>
+<td class="tg-xldj key">$___BDEF</td>
+<td class="tg-xldj "></td>
+<td class="tg-xldj status ok">OK</td>
+<td class="tg-xldj "></td>
+<td class="tg-xldj status ok">OK</td>
+<td class="tg-xldj status ok">OK</td>
+<td class="tg-xldj status ok">OK</td>
+<td class="tg-xldj status ok">OK</td>
+<td class="tg-xldj status undefined"></td>
+<td class="tg-xldj status ok">OK</td>
+<td class="tg-xldj status undefined"></td>
+<td class="tg-xldj status ok">OK</td>
+<td class="tg-xldj ">11.9</td>
+<td class="tg-xldj status ok">OK</td>
+<td class="tg-xldj "></td>
+<td class="tg-xldj"><a href="https://github.com/abapGit-tests/BDEF.git">Repo</a></td>
+<td class="tg-xldj "></td>
+</tr>
+<tr>
+<td class="tg-xldj key">BMFR</td>
+<td class="tg-xldj key">$___BMFR</td>
+<td class="tg-xldj "></td>
+<td class="tg-xldj status ok">OK</td>
+<td class="tg-xldj "></td>
+<td class="tg-xldj status ok">OK</td>
+<td class="tg-xldj status ok">OK</td>
+<td class="tg-xldj status ok">OK</td>
+<td class="tg-xldj status not_ok">NOT_OK</td>
+<td class="tg-xldj status undefined"></td>
+<td class="tg-xldj status ok">OK</td>
+<td class="tg-xldj status undefined"></td>
+<td class="tg-xldj status undefined"></td>
+<td class="tg-xldj ">0.7</td>
+<td class="tg-xldj status not_ok">NOT_OK</td>
+<td class="tg-xldj ">Local file diffs to remote: .abapgit.xml</td>
+<td class="tg-xldj"><a href="https://github.com/abapGit-tests/BMFR.git">Repo</a></td>
+<td class="tg-xldj "></td>
+</tr>
+<tr>
+<td class="tg-xldj key">BranchTest</td>
+<td class="tg-xldj key">$___BRANCHTEST</td>
+<td class="tg-xldj "></td>
+<td class="tg-xldj status ok">OK</td>
+<td class="tg-xldj "></td>
+<td class="tg-xldj status ok">OK</td>
+<td class="tg-xldj status ok">OK</td>
+<td class="tg-xldj status ok">OK</td>
+<td class="tg-xldj status not_ok">NOT_OK</td>
+<td class="tg-xldj status undefined"></td>
+<td class="tg-xldj status ok">OK</td>
+<td class="tg-xldj status undefined"></td>
+<td class="tg-xldj status undefined"></td>
+<td class="tg-xldj ">0.5</td>
+<td class="tg-xldj status not_ok">NOT_OK</td>
+<td class="tg-xldj ">Local file diffs to remote: .abapgit.xml</td>
+<td class="tg-xldj"><a href="https://github.com/abapGit-tests/BranchTest.git">Repo</a></td>
+<td class="tg-xldj "></td>
+</tr>
+<tr>
+<td class="tg-xldj key">CHAR</td>
+<td class="tg-xldj key">$___CHAR</td>
+<td class="tg-xldj "></td>
+<td class="tg-xldj status ok">OK</td>
+<td class="tg-xldj "></td>
+<td class="tg-xldj status ok">OK</td>
+<td class="tg-xldj status ok">OK</td>
+<td class="tg-xldj status ok">OK</td>
+<td class="tg-xldj status ok">OK</td>
+<td class="tg-xldj status undefined"></td>
+<td class="tg-xldj status ok">OK</td>
+<td class="tg-xldj status undefined"></td>
+<td class="tg-xldj status ok">OK</td>
+<td class="tg-xldj ">1.8</td>
+<td class="tg-xldj status ok">OK</td>
+<td class="tg-xldj "></td>
+<td class="tg-xldj"><a href="https://github.com/abapGit-tests/CHAR.git">Repo</a></td>
+<td class="tg-xldj "></td>
+</tr>
+<tr>
+<td class="tg-xldj key">CHDO</td>
+<td class="tg-xldj key">$___CHDO</td>
+<td class="tg-xldj "></td>
+<td class="tg-xldj status ok">OK</td>
+<td class="tg-xldj "></td>
+<td class="tg-xldj status ok">OK</td>
+<td class="tg-xldj status ok">OK</td>
+<td class="tg-xldj status ok">OK</td>
+<td class="tg-xldj status not_ok">NOT_OK</td>
+<td class="tg-xldj status undefined"></td>
+<td class="tg-xldj status ok">OK</td>
+<td class="tg-xldj status undefined"></td>
+<td class="tg-xldj status undefined"></td>
+<td class="tg-xldj ">3.0</td>
+<td class="tg-xldj status not_ok">NOT_OK</td>
+<td class="tg-xldj ">Local file diffs to remote: zztest_db.tabl.xml</td>
+<td class="tg-xldj"><a href="https://github.com/abapGit-tests/CHDO.git">Repo</a></td>
+<td class="tg-xldj "></td>
+</tr>
+<tr>
+<td class="tg-xldj key">CLAS</td>
+<td class="tg-xldj key">$___CLAS</td>
+<td class="tg-xldj "></td>
+<td class="tg-xldj status ok">OK</td>
+<td class="tg-xldj "></td>
+<td class="tg-xldj status ok">OK</td>
+<td class="tg-xldj status ok">OK</td>
+<td class="tg-xldj status ok">OK</td>
+<td class="tg-xldj status ok">OK</td>
+<td class="tg-xldj status undefined"></td>
+<td class="tg-xldj status ok">OK</td>
+<td class="tg-xldj status undefined"></td>
+<td class="tg-xldj status ok">OK</td>
+<td class="tg-xldj ">3.1</td>
+<td class="tg-xldj status ok">OK</td>
+<td class="tg-xldj "></td>
+<td class="tg-xldj"><a href="https://github.com/abapGit-tests/CLAS.git">Repo</a></td>
+<td class="tg-xldj "></td>
+</tr>
+<tr>
+<td class="tg-xldj key">CLAS_APACK</td>
+<td class="tg-xldj key">$___CLAS_APACK</td>
+<td class="tg-xldj "></td>
+<td class="tg-xldj status ok">OK</td>
+<td class="tg-xldj "></td>
+<td class="tg-xldj status ok">OK</td>
+<td class="tg-xldj status ok">OK</td>
+<td class="tg-xldj status ok">OK</td>
+<td class="tg-xldj status ok">OK</td>
+<td class="tg-xldj status undefined"></td>
+<td class="tg-xldj status ok">OK</td>
+<td class="tg-xldj status undefined"></td>
+<td class="tg-xldj status ok">OK</td>
+<td class="tg-xldj ">3.1</td>
+<td class="tg-xldj status ok">OK</td>
+<td class="tg-xldj "></td>
+<td class="tg-xldj"><a href="https://github.com/abapGit-tests/CLAS_APACK.git">Repo</a></td>
+<td class="tg-xldj "></td>
+</tr>
+<tr>
+<td class="tg-xldj key">CLAS_full</td>
+<td class="tg-xldj key">$___CLAS_FULL</td>
+<td class="tg-xldj "></td>
+<td class="tg-xldj status ok">OK</td>
+<td class="tg-xldj "></td>
+<td class="tg-xldj status ok">OK</td>
+<td class="tg-xldj status ok">OK</td>
+<td class="tg-xldj status ok">OK</td>
+<td class="tg-xldj status ok">OK</td>
+<td class="tg-xldj status undefined"></td>
+<td class="tg-xldj status ok">OK</td>
+<td class="tg-xldj status undefined"></td>
+<td class="tg-xldj status ok">OK</td>
+<td class="tg-xldj ">2.8</td>
+<td class="tg-xldj status ok">OK</td>
+<td class="tg-xldj "></td>
+<td class="tg-xldj"><a href="https://github.com/abapGit-tests/CLAS_full.git">Repo</a></td>
+<td class="tg-xldj "></td>
+</tr>
+<tr>
+<td class="tg-xldj key">CLAS_implementing_INTF</td>
+<td class="tg-xldj key">$___CLAS_IMPLEMENTING_INTF</td>
+<td class="tg-xldj "></td>
+<td class="tg-xldj status ok">OK</td>
+<td class="tg-xldj "></td>
+<td class="tg-xldj status ok">OK</td>
+<td class="tg-xldj status ok">OK</td>
+<td class="tg-xldj status ok">OK</td>
+<td class="tg-xldj status ok">OK</td>
+<td class="tg-xldj status undefined"></td>
+<td class="tg-xldj status ok">OK</td>
+<td class="tg-xldj status undefined"></td>
+<td class="tg-xldj status ok">OK</td>
+<td class="tg-xldj ">3.7</td>
+<td class="tg-xldj status ok">OK</td>
+<td class="tg-xldj "></td>
+<td class="tg-xldj"><a href="https://github.com/abapGit-tests/CLAS_implementing_INTF.git">Repo</a></td>
+<td class="tg-xldj "></td>
+</tr>
+<tr>
+<td class="tg-xldj key">CLAS_persistent</td>
+<td class="tg-xldj key">$___CLAS_PERSISTENT</td>
+<td class="tg-xldj "></td>
+<td class="tg-xldj status ok">OK</td>
+<td class="tg-xldj "></td>
+<td class="tg-xldj status ok">OK</td>
+<td class="tg-xldj status ok">OK</td>
+<td class="tg-xldj status ok">OK</td>
+<td class="tg-xldj status ok">OK</td>
+<td class="tg-xldj status undefined"></td>
+<td class="tg-xldj status ok">OK</td>
+<td class="tg-xldj status undefined"></td>
+<td class="tg-xldj status ok">OK</td>
+<td class="tg-xldj ">15.2</td>
+<td class="tg-xldj status ok">OK</td>
+<td class="tg-xldj "></td>
+<td class="tg-xldj"><a href="https://github.com/abapGit-tests/CLAS_persistent.git">Repo</a></td>
+<td class="tg-xldj "></td>
+</tr>
+<tr>
+<td class="tg-xldj key">CLAS_textpool</td>
+<td class="tg-xldj key">$___CLAS_TEXTPOOL</td>
+<td class="tg-xldj "></td>
+<td class="tg-xldj status ok">OK</td>
+<td class="tg-xldj "></td>
+<td class="tg-xldj status ok">OK</td>
+<td class="tg-xldj status ok">OK</td>
+<td class="tg-xldj status ok">OK</td>
+<td class="tg-xldj status ok">OK</td>
+<td class="tg-xldj status undefined"></td>
+<td class="tg-xldj status ok">OK</td>
+<td class="tg-xldj status undefined"></td>
+<td class="tg-xldj status ok">OK</td>
+<td class="tg-xldj ">2.0</td>
+<td class="tg-xldj status ok">OK</td>
+<td class="tg-xldj "></td>
+<td class="tg-xldj"><a href="https://github.com/abapGit-tests/CLAS_textpool.git">Repo</a></td>
+<td class="tg-xldj "></td>
+</tr>
+<tr>
+<td class="tg-xldj key">CLAS_wf</td>
+<td class="tg-xldj key">$___CLAS_WF</td>
+<td class="tg-xldj "></td>
+<td class="tg-xldj status ok">OK</td>
+<td class="tg-xldj "></td>
+<td class="tg-xldj status ok">OK</td>
+<td class="tg-xldj status ok">OK</td>
+<td class="tg-xldj status ok">OK</td>
+<td class="tg-xldj status not_ok">NOT_OK</td>
+<td class="tg-xldj status undefined"></td>
+<td class="tg-xldj status ok">OK</td>
+<td class="tg-xldj status undefined"></td>
+<td class="tg-xldj status undefined"></td>
+<td class="tg-xldj ">4.1</td>
+<td class="tg-xldj status not_ok">NOT_OK</td>
+<td class="tg-xldj ">Local file diffs to remote: zcl_abapgit_testing_wf.clas.xml</td>
+<td class="tg-xldj"><a href="https://github.com/abapGit-tests/CLAS_wf.git">Repo</a></td>
+<td class="tg-xldj "></td>
+</tr>
+<tr>
+<td class="tg-xldj key">CLAS_with_ENHO</td>
+<td class="tg-xldj key">$___CLAS_WITH_ENHO</td>
+<td class="tg-xldj "></td>
+<td class="tg-xldj status ok">OK</td>
+<td class="tg-xldj "></td>
+<td class="tg-xldj status ok">OK</td>
+<td class="tg-xldj status ok">OK</td>
+<td class="tg-xldj status ok">OK</td>
+<td class="tg-xldj status not_ok">NOT_OK</td>
+<td class="tg-xldj status undefined"></td>
+<td class="tg-xldj status ok">OK</td>
+<td class="tg-xldj status undefined"></td>
+<td class="tg-xldj status undefined"></td>
+<td class="tg-xldj ">12.6</td>
+<td class="tg-xldj status not_ok">NOT_OK</td>
+<td class="tg-xldj ">Local file diffs to remote: z_enh.enho.abap</td>
+<td class="tg-xldj"><a href="https://github.com/abapGit-tests/CLAS_with_ENHO.git">Repo</a></td>
+<td class="tg-xldj "></td>
+</tr>
+<tr>
+<td class="tg-xldj key">CLAS_with_SOTR</td>
+<td class="tg-xldj key">$___CLAS_WITH_SOTR</td>
+<td class="tg-xldj "></td>
+<td class="tg-xldj status ok">OK</td>
+<td class="tg-xldj "></td>
+<td class="tg-xldj status ok">OK</td>
+<td class="tg-xldj status ok">OK</td>
+<td class="tg-xldj status ok">OK</td>
+<td class="tg-xldj status ok">OK</td>
+<td class="tg-xldj status undefined"></td>
+<td class="tg-xldj status ok">OK</td>
+<td class="tg-xldj status undefined"></td>
+<td class="tg-xldj status ok">OK</td>
+<td class="tg-xldj ">3.5</td>
+<td class="tg-xldj status ok">OK</td>
+<td class="tg-xldj "></td>
+<td class="tg-xldj"><a href="https://github.com/abapGit-tests/CLAS_with_SOTR.git">Repo</a></td>
+<td class="tg-xldj "></td>
+</tr>
+<tr>
+<td class="tg-xldj key">CMOD</td>
+<td class="tg-xldj key">$___CMOD</td>
+<td class="tg-xldj "></td>
+<td class="tg-xldj status ok">OK</td>
+<td class="tg-xldj "></td>
+<td class="tg-xldj status ok">OK</td>
+<td class="tg-xldj status ok">OK</td>
+<td class="tg-xldj status ok">OK</td>
+<td class="tg-xldj status ok">OK</td>
+<td class="tg-xldj status undefined"></td>
+<td class="tg-xldj status ok">OK</td>
+<td class="tg-xldj status undefined"></td>
+<td class="tg-xldj status ok">OK</td>
+<td class="tg-xldj ">3.3</td>
+<td class="tg-xldj status ok">OK</td>
+<td class="tg-xldj "></td>
+<td class="tg-xldj"><a href="https://github.com/abapGit-tests/CMOD.git">Repo</a></td>
+<td class="tg-xldj "></td>
+</tr>
+<tr>
+<td class="tg-xldj key">CUS0</td>
+<td class="tg-xldj key">$___CUS0</td>
+<td class="tg-xldj "></td>
+<td class="tg-xldj status ok">OK</td>
+<td class="tg-xldj "></td>
+<td class="tg-xldj status ok">OK</td>
+<td class="tg-xldj status ok">OK</td>
+<td class="tg-xldj status ok">OK</td>
+<td class="tg-xldj status ok">OK</td>
+<td class="tg-xldj status undefined"></td>
+<td class="tg-xldj status ok">OK</td>
+<td class="tg-xldj status undefined"></td>
+<td class="tg-xldj status ok">OK</td>
+<td class="tg-xldj ">12.8</td>
+<td class="tg-xldj status ok">OK</td>
+<td class="tg-xldj "></td>
+<td class="tg-xldj"><a href="https://github.com/abapGit-tests/CUS0.git">Repo</a></td>
+<td class="tg-xldj "></td>
+</tr>
+<tr>
+<td class="tg-xldj key">CUS1</td>
+<td class="tg-xldj key">$___CUS1</td>
+<td class="tg-xldj "></td>
+<td class="tg-xldj status ok">OK</td>
+<td class="tg-xldj "></td>
+<td class="tg-xldj status ok">OK</td>
+<td class="tg-xldj status ok">OK</td>
+<td class="tg-xldj status ok">OK</td>
+<td class="tg-xldj status ok">OK</td>
+<td class="tg-xldj status undefined"></td>
+<td class="tg-xldj status ok">OK</td>
+<td class="tg-xldj status undefined"></td>
+<td class="tg-xldj status ok">OK</td>
+<td class="tg-xldj ">1.2</td>
+<td class="tg-xldj status ok">OK</td>
+<td class="tg-xldj "></td>
+<td class="tg-xldj"><a href="https://github.com/abapGit-tests/CUS1.git">Repo</a></td>
+<td class="tg-xldj "></td>
+</tr>
+<tr>
+<td class="tg-xldj key">DCLS</td>
+<td class="tg-xldj key">$___DCLS</td>
+<td class="tg-xldj "></td>
+<td class="tg-xldj status ok">OK</td>
+<td class="tg-xldj "></td>
+<td class="tg-xldj status ok">OK</td>
+<td class="tg-xldj status ok">OK</td>
+<td class="tg-xldj status ok">OK</td>
+<td class="tg-xldj status not_ok">NOT_OK</td>
+<td class="tg-xldj status undefined"></td>
+<td class="tg-xldj status ok">OK</td>
+<td class="tg-xldj status undefined"></td>
+<td class="tg-xldj status undefined"></td>
+<td class="tg-xldj ">8.5</td>
+<td class="tg-xldj status not_ok">NOT_OK</td>
+<td class="tg-xldj ">Local file diffs to remote: z_test_ddls.ddls.baseinfo</td>
+<td class="tg-xldj"><a href="https://github.com/abapGit-tests/DCLS.git">Repo</a></td>
+<td class="tg-xldj "></td>
+</tr>
+<tr>
+<td class="tg-xldj key">DDLS</td>
+<td class="tg-xldj key">$___DDLS</td>
+<td class="tg-xldj "></td>
+<td class="tg-xldj status ok">OK</td>
+<td class="tg-xldj "></td>
+<td class="tg-xldj status ok">OK</td>
+<td class="tg-xldj status ok">OK</td>
+<td class="tg-xldj status ok">OK</td>
+<td class="tg-xldj status not_ok">NOT_OK</td>
+<td class="tg-xldj status undefined"></td>
+<td class="tg-xldj status ok">OK</td>
+<td class="tg-xldj status undefined"></td>
+<td class="tg-xldj status undefined"></td>
+<td class="tg-xldj ">2.2</td>
+<td class="tg-xldj status not_ok">NOT_OK</td>
+<td class="tg-xldj ">Local file diffs to remote: zag_unit_test.ddls.baseinfo</td>
+<td class="tg-xldj"><a href="https://github.com/abapGit-tests/DDLS.git">Repo</a></td>
+<td class="tg-xldj "></td>
+</tr>
+<tr>
+<td class="tg-xldj key">DDLX</td>
+<td class="tg-xldj key">$___DDLX</td>
+<td class="tg-xldj "></td>
+<td class="tg-xldj status ok">OK</td>
+<td class="tg-xldj "></td>
+<td class="tg-xldj status ok">OK</td>
+<td class="tg-xldj status ok">OK</td>
+<td class="tg-xldj status ok">OK</td>
+<td class="tg-xldj status not_ok">NOT_OK</td>
+<td class="tg-xldj status undefined"></td>
+<td class="tg-xldj status ok">OK</td>
+<td class="tg-xldj status undefined"></td>
+<td class="tg-xldj status undefined"></td>
+<td class="tg-xldj ">4.3</td>
+<td class="tg-xldj status not_ok">NOT_OK</td>
+<td class="tg-xldj ">Local file diffs to remote: zddls.ddls.baseinfo</td>
+<td class="tg-xldj"><a href="https://github.com/abapGit-tests/DDLX.git">Repo</a></td>
+<td class="tg-xldj "></td>
+</tr>
+<tr>
+<td class="tg-xldj key">DDLX_old</td>
+<td class="tg-xldj key">$___DDLX_OLD</td>
+<td class="tg-xldj "></td>
+<td class="tg-xldj status ok">OK</td>
+<td class="tg-xldj "></td>
+<td class="tg-xldj status ok">OK</td>
+<td class="tg-xldj status ok">OK</td>
+<td class="tg-xldj status ok">OK</td>
+<td class="tg-xldj status not_ok">NOT_OK</td>
+<td class="tg-xldj status undefined"></td>
+<td class="tg-xldj status ok">OK</td>
+<td class="tg-xldj status undefined"></td>
+<td class="tg-xldj status undefined"></td>
+<td class="tg-xldj ">2.5</td>
+<td class="tg-xldj status not_ok">NOT_OK</td>
+<td class="tg-xldj ">Local file diffs to remote: zddls.ddls.baseinfo</td>
+<td class="tg-xldj"><a href="https://github.com/abapGit-tests/DDLX_old.git">Repo</a></td>
+<td class="tg-xldj "></td>
+</tr>
+<tr>
+<td class="tg-xldj key">DEVC_component</td>
+<td class="tg-xldj key">$___DEVC_COMPONENT</td>
+<td class="tg-xldj "></td>
+<td class="tg-xldj status ok">OK</td>
+<td class="tg-xldj "></td>
+<td class="tg-xldj status ok">OK</td>
+<td class="tg-xldj status ok">OK</td>
+<td class="tg-xldj status ok">OK</td>
+<td class="tg-xldj status ok">OK</td>
+<td class="tg-xldj status undefined"></td>
+<td class="tg-xldj status ok">OK</td>
+<td class="tg-xldj status undefined"></td>
+<td class="tg-xldj status ok">OK</td>
+<td class="tg-xldj ">0.7</td>
+<td class="tg-xldj status ok">OK</td>
+<td class="tg-xldj "></td>
+<td class="tg-xldj"><a href="https://github.com/abapGit-tests/DEVC_component.git">Repo</a></td>
+<td class="tg-xldj "></td>
+</tr>
+<tr>
+<td class="tg-xldj key">DEVC_main_package</td>
+<td class="tg-xldj key">$___DEVC_MAIN_PACKAGE</td>
+<td class="tg-xldj "></td>
+<td class="tg-xldj status ok">OK</td>
+<td class="tg-xldj "></td>
+<td class="tg-xldj status ok">OK</td>
+<td class="tg-xldj status ok">OK</td>
+<td class="tg-xldj status ok">OK</td>
+<td class="tg-xldj status not_ok">NOT_OK</td>
+<td class="tg-xldj status undefined"></td>
+<td class="tg-xldj status ok">OK</td>
+<td class="tg-xldj status undefined"></td>
+<td class="tg-xldj status undefined"></td>
+<td class="tg-xldj ">0.6</td>
+<td class="tg-xldj status not_ok">NOT_OK</td>
+<td class="tg-xldj ">Local file diffs to remote: .abapgit.xml</td>
+<td class="tg-xldj"><a href="https://github.com/abapGit-tests/DEVC_main_package.git">Repo</a></td>
+<td class="tg-xldj "></td>
+</tr>
+<tr>
+<td class="tg-xldj key">DEVC_main_sub</td>
+<td class="tg-xldj key">$___DEVC_MAIN_SUB</td>
+<td class="tg-xldj "></td>
+<td class="tg-xldj status ok">OK</td>
+<td class="tg-xldj "></td>
+<td class="tg-xldj status ok">OK</td>
+<td class="tg-xldj status ok">OK</td>
+<td class="tg-xldj status ok">OK</td>
+<td class="tg-xldj status ok">OK</td>
+<td class="tg-xldj status undefined"></td>
+<td class="tg-xldj status ok">OK</td>
+<td class="tg-xldj status undefined"></td>
+<td class="tg-xldj status ok">OK</td>
+<td class="tg-xldj ">1.0</td>
+<td class="tg-xldj status ok">OK</td>
+<td class="tg-xldj "></td>
+<td class="tg-xldj"><a href="https://github.com/abapGit-tests/DEVC_main_sub.git">Repo</a></td>
+<td class="tg-xldj "></td>
+</tr>
+<tr>
+<td class="tg-xldj key">DOCT</td>
+<td class="tg-xldj key">$___DOCT</td>
+<td class="tg-xldj "></td>
+<td class="tg-xldj status ok">OK</td>
+<td class="tg-xldj "></td>
+<td class="tg-xldj status ok">OK</td>
+<td class="tg-xldj status ok">OK</td>
+<td class="tg-xldj status ok">OK</td>
+<td class="tg-xldj status ok">OK</td>
+<td class="tg-xldj status undefined"></td>
+<td class="tg-xldj status ok">OK</td>
+<td class="tg-xldj status undefined"></td>
+<td class="tg-xldj status ok">OK</td>
+<td class="tg-xldj ">1.1</td>
+<td class="tg-xldj status ok">OK</td>
+<td class="tg-xldj "></td>
+<td class="tg-xldj"><a href="https://github.com/abapGit-tests/DOCT.git">Repo</a></td>
+<td class="tg-xldj "></td>
+</tr>
+<tr>
+<td class="tg-xldj key">DOMA</td>
+<td class="tg-xldj key">$___DOMA</td>
+<td class="tg-xldj "></td>
+<td class="tg-xldj status ok">OK</td>
+<td class="tg-xldj "></td>
+<td class="tg-xldj status ok">OK</td>
+<td class="tg-xldj status ok">OK</td>
+<td class="tg-xldj status ok">OK</td>
+<td class="tg-xldj status ok">OK</td>
+<td class="tg-xldj status undefined"></td>
+<td class="tg-xldj status ok">OK</td>
+<td class="tg-xldj status undefined"></td>
+<td class="tg-xldj status ok">OK</td>
+<td class="tg-xldj ">1.0</td>
+<td class="tg-xldj status ok">OK</td>
+<td class="tg-xldj "></td>
+<td class="tg-xldj"><a href="https://github.com/abapGit-tests/DOMA.git">Repo</a></td>
+<td class="tg-xldj "></td>
+</tr>
+<tr>
+<td class="tg-xldj key">DOMA_append</td>
+<td class="tg-xldj key">$___DOMA_APPEND</td>
+<td class="tg-xldj "></td>
+<td class="tg-xldj status undefined"></td>
+<td class="tg-xldj "></td>
+<td class="tg-xldj status undefined"></td>
+<td class="tg-xldj status undefined"></td>
+<td class="tg-xldj status undefined"></td>
+<td class="tg-xldj status undefined"></td>
+<td class="tg-xldj status undefined"></td>
+<td class="tg-xldj status undefined"></td>
+<td class="tg-xldj status undefined"></td>
+<td class="tg-xldj status undefined"></td>
+<td class="tg-xldj ">3.0</td>
+<td class="tg-xldj status not_ok">NOT_OK</td>
+<td class="tg-xldj ">Failure in ZABAPGIT_CI_PROCESS_REPO. Subrc = 2 Screen output without connection to user.</td>
+<td class="tg-xldj"><a href="https://github.com/abapGit-tests/DOMA_append.git">Repo</a></td>
+<td class="tg-xldj "></td>
+</tr>
+<tr>
+<td class="tg-xldj key">DOMA_fixed_values</td>
+<td class="tg-xldj key">$___DOMA_FIXED_VALUES</td>
+<td class="tg-xldj "></td>
+<td class="tg-xldj status ok">OK</td>
+<td class="tg-xldj "></td>
+<td class="tg-xldj status ok">OK</td>
+<td class="tg-xldj status ok">OK</td>
+<td class="tg-xldj status ok">OK</td>
+<td class="tg-xldj status ok">OK</td>
+<td class="tg-xldj status undefined"></td>
+<td class="tg-xldj status ok">OK</td>
+<td class="tg-xldj status undefined"></td>
+<td class="tg-xldj status ok">OK</td>
+<td class="tg-xldj ">1.4</td>
+<td class="tg-xldj status ok">OK</td>
+<td class="tg-xldj "></td>
+<td class="tg-xldj"><a href="https://github.com/abapGit-tests/DOMA_fixed_values.git">Repo</a></td>
+<td class="tg-xldj "></td>
+</tr>
+<tr>
+<td class="tg-xldj key">DOMA_fixed_values_single_translated</td>
+<td class="tg-xldj key">$___DOMA_FIXED_VALUES_SINGLE_T</td>
+<td class="tg-xldj "></td>
+<td class="tg-xldj status ok">OK</td>
+<td class="tg-xldj "></td>
+<td class="tg-xldj status ok">OK</td>
+<td class="tg-xldj status ok">OK</td>
+<td class="tg-xldj status ok">OK</td>
+<td class="tg-xldj status ok">OK</td>
+<td class="tg-xldj status undefined"></td>
+<td class="tg-xldj status ok">OK</td>
+<td class="tg-xldj status undefined"></td>
+<td class="tg-xldj status ok">OK</td>
+<td class="tg-xldj ">1.0</td>
+<td class="tg-xldj status ok">OK</td>
+<td class="tg-xldj "></td>
+<td class="tg-xldj"><a href="https://github.com/abapGit-tests/DOMA_fixed_values_single_translated.git">Repo</a></td>
+<td class="tg-xldj "></td>
+</tr>
+<tr>
+<td class="tg-xldj key">DRUL</td>
+<td class="tg-xldj key">$___DRUL</td>
+<td class="tg-xldj "></td>
+<td class="tg-xldj status ok">OK</td>
+<td class="tg-xldj "></td>
+<td class="tg-xldj status ok">OK</td>
+<td class="tg-xldj status ok">OK</td>
+<td class="tg-xldj status ok">OK</td>
+<td class="tg-xldj status ok">OK</td>
+<td class="tg-xldj status undefined"></td>
+<td class="tg-xldj status ok">OK</td>
+<td class="tg-xldj status undefined"></td>
+<td class="tg-xldj status ok">OK</td>
+<td class="tg-xldj ">2.3</td>
+<td class="tg-xldj status ok">OK</td>
+<td class="tg-xldj "></td>
+<td class="tg-xldj"><a href="https://github.com/abapGit-tests/DRUL.git">Repo</a></td>
+<td class="tg-xldj "></td>
+</tr>
+<tr>
+<td class="tg-xldj key">DSYS_new</td>
+<td class="tg-xldj key">$___DSYS_NEW</td>
+<td class="tg-xldj "></td>
+<td class="tg-xldj status ok">OK</td>
+<td class="tg-xldj "></td>
+<td class="tg-xldj status ok">OK</td>
+<td class="tg-xldj status ok">OK</td>
+<td class="tg-xldj status ok">OK</td>
+<td class="tg-xldj status ok">OK</td>
+<td class="tg-xldj status undefined"></td>
+<td class="tg-xldj status ok">OK</td>
+<td class="tg-xldj status undefined"></td>
+<td class="tg-xldj status ok">OK</td>
+<td class="tg-xldj ">1.0</td>
+<td class="tg-xldj status ok">OK</td>
+<td class="tg-xldj "></td>
+<td class="tg-xldj"><a href="https://github.com/abapGit-tests/DSYS_new.git">Repo</a></td>
+<td class="tg-xldj "></td>
+</tr>
+<tr>
+<td class="tg-xldj key">DSYS_old</td>
+<td class="tg-xldj key">$___DSYS_OLD</td>
+<td class="tg-xldj "></td>
+<td class="tg-xldj status ok">OK</td>
+<td class="tg-xldj "></td>
+<td class="tg-xldj status ok">OK</td>
+<td class="tg-xldj status ok">OK</td>
+<td class="tg-xldj status ok">OK</td>
+<td class="tg-xldj status not_ok">NOT_OK</td>
+<td class="tg-xldj status undefined"></td>
+<td class="tg-xldj status ok">OK</td>
+<td class="tg-xldj status undefined"></td>
+<td class="tg-xldj status undefined"></td>
+<td class="tg-xldj ">0.9</td>
+<td class="tg-xldj status not_ok">NOT_OK</td>
+<td class="tg-xldj ">Local file diffs to remote: chapzabapgit_dsys_test.dsys.xml</td>
+<td class="tg-xldj"><a href="https://github.com/abapGit-tests/DSYS_old.git">Repo</a></td>
+<td class="tg-xldj "></td>
+</tr>
+<tr>
+<td class="tg-xldj key">DTDC</td>
+<td class="tg-xldj key">$___DTDC</td>
+<td class="tg-xldj "></td>
+<td class="tg-xldj status ok">OK</td>
+<td class="tg-xldj "></td>
+<td class="tg-xldj status ok">OK</td>
+<td class="tg-xldj status ok">OK</td>
+<td class="tg-xldj status ok">OK</td>
+<td class="tg-xldj status ok">OK</td>
+<td class="tg-xldj status undefined"></td>
+<td class="tg-xldj status ok">OK</td>
+<td class="tg-xldj status undefined"></td>
+<td class="tg-xldj status ok">OK</td>
+<td class="tg-xldj ">3.0</td>
+<td class="tg-xldj status ok">OK</td>
+<td class="tg-xldj "></td>
+<td class="tg-xldj"><a href="https://github.com/abapGit-tests/DTDC.git">Repo</a></td>
+<td class="tg-xldj "></td>
+</tr>
+<tr>
+<td class="tg-xldj key">DTEL</td>
+<td class="tg-xldj key">$___DTEL</td>
+<td class="tg-xldj "></td>
+<td class="tg-xldj status ok">OK</td>
+<td class="tg-xldj "></td>
+<td class="tg-xldj status ok">OK</td>
+<td class="tg-xldj status ok">OK</td>
+<td class="tg-xldj status ok">OK</td>
+<td class="tg-xldj status ok">OK</td>
+<td class="tg-xldj status undefined"></td>
+<td class="tg-xldj status ok">OK</td>
+<td class="tg-xldj status undefined"></td>
+<td class="tg-xldj status ok">OK</td>
+<td class="tg-xldj ">2.5</td>
+<td class="tg-xldj status ok">OK</td>
+<td class="tg-xldj "></td>
+<td class="tg-xldj"><a href="https://github.com/abapGit-tests/DTEL.git">Repo</a></td>
+<td class="tg-xldj "></td>
+</tr>
+<tr>
+<td class="tg-xldj key">DTEL_with_DOMA</td>
+<td class="tg-xldj key">$___DTEL_WITH_DOMA</td>
+<td class="tg-xldj "></td>
+<td class="tg-xldj status ok">OK</td>
+<td class="tg-xldj "></td>
+<td class="tg-xldj status ok">OK</td>
+<td class="tg-xldj status ok">OK</td>
+<td class="tg-xldj status ok">OK</td>
+<td class="tg-xldj status ok">OK</td>
+<td class="tg-xldj status undefined"></td>
+<td class="tg-xldj status ok">OK</td>
+<td class="tg-xldj status undefined"></td>
+<td class="tg-xldj status ok">OK</td>
+<td class="tg-xldj ">1.3</td>
+<td class="tg-xldj status ok">OK</td>
+<td class="tg-xldj "></td>
+<td class="tg-xldj"><a href="https://github.com/abapGit-tests/DTEL_with_DOMA.git">Repo</a></td>
+<td class="tg-xldj "></td>
+</tr>
+<tr>
+<td class="tg-xldj key">DTEL_with_PARA</td>
+<td class="tg-xldj key">$___DTEL_WITH_PARA</td>
+<td class="tg-xldj "></td>
+<td class="tg-xldj status ok">OK</td>
+<td class="tg-xldj "></td>
+<td class="tg-xldj status ok">OK</td>
+<td class="tg-xldj status ok">OK</td>
+<td class="tg-xldj status ok">OK</td>
+<td class="tg-xldj status ok">OK</td>
+<td class="tg-xldj status undefined"></td>
+<td class="tg-xldj status ok">OK</td>
+<td class="tg-xldj status undefined"></td>
+<td class="tg-xldj status ok">OK</td>
+<td class="tg-xldj ">1.3</td>
+<td class="tg-xldj status ok">OK</td>
+<td class="tg-xldj "></td>
+<td class="tg-xldj"><a href="https://github.com/abapGit-tests/DTEL_with_PARA.git">Repo</a></td>
+<td class="tg-xldj "></td>
+</tr>
+<tr>
+<td class="tg-xldj key">Dynpro_Translation</td>
+<td class="tg-xldj key">$___DYNPRO_TRANSLATION</td>
+<td class="tg-xldj "></td>
+<td class="tg-xldj status ok">OK</td>
+<td class="tg-xldj "></td>
+<td class="tg-xldj status ok">OK</td>
+<td class="tg-xldj status ok">OK</td>
+<td class="tg-xldj status ok">OK</td>
+<td class="tg-xldj status not_ok">NOT_OK</td>
+<td class="tg-xldj status undefined"></td>
+<td class="tg-xldj status ok">OK</td>
+<td class="tg-xldj status undefined"></td>
+<td class="tg-xldj status undefined"></td>
+<td class="tg-xldj ">0.5</td>
+<td class="tg-xldj status not_ok">NOT_OK</td>
+<td class="tg-xldj ">Local file diffs to remote: .abapgit.xml</td>
+<td class="tg-xldj"><a href="https://github.com/abapGit-tests/Dynpro_Translation.git">Repo</a></td>
+<td class="tg-xldj "></td>
+</tr>
+<tr>
+<td class="tg-xldj key">ECATT</td>
+<td class="tg-xldj key">$___ECATT</td>
+<td class="tg-xldj "></td>
+<td class="tg-xldj status ok">OK</td>
+<td class="tg-xldj "></td>
+<td class="tg-xldj status ok">OK</td>
+<td class="tg-xldj status ok">OK</td>
+<td class="tg-xldj status ok">OK</td>
+<td class="tg-xldj status not_ok">NOT_OK</td>
+<td class="tg-xldj status undefined"></td>
+<td class="tg-xldj status ok">OK</td>
+<td class="tg-xldj status undefined"></td>
+<td class="tg-xldj status undefined"></td>
+<td class="tg-xldj ">12.0</td>
+<td class="tg-xldj status not_ok">NOT_OK</td>
+<td class="tg-xldj ">Local file diffs to remote: z_test_config.ectc.xml</td>
+<td class="tg-xldj"><a href="https://github.com/abapGit-tests/ECATT.git">Repo</a></td>
+<td class="tg-xldj "></td>
+</tr>
+<tr>
+<td class="tg-xldj key">ENHC</td>
+<td class="tg-xldj key">$___ENHC</td>
+<td class="tg-xldj "></td>
+<td class="tg-xldj status ok">OK</td>
+<td class="tg-xldj "></td>
+<td class="tg-xldj status ok">OK</td>
+<td class="tg-xldj status ok">OK</td>
+<td class="tg-xldj status ok">OK</td>
+<td class="tg-xldj status ok">OK</td>
+<td class="tg-xldj status undefined"></td>
+<td class="tg-xldj status ok">OK</td>
+<td class="tg-xldj status undefined"></td>
+<td class="tg-xldj status ok">OK</td>
+<td class="tg-xldj ">5.1</td>
+<td class="tg-xldj status ok">OK</td>
+<td class="tg-xldj "></td>
+<td class="tg-xldj"><a href="https://github.com/abapGit-tests/ENHC.git">Repo</a></td>
+<td class="tg-xldj "></td>
+</tr>
+<tr>
+<td class="tg-xldj key">ENHO</td>
+<td class="tg-xldj key">$___ENHO</td>
+<td class="tg-xldj "></td>
+<td class="tg-xldj status ok">OK</td>
+<td class="tg-xldj "></td>
+<td class="tg-xldj status ok">OK</td>
+<td class="tg-xldj status ok">OK</td>
+<td class="tg-xldj status ok">OK</td>
+<td class="tg-xldj status not_ok">NOT_OK</td>
+<td class="tg-xldj status undefined"></td>
+<td class="tg-xldj status ok">OK</td>
+<td class="tg-xldj status undefined"></td>
+<td class="tg-xldj status undefined"></td>
+<td class="tg-xldj ">5.2</td>
+<td class="tg-xldj status not_ok">NOT_OK</td>
+<td class="tg-xldj ">Local file diffs to remote: z_enh_epm_so_util.enho.abap</td>
+<td class="tg-xldj"><a href="https://github.com/abapGit-tests/ENHO.git">Repo</a></td>
+<td class="tg-xldj "></td>
+</tr>
+<tr>
+<td class="tg-xldj key">ENHO-BADI_IMPL</td>
+<td class="tg-xldj key">$___ENHO-BADI_IMPL</td>
+<td class="tg-xldj "></td>
+<td class="tg-xldj status ok">OK</td>
+<td class="tg-xldj "></td>
+<td class="tg-xldj status ok">OK</td>
+<td class="tg-xldj status ok">OK</td>
+<td class="tg-xldj status ok">OK</td>
+<td class="tg-xldj status not_ok">NOT_OK</td>
+<td class="tg-xldj status undefined"></td>
+<td class="tg-xldj status ok">OK</td>
+<td class="tg-xldj status undefined"></td>
+<td class="tg-xldj status undefined"></td>
+<td class="tg-xldj ">5.8</td>
+<td class="tg-xldj status not_ok">NOT_OK</td>
+<td class="tg-xldj ">Local file diffs to remote: zmh_enh_impl_ag.enho.xml</td>
+<td class="tg-xldj"><a href="https://github.com/abapGit-tests/ENHO-BADI_IMPL.git">Repo</a></td>
+<td class="tg-xldj "></td>
+</tr>
+<tr>
+<td class="tg-xldj key">ENHO-HOOK_IMPL</td>
+<td class="tg-xldj key">$___ENHO-HOOK_IMPL</td>
+<td class="tg-xldj "></td>
+<td class="tg-xldj status ok">OK</td>
+<td class="tg-xldj "></td>
+<td class="tg-xldj status ok">OK</td>
+<td class="tg-xldj status ok">OK</td>
+<td class="tg-xldj status ok">OK</td>
+<td class="tg-xldj status ok">OK</td>
+<td class="tg-xldj status undefined"></td>
+<td class="tg-xldj status ok">OK</td>
+<td class="tg-xldj status undefined"></td>
+<td class="tg-xldj status ok">OK</td>
+<td class="tg-xldj ">0.7</td>
+<td class="tg-xldj status ok">OK</td>
+<td class="tg-xldj "></td>
+<td class="tg-xldj"><a href="https://github.com/abapGit-tests/ENHO-HOOK_IMPL.git">Repo</a></td>
+<td class="tg-xldj "></td>
+</tr>
+<tr>
+<td class="tg-xldj key">ENHO-INCLUDES</td>
+<td class="tg-xldj key">$___ENHO-INCLUDES</td>
+<td class="tg-xldj "></td>
+<td class="tg-xldj status ok">OK</td>
+<td class="tg-xldj "></td>
+<td class="tg-xldj status ok">OK</td>
+<td class="tg-xldj status ok">OK</td>
+<td class="tg-xldj status ok">OK</td>
+<td class="tg-xldj status ok">OK</td>
+<td class="tg-xldj status undefined"></td>
+<td class="tg-xldj status ok">OK</td>
+<td class="tg-xldj status undefined"></td>
+<td class="tg-xldj status ok">OK</td>
+<td class="tg-xldj ">5.2</td>
+<td class="tg-xldj status ok">OK</td>
+<td class="tg-xldj "></td>
+<td class="tg-xldj"><a href="https://github.com/abapGit-tests/ENHO-INCLUDES.git">Repo</a></td>
+<td class="tg-xldj "></td>
+</tr>
+<tr>
+<td class="tg-xldj key">ENHO-WDYC</td>
+<td class="tg-xldj key">$___ENHO-WDYC</td>
+<td class="tg-xldj "></td>
+<td class="tg-xldj status ok">OK</td>
+<td class="tg-xldj "></td>
+<td class="tg-xldj status ok">OK</td>
+<td class="tg-xldj status ok">OK</td>
+<td class="tg-xldj status ok">OK</td>
+<td class="tg-xldj status ok">OK</td>
+<td class="tg-xldj status undefined"></td>
+<td class="tg-xldj status ok">OK</td>
+<td class="tg-xldj status undefined"></td>
+<td class="tg-xldj status ok">OK</td>
+<td class="tg-xldj ">5.9</td>
+<td class="tg-xldj status ok">OK</td>
+<td class="tg-xldj "></td>
+<td class="tg-xldj"><a href="https://github.com/abapGit-tests/ENHO-WDYC.git">Repo</a></td>
+<td class="tg-xldj "></td>
+</tr>
+<tr>
+<td class="tg-xldj key">ENQU</td>
+<td class="tg-xldj key">$___ENQU</td>
+<td class="tg-xldj "></td>
+<td class="tg-xldj status ok">OK</td>
+<td class="tg-xldj "></td>
+<td class="tg-xldj status ok">OK</td>
+<td class="tg-xldj status ok">OK</td>
+<td class="tg-xldj status ok">OK</td>
+<td class="tg-xldj status ok">OK</td>
+<td class="tg-xldj status undefined"></td>
+<td class="tg-xldj status ok">OK</td>
+<td class="tg-xldj status undefined"></td>
+<td class="tg-xldj status ok">OK</td>
+<td class="tg-xldj ">2.4</td>
+<td class="tg-xldj status ok">OK</td>
+<td class="tg-xldj "></td>
+<td class="tg-xldj"><a href="https://github.com/abapGit-tests/ENQU.git">Repo</a></td>
+<td class="tg-xldj "></td>
+</tr>
+<tr>
+<td class="tg-xldj key">ENQU_and_TABL</td>
+<td class="tg-xldj key">$___ENQU_AND_TABL</td>
+<td class="tg-xldj "></td>
+<td class="tg-xldj status ok">OK</td>
+<td class="tg-xldj "></td>
+<td class="tg-xldj status ok">OK</td>
+<td class="tg-xldj status ok">OK</td>
+<td class="tg-xldj status ok">OK</td>
+<td class="tg-xldj status ok">OK</td>
+<td class="tg-xldj status undefined"></td>
+<td class="tg-xldj status ok">OK</td>
+<td class="tg-xldj status undefined"></td>
+<td class="tg-xldj status ok">OK</td>
+<td class="tg-xldj ">2.7</td>
+<td class="tg-xldj status ok">OK</td>
+<td class="tg-xldj "></td>
+<td class="tg-xldj"><a href="https://github.com/abapGit-tests/ENQU_and_TABL.git">Repo</a></td>
+<td class="tg-xldj "></td>
+</tr>
+<tr>
+<td class="tg-xldj key">FDT0</td>
+<td class="tg-xldj key">$___FDT0</td>
+<td class="tg-xldj "></td>
+<td class="tg-xldj status ok">OK</td>
+<td class="tg-xldj "></td>
+<td class="tg-xldj status ok">OK</td>
+<td class="tg-xldj status ok">OK</td>
+<td class="tg-xldj status ok">OK</td>
+<td class="tg-xldj status not_ok">NOT_OK</td>
+<td class="tg-xldj status undefined"></td>
+<td class="tg-xldj status ok">OK</td>
+<td class="tg-xldj status undefined"></td>
+<td class="tg-xldj status undefined"></td>
+<td class="tg-xldj ">0.8</td>
+<td class="tg-xldj status not_ok">NOT_OK</td>
+<td class="tg-xldj ">Remote file diffs to local: zfdt0_test_system_abapgit.fdt0.xml</td>
+<td class="tg-xldj"><a href="https://github.com/abapGit-tests/FDT0.git">Repo</a></td>
+<td class="tg-xldj "></td>
+</tr>
+<tr>
+<td class="tg-xldj key">FORM</td>
+<td class="tg-xldj key">$___FORM</td>
+<td class="tg-xldj "></td>
+<td class="tg-xldj status ok">OK</td>
+<td class="tg-xldj "></td>
+<td class="tg-xldj status ok">OK</td>
+<td class="tg-xldj status ok">OK</td>
+<td class="tg-xldj status ok">OK</td>
+<td class="tg-xldj status ok">OK</td>
+<td class="tg-xldj status undefined"></td>
+<td class="tg-xldj status ok">OK</td>
+<td class="tg-xldj status undefined"></td>
+<td class="tg-xldj status ok">OK</td>
+<td class="tg-xldj ">1.3</td>
+<td class="tg-xldj status ok">OK</td>
+<td class="tg-xldj "></td>
+<td class="tg-xldj"><a href="https://github.com/abapGit-tests/FORM.git">Repo</a></td>
+<td class="tg-xldj "></td>
+</tr>
+<tr>
+<td class="tg-xldj key">FTGL</td>
+<td class="tg-xldj key">$___FTGL</td>
+<td class="tg-xldj "></td>
+<td class="tg-xldj status ok">OK</td>
+<td class="tg-xldj "></td>
+<td class="tg-xldj status ok">OK</td>
+<td class="tg-xldj status ok">OK</td>
+<td class="tg-xldj status ok">OK</td>
+<td class="tg-xldj status ok">OK</td>
+<td class="tg-xldj status undefined"></td>
+<td class="tg-xldj status ok">OK</td>
+<td class="tg-xldj status undefined"></td>
+<td class="tg-xldj status ok">OK</td>
+<td class="tg-xldj ">1.1</td>
+<td class="tg-xldj status ok">OK</td>
+<td class="tg-xldj "></td>
+<td class="tg-xldj"><a href="https://github.com/abapGit-tests/FTGL.git">Repo</a></td>
+<td class="tg-xldj "></td>
+</tr>
+<tr>
+<td class="tg-xldj key">FUGR</td>
+<td class="tg-xldj key">$___FUGR</td>
+<td class="tg-xldj "></td>
+<td class="tg-xldj status ok">OK</td>
+<td class="tg-xldj "></td>
+<td class="tg-xldj status ok">OK</td>
+<td class="tg-xldj status ok">OK</td>
+<td class="tg-xldj status ok">OK</td>
+<td class="tg-xldj status ok">OK</td>
+<td class="tg-xldj status undefined"></td>
+<td class="tg-xldj status ok">OK</td>
+<td class="tg-xldj status undefined"></td>
+<td class="tg-xldj status ok">OK</td>
+<td class="tg-xldj ">3.0</td>
+<td class="tg-xldj status ok">OK</td>
+<td class="tg-xldj "></td>
+<td class="tg-xldj"><a href="https://github.com/abapGit-tests/FUGR.git">Repo</a></td>
+<td class="tg-xldj "></td>
+</tr>
+<tr>
+<td class="tg-xldj key">FUGR_lxe</td>
+<td class="tg-xldj key">$___FUGR_LXE</td>
+<td class="tg-xldj "></td>
+<td class="tg-xldj status ok">OK</td>
+<td class="tg-xldj "></td>
+<td class="tg-xldj status ok">OK</td>
+<td class="tg-xldj status ok">OK</td>
+<td class="tg-xldj status ok">OK</td>
+<td class="tg-xldj status not_ok">NOT_OK</td>
+<td class="tg-xldj status undefined"></td>
+<td class="tg-xldj status ok">OK</td>
+<td class="tg-xldj status undefined"></td>
+<td class="tg-xldj status undefined"></td>
+<td class="tg-xldj ">3.7</td>
+<td class="tg-xldj status not_ok">NOT_OK</td>
+<td class="tg-xldj ">Local file diffs to remote: z_function_group_screens.fugr.xml</td>
+<td class="tg-xldj"><a href="https://github.com/abapGit-tests/FUGR_lxe.git">Repo</a></td>
+<td class="tg-xldj "></td>
+</tr>
+<tr>
+<td class="tg-xldj key">FUGR_maintenance_view</td>
+<td class="tg-xldj key">$___FUGR_MAINTENANCE_VIEW</td>
+<td class="tg-xldj "></td>
+<td class="tg-xldj status ok">OK</td>
+<td class="tg-xldj "></td>
+<td class="tg-xldj status ok">OK</td>
+<td class="tg-xldj status ok">OK</td>
+<td class="tg-xldj status ok">OK</td>
+<td class="tg-xldj status not_ok">NOT_OK</td>
+<td class="tg-xldj status undefined"></td>
+<td class="tg-xldj status ok">OK</td>
+<td class="tg-xldj status undefined"></td>
+<td class="tg-xldj status undefined"></td>
+<td class="tg-xldj ">16.3</td>
+<td class="tg-xldj status not_ok">NOT_OK</td>
+<td class="tg-xldj ">Local file diffs to remote: zabapgit_unit_te.tabl.xml</td>
+<td class="tg-xldj"><a href="https://github.com/abapGit-tests/FUGR_maintenance_view.git">Repo</a></td>
+<td class="tg-xldj "></td>
+</tr>
+<tr>
+<td class="tg-xldj key">FUGR_maintenance_view_variant</td>
+<td class="tg-xldj key">$___FUGR_MAINTENANCE_VIEW_VARI</td>
+<td class="tg-xldj "></td>
+<td class="tg-xldj status undefined"></td>
+<td class="tg-xldj "></td>
+<td class="tg-xldj status undefined"></td>
+<td class="tg-xldj status undefined"></td>
+<td class="tg-xldj status undefined"></td>
+<td class="tg-xldj status undefined"></td>
+<td class="tg-xldj status undefined"></td>
+<td class="tg-xldj status undefined"></td>
+<td class="tg-xldj status undefined"></td>
+<td class="tg-xldj status undefined"></td>
+<td class="tg-xldj ">2.5</td>
+<td class="tg-xldj status not_ok">NOT_OK</td>
+<td class="tg-xldj ">Failure in ZABAPGIT_CI_PROCESS_REPO. Subrc = 2 Screen output without connection to user.</td>
+<td class="tg-xldj"><a href="https://github.com/abapGit-tests/FUGR_maintenance_view_variant.git">Repo</a></td>
+<td class="tg-xldj "></td>
+</tr>
+<tr>
+<td class="tg-xldj key">FUGR_testclass</td>
+<td class="tg-xldj key">$___FUGR_TESTCLASS</td>
+<td class="tg-xldj "></td>
+<td class="tg-xldj status ok">OK</td>
+<td class="tg-xldj "></td>
+<td class="tg-xldj status ok">OK</td>
+<td class="tg-xldj status ok">OK</td>
+<td class="tg-xldj status ok">OK</td>
+<td class="tg-xldj status ok">OK</td>
+<td class="tg-xldj status undefined"></td>
+<td class="tg-xldj status ok">OK</td>
+<td class="tg-xldj status undefined"></td>
+<td class="tg-xldj status ok">OK</td>
+<td class="tg-xldj ">3.9</td>
+<td class="tg-xldj status ok">OK</td>
+<td class="tg-xldj "></td>
+<td class="tg-xldj"><a href="https://github.com/abapGit-tests/FUGR_testclass.git">Repo</a></td>
+<td class="tg-xldj "></td>
+</tr>
+<tr>
+<td class="tg-xldj key">FUGR_text_elements</td>
+<td class="tg-xldj key">$___FUGR_TEXT_ELEMENTS</td>
+<td class="tg-xldj "></td>
+<td class="tg-xldj status ok">OK</td>
+<td class="tg-xldj "></td>
+<td class="tg-xldj status ok">OK</td>
+<td class="tg-xldj status ok">OK</td>
+<td class="tg-xldj status ok">OK</td>
+<td class="tg-xldj status ok">OK</td>
+<td class="tg-xldj status undefined"></td>
+<td class="tg-xldj status ok">OK</td>
+<td class="tg-xldj status undefined"></td>
+<td class="tg-xldj status ok">OK</td>
+<td class="tg-xldj ">3.3</td>
+<td class="tg-xldj status ok">OK</td>
+<td class="tg-xldj "></td>
+<td class="tg-xldj"><a href="https://github.com/abapGit-tests/FUGR_text_elements.git">Repo</a></td>
+<td class="tg-xldj "></td>
+</tr>
+<tr>
+<td class="tg-xldj key">FUGR_with_default_auths</td>
+<td class="tg-xldj key">$___FUGR_WITH_DEFAULT_AUTHS</td>
+<td class="tg-xldj "></td>
+<td class="tg-xldj status ok">OK</td>
+<td class="tg-xldj "></td>
+<td class="tg-xldj status ok">OK</td>
+<td class="tg-xldj status ok">OK</td>
+<td class="tg-xldj status ok">OK</td>
+<td class="tg-xldj status ok">OK</td>
+<td class="tg-xldj status undefined"></td>
+<td class="tg-xldj status ok">OK</td>
+<td class="tg-xldj status undefined"></td>
+<td class="tg-xldj status ok">OK</td>
+<td class="tg-xldj ">2.6</td>
+<td class="tg-xldj status ok">OK</td>
+<td class="tg-xldj "></td>
+<td class="tg-xldj"><a href="https://github.com/abapGit-tests/FUGR_with_default_auths.git">Repo</a></td>
+<td class="tg-xldj "></td>
+</tr>
+<tr>
+<td class="tg-xldj key">FUGR_with_parameters</td>
+<td class="tg-xldj key">$___FUGR_WITH_PARAMETERS</td>
+<td class="tg-xldj "></td>
+<td class="tg-xldj status ok">OK</td>
+<td class="tg-xldj "></td>
+<td class="tg-xldj status ok">OK</td>
+<td class="tg-xldj status ok">OK</td>
+<td class="tg-xldj status ok">OK</td>
+<td class="tg-xldj status ok">OK</td>
+<td class="tg-xldj status undefined"></td>
+<td class="tg-xldj status ok">OK</td>
+<td class="tg-xldj status undefined"></td>
+<td class="tg-xldj status ok">OK</td>
+<td class="tg-xldj ">2.3</td>
+<td class="tg-xldj status ok">OK</td>
+<td class="tg-xldj "></td>
+<td class="tg-xldj"><a href="https://github.com/abapGit-tests/FUGR_with_parameters.git">Repo</a></td>
+<td class="tg-xldj "></td>
+</tr>
+<tr>
+<td class="tg-xldj key">IARP_IASP_IATU</td>
+<td class="tg-xldj key">$___IARP_IASP_IATU</td>
+<td class="tg-xldj "></td>
+<td class="tg-xldj status ok">OK</td>
+<td class="tg-xldj "></td>
+<td class="tg-xldj status ok">OK</td>
+<td class="tg-xldj status ok">OK</td>
+<td class="tg-xldj status ok">OK</td>
+<td class="tg-xldj status ok">OK</td>
+<td class="tg-xldj status undefined"></td>
+<td class="tg-xldj status not_ok">NOT_OK</td>
+<td class="tg-xldj status undefined"></td>
+<td class="tg-xldj status undefined"></td>
+<td class="tg-xldj ">2.9</td>
+<td class="tg-xldj status not_ok">NOT_OK</td>
+<td class="tg-xldj ">Error during uninstall. Check the log.</td>
+<td class="tg-xldj"><a href="https://github.com/abapGit-tests/IARP_IASP_IATU.git">Repo</a></td>
+<td class="tg-xldj "></td>
+</tr>
+<tr>
+<td class="tg-xldj key">IAXU</td>
+<td class="tg-xldj key">$___IAXU</td>
+<td class="tg-xldj "></td>
+<td class="tg-xldj status ok">OK</td>
+<td class="tg-xldj "></td>
+<td class="tg-xldj status ok">OK</td>
+<td class="tg-xldj status ok">OK</td>
+<td class="tg-xldj status ok">OK</td>
+<td class="tg-xldj status ok">OK</td>
+<td class="tg-xldj status undefined"></td>
+<td class="tg-xldj status not_ok">NOT_OK</td>
+<td class="tg-xldj status undefined"></td>
+<td class="tg-xldj status undefined"></td>
+<td class="tg-xldj ">3.0</td>
+<td class="tg-xldj status not_ok">NOT_OK</td>
+<td class="tg-xldj ">Error during uninstall. Check the log.</td>
+<td class="tg-xldj"><a href="https://github.com/abapGit-tests/IAXU.git">Repo</a></td>
+<td class="tg-xldj "></td>
+</tr>
+<tr>
+<td class="tg-xldj key">IDOC</td>
+<td class="tg-xldj key">$___IDOC</td>
+<td class="tg-xldj "></td>
+<td class="tg-xldj status ok">OK</td>
+<td class="tg-xldj "></td>
+<td class="tg-xldj status ok">OK</td>
+<td class="tg-xldj status ok">OK</td>
+<td class="tg-xldj status ok">OK</td>
+<td class="tg-xldj status not_ok">NOT_OK</td>
+<td class="tg-xldj status undefined"></td>
+<td class="tg-xldj status ok">OK</td>
+<td class="tg-xldj status undefined"></td>
+<td class="tg-xldj status undefined"></td>
+<td class="tg-xldj ">3.2</td>
+<td class="tg-xldj status not_ok">NOT_OK</td>
+<td class="tg-xldj ">Local file diffs to remote: z1abapgit_head.tabl.xml</td>
+<td class="tg-xldj"><a href="https://github.com/abapGit-tests/IDOC.git">Repo</a></td>
+<td class="tg-xldj "></td>
+</tr>
+<tr>
+<td class="tg-xldj key">IDOC_segment_released</td>
+<td class="tg-xldj key">$___IDOC_SEGMENT_RELEASED</td>
+<td class="tg-xldj "></td>
+<td class="tg-xldj status ok">OK</td>
+<td class="tg-xldj "></td>
+<td class="tg-xldj status ok">OK</td>
+<td class="tg-xldj status ok">OK</td>
+<td class="tg-xldj status ok">OK</td>
+<td class="tg-xldj status not_ok">NOT_OK</td>
+<td class="tg-xldj status undefined"></td>
+<td class="tg-xldj status ok">OK</td>
+<td class="tg-xldj status undefined"></td>
+<td class="tg-xldj status undefined"></td>
+<td class="tg-xldj ">3.1</td>
+<td class="tg-xldj status not_ok">NOT_OK</td>
+<td class="tg-xldj ">Local file diffs to remote: zidoc_segment_agtest.tabl.xml</td>
+<td class="tg-xldj"><a href="https://github.com/abapGit-tests/IDOC_segment_released.git">Repo</a></td>
+<td class="tg-xldj "></td>
+</tr>
+<tr>
+<td class="tg-xldj key">IEXT</td>
+<td class="tg-xldj key">$___IEXT</td>
+<td class="tg-xldj "></td>
+<td class="tg-xldj status ok">OK</td>
+<td class="tg-xldj "></td>
+<td class="tg-xldj status ok">OK</td>
+<td class="tg-xldj status ok">OK</td>
+<td class="tg-xldj status ok">OK</td>
+<td class="tg-xldj status not_ok">NOT_OK</td>
+<td class="tg-xldj status undefined"></td>
+<td class="tg-xldj status ok">OK</td>
+<td class="tg-xldj status undefined"></td>
+<td class="tg-xldj status undefined"></td>
+<td class="tg-xldj ">4.4</td>
+<td class="tg-xldj status not_ok">NOT_OK</td>
+<td class="tg-xldj ">Local file diffs to remote: z1abapgit_data.tabl.xml</td>
+<td class="tg-xldj"><a href="https://github.com/abapGit-tests/IEXT.git">Repo</a></td>
+<td class="tg-xldj "></td>
+</tr>
+<tr>
+<td class="tg-xldj key">INTF</td>
+<td class="tg-xldj key">$___INTF</td>
+<td class="tg-xldj "></td>
+<td class="tg-xldj status ok">OK</td>
+<td class="tg-xldj "></td>
+<td class="tg-xldj status ok">OK</td>
+<td class="tg-xldj status ok">OK</td>
+<td class="tg-xldj status ok">OK</td>
+<td class="tg-xldj status ok">OK</td>
+<td class="tg-xldj status undefined"></td>
+<td class="tg-xldj status ok">OK</td>
+<td class="tg-xldj status undefined"></td>
+<td class="tg-xldj status ok">OK</td>
+<td class="tg-xldj ">1.3</td>
+<td class="tg-xldj status ok">OK</td>
+<td class="tg-xldj "></td>
+<td class="tg-xldj"><a href="https://github.com/abapGit-tests/INTF.git">Repo</a></td>
+<td class="tg-xldj "></td>
+</tr>
+<tr>
+<td class="tg-xldj key">INTF_implementing_INTF</td>
+<td class="tg-xldj key">$___INTF_IMPLEMENTING_INTF</td>
+<td class="tg-xldj "></td>
+<td class="tg-xldj status ok">OK</td>
+<td class="tg-xldj "></td>
+<td class="tg-xldj status ok">OK</td>
+<td class="tg-xldj status ok">OK</td>
+<td class="tg-xldj status ok">OK</td>
+<td class="tg-xldj status ok">OK</td>
+<td class="tg-xldj status undefined"></td>
+<td class="tg-xldj status ok">OK</td>
+<td class="tg-xldj status undefined"></td>
+<td class="tg-xldj status ok">OK</td>
+<td class="tg-xldj ">1.6</td>
+<td class="tg-xldj status ok">OK</td>
+<td class="tg-xldj "></td>
+<td class="tg-xldj"><a href="https://github.com/abapGit-tests/INTF_implementing_INTF.git">Repo</a></td>
+<td class="tg-xldj "></td>
+</tr>
+<tr>
+<td class="tg-xldj key">INTF_using_DTEL</td>
+<td class="tg-xldj key">$___INTF_USING_DTEL</td>
+<td class="tg-xldj "></td>
+<td class="tg-xldj status ok">OK</td>
+<td class="tg-xldj "></td>
+<td class="tg-xldj status ok">OK</td>
+<td class="tg-xldj status ok">OK</td>
+<td class="tg-xldj status ok">OK</td>
+<td class="tg-xldj status ok">OK</td>
+<td class="tg-xldj status undefined"></td>
+<td class="tg-xldj status ok">OK</td>
+<td class="tg-xldj status undefined"></td>
+<td class="tg-xldj status ok">OK</td>
+<td class="tg-xldj ">1.6</td>
+<td class="tg-xldj status ok">OK</td>
+<td class="tg-xldj "></td>
+<td class="tg-xldj"><a href="https://github.com/abapGit-tests/INTF_using_DTEL.git">Repo</a></td>
+<td class="tg-xldj "></td>
+</tr>
+<tr>
+<td class="tg-xldj key">IOBJ</td>
+<td class="tg-xldj key">$___IOBJ</td>
+<td class="tg-xldj "></td>
+<td class="tg-xldj status ok">OK</td>
+<td class="tg-xldj "></td>
+<td class="tg-xldj status ok">OK</td>
+<td class="tg-xldj status ok">OK</td>
+<td class="tg-xldj status ok">OK</td>
+<td class="tg-xldj status ok">OK</td>
+<td class="tg-xldj status undefined"></td>
+<td class="tg-xldj status ok">OK</td>
+<td class="tg-xldj status undefined"></td>
+<td class="tg-xldj status not_ok">NOT_OK</td>
+<td class="tg-xldj ">43.9</td>
+<td class="tg-xldj status not_ok">NOT_OK</td>
+<td class="tg-xldj ">Left over package $___IOBJ</td>
+<td class="tg-xldj"><a href="https://github.com/abapGit-tests/IOBJ.git">Repo</a></td>
+<td class="tg-xldj "></td>
+</tr>
+<tr>
+<td class="tg-xldj key">IWMO</td>
+<td class="tg-xldj key">$___IWMO</td>
+<td class="tg-xldj "></td>
+<td class="tg-xldj status ok">OK</td>
+<td class="tg-xldj "></td>
+<td class="tg-xldj status ok">OK</td>
+<td class="tg-xldj status ok">OK</td>
+<td class="tg-xldj status ok">OK</td>
+<td class="tg-xldj status not_ok">NOT_OK</td>
+<td class="tg-xldj status undefined"></td>
+<td class="tg-xldj status ok">OK</td>
+<td class="tg-xldj status undefined"></td>
+<td class="tg-xldj status undefined"></td>
+<td class="tg-xldj ">0.6</td>
+<td class="tg-xldj status not_ok">NOT_OK</td>
+<td class="tg-xldj ">Local file diffs to remote: .abapgit.xml</td>
+<td class="tg-xldj"><a href="https://github.com/abapGit-tests/IWMO.git">Repo</a></td>
+<td class="tg-xldj "></td>
+</tr>
+<tr>
+<td class="tg-xldj key">IWPR</td>
+<td class="tg-xldj key">$___IWPR</td>
+<td class="tg-xldj "></td>
+<td class="tg-xldj status ok">OK</td>
+<td class="tg-xldj "></td>
+<td class="tg-xldj status ok">OK</td>
+<td class="tg-xldj status ok">OK</td>
+<td class="tg-xldj status ok">OK</td>
+<td class="tg-xldj status ok">OK</td>
+<td class="tg-xldj status undefined"></td>
+<td class="tg-xldj status ok">OK</td>
+<td class="tg-xldj status undefined"></td>
+<td class="tg-xldj status ok">OK</td>
+<td class="tg-xldj ">9.0</td>
+<td class="tg-xldj status ok">OK</td>
+<td class="tg-xldj "></td>
+<td class="tg-xldj"><a href="https://github.com/abapGit-tests/IWPR.git">Repo</a></td>
+<td class="tg-xldj "></td>
+</tr>
+<tr>
+<td class="tg-xldj key">IWSV</td>
+<td class="tg-xldj key">$___IWSV</td>
+<td class="tg-xldj "></td>
+<td class="tg-xldj status ok">OK</td>
+<td class="tg-xldj "></td>
+<td class="tg-xldj status ok">OK</td>
+<td class="tg-xldj status ok">OK</td>
+<td class="tg-xldj status ok">OK</td>
+<td class="tg-xldj status not_ok">NOT_OK</td>
+<td class="tg-xldj status undefined"></td>
+<td class="tg-xldj status ok">OK</td>
+<td class="tg-xldj status undefined"></td>
+<td class="tg-xldj status undefined"></td>
+<td class="tg-xldj ">0.6</td>
+<td class="tg-xldj status not_ok">NOT_OK</td>
+<td class="tg-xldj ">Local file diffs to remote: .abapgit.xml</td>
+<td class="tg-xldj"><a href="https://github.com/abapGit-tests/IWSV.git">Repo</a></td>
+<td class="tg-xldj "></td>
+</tr>
+<tr>
+<td class="tg-xldj key">IWVB</td>
+<td class="tg-xldj key">$___IWVB</td>
+<td class="tg-xldj "></td>
+<td class="tg-xldj status ok">OK</td>
+<td class="tg-xldj "></td>
+<td class="tg-xldj status ok">OK</td>
+<td class="tg-xldj status ok">OK</td>
+<td class="tg-xldj status ok">OK</td>
+<td class="tg-xldj status not_ok">NOT_OK</td>
+<td class="tg-xldj status undefined"></td>
+<td class="tg-xldj status ok">OK</td>
+<td class="tg-xldj status undefined"></td>
+<td class="tg-xldj status undefined"></td>
+<td class="tg-xldj ">18.8</td>
+<td class="tg-xldj status not_ok">NOT_OK</td>
+<td class="tg-xldj ">Local file diffs to remote: ztest_iwvb_cds.ddls.baseinfo</td>
+<td class="tg-xldj"><a href="https://github.com/abapGit-tests/IWVB.git">Repo</a></td>
+<td class="tg-xldj "></td>
+</tr>
+<tr>
+<td class="tg-xldj key">Language_DE</td>
+<td class="tg-xldj key">$___LANGUAGE_DE</td>
+<td class="tg-xldj "></td>
+<td class="tg-xldj status ok">OK</td>
+<td class="tg-xldj "></td>
+<td class="tg-xldj status ok">OK</td>
+<td class="tg-xldj status not_ok">NOT_OK</td>
+<td class="tg-xldj status undefined"></td>
+<td class="tg-xldj status undefined"></td>
+<td class="tg-xldj status undefined"></td>
+<td class="tg-xldj status ok">OK</td>
+<td class="tg-xldj status undefined"></td>
+<td class="tg-xldj status undefined"></td>
+<td class="tg-xldj ">0.4</td>
+<td class="tg-xldj status not_ok">NOT_OK</td>
+<td class="tg-xldj ">Current login language 'EN' does not match main language 'DE'. Select 'Advanced' > 'Open in Main Language'</td>
+<td class="tg-xldj"><a href="https://github.com/abapGit-tests/Language_DE.git">Repo</a></td>
+<td class="tg-xldj "></td>
+</tr>
+<tr>
+<td class="tg-xldj key">MSAG</td>
+<td class="tg-xldj key">$___MSAG</td>
+<td class="tg-xldj "></td>
+<td class="tg-xldj status ok">OK</td>
+<td class="tg-xldj "></td>
+<td class="tg-xldj status ok">OK</td>
+<td class="tg-xldj status ok">OK</td>
+<td class="tg-xldj status ok">OK</td>
+<td class="tg-xldj status ok">OK</td>
+<td class="tg-xldj status undefined"></td>
+<td class="tg-xldj status ok">OK</td>
+<td class="tg-xldj status undefined"></td>
+<td class="tg-xldj status ok">OK</td>
+<td class="tg-xldj ">1.6</td>
+<td class="tg-xldj status ok">OK</td>
+<td class="tg-xldj "></td>
+<td class="tg-xldj"><a href="https://github.com/abapGit-tests/MSAG.git">Repo</a></td>
+<td class="tg-xldj "></td>
+</tr>
+<tr>
+<td class="tg-xldj key">MSAG_empty</td>
+<td class="tg-xldj key">$___MSAG_EMPTY</td>
+<td class="tg-xldj "></td>
+<td class="tg-xldj status ok">OK</td>
+<td class="tg-xldj "></td>
+<td class="tg-xldj status ok">OK</td>
+<td class="tg-xldj status ok">OK</td>
+<td class="tg-xldj status ok">OK</td>
+<td class="tg-xldj status ok">OK</td>
+<td class="tg-xldj status undefined"></td>
+<td class="tg-xldj status ok">OK</td>
+<td class="tg-xldj status undefined"></td>
+<td class="tg-xldj status ok">OK</td>
+<td class="tg-xldj ">2.5</td>
+<td class="tg-xldj status ok">OK</td>
+<td class="tg-xldj "></td>
+<td class="tg-xldj"><a href="https://github.com/abapGit-tests/MSAG_empty.git">Repo</a></td>
+<td class="tg-xldj "></td>
+</tr>
+<tr>
+<td class="tg-xldj key">MSAG_simple</td>
+<td class="tg-xldj key">$___MSAG_SIMPLE</td>
+<td class="tg-xldj "></td>
+<td class="tg-xldj status ok">OK</td>
+<td class="tg-xldj "></td>
+<td class="tg-xldj status ok">OK</td>
+<td class="tg-xldj status ok">OK</td>
+<td class="tg-xldj status ok">OK</td>
+<td class="tg-xldj status ok">OK</td>
+<td class="tg-xldj status undefined"></td>
+<td class="tg-xldj status ok">OK</td>
+<td class="tg-xldj status undefined"></td>
+<td class="tg-xldj status ok">OK</td>
+<td class="tg-xldj ">1.2</td>
+<td class="tg-xldj status ok">OK</td>
+<td class="tg-xldj "></td>
+<td class="tg-xldj"><a href="https://github.com/abapGit-tests/MSAG_simple.git">Repo</a></td>
+<td class="tg-xldj "></td>
+</tr>
+<tr>
+<td class="tg-xldj key">NROB</td>
+<td class="tg-xldj key">$___NROB</td>
+<td class="tg-xldj "></td>
+<td class="tg-xldj status ok">OK</td>
+<td class="tg-xldj "></td>
+<td class="tg-xldj status ok">OK</td>
+<td class="tg-xldj status ok">OK</td>
+<td class="tg-xldj status ok">OK</td>
+<td class="tg-xldj status ok">OK</td>
+<td class="tg-xldj status undefined"></td>
+<td class="tg-xldj status ok">OK</td>
+<td class="tg-xldj status undefined"></td>
+<td class="tg-xldj status ok">OK</td>
+<td class="tg-xldj ">1.0</td>
+<td class="tg-xldj status ok">OK</td>
+<td class="tg-xldj "></td>
+<td class="tg-xldj"><a href="https://github.com/abapGit-tests/NROB.git">Repo</a></td>
+<td class="tg-xldj "></td>
+</tr>
+<tr>
+<td class="tg-xldj key">NSPC</td>
+<td class="tg-xldj key">$___NSPC</td>
+<td class="tg-xldj "></td>
+<td class="tg-xldj status ok">OK</td>
+<td class="tg-xldj "></td>
+<td class="tg-xldj status ok">OK</td>
+<td class="tg-xldj status ok">OK</td>
+<td class="tg-xldj status ok">OK</td>
+<td class="tg-xldj status not_ok">NOT_OK</td>
+<td class="tg-xldj status undefined"></td>
+<td class="tg-xldj status ok">OK</td>
+<td class="tg-xldj status undefined"></td>
+<td class="tg-xldj status undefined"></td>
+<td class="tg-xldj ">0.9</td>
+<td class="tg-xldj status not_ok">NOT_OK</td>
+<td class="tg-xldj ">Local file diffs to remote: .abapgit.xml</td>
+<td class="tg-xldj"><a href="https://github.com/abapGit-tests/NSPC.git">Repo</a></td>
+<td class="tg-xldj "></td>
+</tr>
+<tr>
+<td class="tg-xldj key">OA2P</td>
+<td class="tg-xldj key">$___OA2P</td>
+<td class="tg-xldj "></td>
+<td class="tg-xldj status ok">OK</td>
+<td class="tg-xldj "></td>
+<td class="tg-xldj status ok">OK</td>
+<td class="tg-xldj status ok">OK</td>
+<td class="tg-xldj status ok">OK</td>
+<td class="tg-xldj status ok">OK</td>
+<td class="tg-xldj status undefined"></td>
+<td class="tg-xldj status ok">OK</td>
+<td class="tg-xldj status undefined"></td>
+<td class="tg-xldj status ok">OK</td>
+<td class="tg-xldj ">1.0</td>
+<td class="tg-xldj status ok">OK</td>
+<td class="tg-xldj "></td>
+<td class="tg-xldj"><a href="https://github.com/abapGit-tests/OA2P.git">Repo</a></td>
+<td class="tg-xldj "></td>
+</tr>
+<tr>
+<td class="tg-xldj key">ODSO</td>
+<td class="tg-xldj key">$___ODSO</td>
+<td class="tg-xldj "></td>
+<td class="tg-xldj status ok">OK</td>
+<td class="tg-xldj "></td>
+<td class="tg-xldj status ok">OK</td>
+<td class="tg-xldj status ok">OK</td>
+<td class="tg-xldj status ok">OK</td>
+<td class="tg-xldj status not_ok">NOT_OK</td>
+<td class="tg-xldj status undefined"></td>
+<td class="tg-xldj status ok">OK</td>
+<td class="tg-xldj status undefined"></td>
+<td class="tg-xldj status undefined"></td>
+<td class="tg-xldj ">49.5</td>
+<td class="tg-xldj status not_ok">NOT_OK</td>
+<td class="tg-xldj ">Local file diffs to remote: ziobj1.iobj.xml</td>
+<td class="tg-xldj"><a href="https://github.com/abapGit-tests/ODSO.git">Repo</a></td>
+<td class="tg-xldj "></td>
+</tr>
+<tr>
+<td class="tg-xldj key">OTGR</td>
+<td class="tg-xldj key">$___OTGR</td>
+<td class="tg-xldj "></td>
+<td class="tg-xldj status ok">OK</td>
+<td class="tg-xldj "></td>
+<td class="tg-xldj status ok">OK</td>
+<td class="tg-xldj status ok">OK</td>
+<td class="tg-xldj status ok">OK</td>
+<td class="tg-xldj status not_ok">NOT_OK</td>
+<td class="tg-xldj status undefined"></td>
+<td class="tg-xldj status not_ok">NOT_OK</td>
+<td class="tg-xldj status undefined"></td>
+<td class="tg-xldj status undefined"></td>
+<td class="tg-xldj ">0.6</td>
+<td class="tg-xldj status not_ok">NOT_OK</td>
+<td class="tg-xldj ">Error during uninstall. Check the log.</td>
+<td class="tg-xldj"><a href="https://github.com/abapGit-tests/OTGR.git">Repo</a></td>
+<td class="tg-xldj "></td>
+</tr>
+<tr>
+<td class="tg-xldj key">OTGR_with_parents</td>
+<td class="tg-xldj key">$___OTGR_WITH_PARENTS</td>
+<td class="tg-xldj "></td>
+<td class="tg-xldj status ok">OK</td>
+<td class="tg-xldj "></td>
+<td class="tg-xldj status ok">OK</td>
+<td class="tg-xldj status ok">OK</td>
+<td class="tg-xldj status ok">OK</td>
+<td class="tg-xldj status not_ok">NOT_OK</td>
+<td class="tg-xldj status undefined"></td>
+<td class="tg-xldj status not_ok">NOT_OK</td>
+<td class="tg-xldj status undefined"></td>
+<td class="tg-xldj status undefined"></td>
+<td class="tg-xldj ">1.0</td>
+<td class="tg-xldj status not_ok">NOT_OK</td>
+<td class="tg-xldj ">Error during uninstall. Check the log.</td>
+<td class="tg-xldj"><a href="https://github.com/abapGit-tests/OTGR_with_parents.git">Repo</a></td>
+<td class="tg-xldj "></td>
+</tr>
+<tr>
+<td class="tg-xldj key">PARA</td>
+<td class="tg-xldj key">$___PARA</td>
+<td class="tg-xldj "></td>
+<td class="tg-xldj status ok">OK</td>
+<td class="tg-xldj "></td>
+<td class="tg-xldj status ok">OK</td>
+<td class="tg-xldj status ok">OK</td>
+<td class="tg-xldj status ok">OK</td>
+<td class="tg-xldj status ok">OK</td>
+<td class="tg-xldj status undefined"></td>
+<td class="tg-xldj status ok">OK</td>
+<td class="tg-xldj status undefined"></td>
+<td class="tg-xldj status ok">OK</td>
+<td class="tg-xldj ">0.9</td>
+<td class="tg-xldj status ok">OK</td>
+<td class="tg-xldj "></td>
+<td class="tg-xldj"><a href="https://github.com/abapGit-tests/PARA.git">Repo</a></td>
+<td class="tg-xldj "></td>
+</tr>
+<tr>
+<td class="tg-xldj key">PDTS</td>
+<td class="tg-xldj key">$___PDTS</td>
+<td class="tg-xldj "></td>
+<td class="tg-xldj status ok">OK</td>
+<td class="tg-xldj "></td>
+<td class="tg-xldj status ok">OK</td>
+<td class="tg-xldj status ok">OK</td>
+<td class="tg-xldj status ok">OK</td>
+<td class="tg-xldj status not_ok">NOT_OK</td>
+<td class="tg-xldj status undefined"></td>
+<td class="tg-xldj status ok">OK</td>
+<td class="tg-xldj status undefined"></td>
+<td class="tg-xldj status undefined"></td>
+<td class="tg-xldj ">6.9</td>
+<td class="tg-xldj status not_ok">NOT_OK</td>
+<td class="tg-xldj ">Local file diffs to remote: 99999900.pdts.xml</td>
+<td class="tg-xldj"><a href="https://github.com/abapGit-tests/PDTS.git">Repo</a></td>
+<td class="tg-xldj "></td>
+</tr>
+<tr>
+<td class="tg-xldj key">PERS</td>
+<td class="tg-xldj key">$___PERS</td>
+<td class="tg-xldj "></td>
+<td class="tg-xldj status ok">OK</td>
+<td class="tg-xldj "></td>
+<td class="tg-xldj status ok">OK</td>
+<td class="tg-xldj status ok">OK</td>
+<td class="tg-xldj status ok">OK</td>
+<td class="tg-xldj status ok">OK</td>
+<td class="tg-xldj status undefined"></td>
+<td class="tg-xldj status ok">OK</td>
+<td class="tg-xldj status undefined"></td>
+<td class="tg-xldj status ok">OK</td>
+<td class="tg-xldj ">1.1</td>
+<td class="tg-xldj status ok">OK</td>
+<td class="tg-xldj "></td>
+<td class="tg-xldj"><a href="https://github.com/abapGit-tests/PERS.git">Repo</a></td>
+<td class="tg-xldj "></td>
+</tr>
+<tr>
+<td class="tg-xldj key">PINF</td>
+<td class="tg-xldj key">$___PINF</td>
+<td class="tg-xldj "></td>
+<td class="tg-xldj status ok">OK</td>
+<td class="tg-xldj "></td>
+<td class="tg-xldj status ok">OK</td>
+<td class="tg-xldj status ok">OK</td>
+<td class="tg-xldj status ok">OK</td>
+<td class="tg-xldj status not_ok">NOT_OK</td>
+<td class="tg-xldj status undefined"></td>
+<td class="tg-xldj status ok">OK</td>
+<td class="tg-xldj status undefined"></td>
+<td class="tg-xldj status undefined"></td>
+<td class="tg-xldj ">1.2</td>
+<td class="tg-xldj status not_ok">NOT_OK</td>
+<td class="tg-xldj ">Local file diffs to remote: zabapgit_test_pinf.pinf.xml</td>
+<td class="tg-xldj"><a href="https://github.com/abapGit-tests/PINF.git">Repo</a></td>
+<td class="tg-xldj "></td>
+</tr>
+<tr>
+<td class="tg-xldj key">PINF_exposing_CLAS</td>
+<td class="tg-xldj key">$___PINF_EXPOSING_CLAS</td>
+<td class="tg-xldj "></td>
+<td class="tg-xldj status ok">OK</td>
+<td class="tg-xldj "></td>
+<td class="tg-xldj status ok">OK</td>
+<td class="tg-xldj status ok">OK</td>
+<td class="tg-xldj status ok">OK</td>
+<td class="tg-xldj status not_ok">NOT_OK</td>
+<td class="tg-xldj status undefined"></td>
+<td class="tg-xldj status ok">OK</td>
+<td class="tg-xldj status undefined"></td>
+<td class="tg-xldj status undefined"></td>
+<td class="tg-xldj ">2.0</td>
+<td class="tg-xldj status not_ok">NOT_OK</td>
+<td class="tg-xldj ">Local file diffs to remote: zagit_test.pinf.xml</td>
+<td class="tg-xldj"><a href="https://github.com/abapGit-tests/PINF_exposing_CLAS.git">Repo</a></td>
+<td class="tg-xldj "></td>
+</tr>
+<tr>
+<td class="tg-xldj key">PINF_exposing_INTF</td>
+<td class="tg-xldj key">$___PINF_EXPOSING_INTF</td>
+<td class="tg-xldj "></td>
+<td class="tg-xldj status ok">OK</td>
+<td class="tg-xldj "></td>
+<td class="tg-xldj status ok">OK</td>
+<td class="tg-xldj status ok">OK</td>
+<td class="tg-xldj status ok">OK</td>
+<td class="tg-xldj status not_ok">NOT_OK</td>
+<td class="tg-xldj status undefined"></td>
+<td class="tg-xldj status ok">OK</td>
+<td class="tg-xldj status undefined"></td>
+<td class="tg-xldj status undefined"></td>
+<td class="tg-xldj ">1.3</td>
+<td class="tg-xldj status not_ok">NOT_OK</td>
+<td class="tg-xldj ">Local file diffs to remote: zagit_test.pinf.xml</td>
+<td class="tg-xldj"><a href="https://github.com/abapGit-tests/PINF_exposing_INTF.git">Repo</a></td>
+<td class="tg-xldj "></td>
+</tr>
+<tr>
+<td class="tg-xldj key">PROG</td>
+<td class="tg-xldj key">$___PROG</td>
+<td class="tg-xldj "></td>
+<td class="tg-xldj status ok">OK</td>
+<td class="tg-xldj "></td>
+<td class="tg-xldj status ok">OK</td>
+<td class="tg-xldj status ok">OK</td>
+<td class="tg-xldj status ok">OK</td>
+<td class="tg-xldj status ok">OK</td>
+<td class="tg-xldj status undefined"></td>
+<td class="tg-xldj status ok">OK</td>
+<td class="tg-xldj status undefined"></td>
+<td class="tg-xldj status ok">OK</td>
+<td class="tg-xldj ">1.9</td>
+<td class="tg-xldj status ok">OK</td>
+<td class="tg-xldj "></td>
+<td class="tg-xldj"><a href="https://github.com/abapGit-tests/PROG.git">Repo</a></td>
+<td class="tg-xldj "></td>
+</tr>
+<tr>
+<td class="tg-xldj key">PROG_EDTX</td>
+<td class="tg-xldj key">$___PROG_EDTX</td>
+<td class="tg-xldj "></td>
+<td class="tg-xldj status ok">OK</td>
+<td class="tg-xldj "></td>
+<td class="tg-xldj status ok">OK</td>
+<td class="tg-xldj status ok">OK</td>
+<td class="tg-xldj status ok">OK</td>
+<td class="tg-xldj status ok">OK</td>
+<td class="tg-xldj status undefined"></td>
+<td class="tg-xldj status ok">OK</td>
+<td class="tg-xldj status undefined"></td>
+<td class="tg-xldj status ok">OK</td>
+<td class="tg-xldj ">1.5</td>
+<td class="tg-xldj status ok">OK</td>
+<td class="tg-xldj "></td>
+<td class="tg-xldj"><a href="https://github.com/abapGit-tests/PROG_EDTX.git">Repo</a></td>
+<td class="tg-xldj "></td>
+</tr>
+<tr>
+<td class="tg-xldj key">PROG_ci_variant</td>
+<td class="tg-xldj key">$___PROG_CI_VARIANT</td>
+<td class="tg-xldj "></td>
+<td class="tg-xldj status ok">OK</td>
+<td class="tg-xldj "></td>
+<td class="tg-xldj status ok">OK</td>
+<td class="tg-xldj status ok">OK</td>
+<td class="tg-xldj status ok">OK</td>
+<td class="tg-xldj status ok">OK</td>
+<td class="tg-xldj status undefined"></td>
+<td class="tg-xldj status ok">OK</td>
+<td class="tg-xldj status undefined"></td>
+<td class="tg-xldj status ok">OK</td>
+<td class="tg-xldj ">1.1</td>
+<td class="tg-xldj status ok">OK</td>
+<td class="tg-xldj "></td>
+<td class="tg-xldj"><a href="https://github.com/abapGit-tests/PROG_ci_variant.git">Repo</a></td>
+<td class="tg-xldj "></td>
+</tr>
+<tr>
+<td class="tg-xldj key">PROG_dynpro_foreign_key</td>
+<td class="tg-xldj key">$___PROG_DYNPRO_FOREIGN_KEY</td>
+<td class="tg-xldj "></td>
+<td class="tg-xldj status ok">OK</td>
+<td class="tg-xldj "></td>
+<td class="tg-xldj status ok">OK</td>
+<td class="tg-xldj status ok">OK</td>
+<td class="tg-xldj status ok">OK</td>
+<td class="tg-xldj status ok">OK</td>
+<td class="tg-xldj status undefined"></td>
+<td class="tg-xldj status ok">OK</td>
+<td class="tg-xldj status undefined"></td>
+<td class="tg-xldj status ok">OK</td>
+<td class="tg-xldj ">4.6</td>
+<td class="tg-xldj status ok">OK</td>
+<td class="tg-xldj "></td>
+<td class="tg-xldj"><a href="https://github.com/abapGit-tests/PROG_dynpro_foreign_key.git">Repo</a></td>
+<td class="tg-xldj "></td>
+</tr>
+<tr>
+<td class="tg-xldj key">PROG_dynpro_modi</td>
+<td class="tg-xldj key">$___PROG_DYNPRO_MODI</td>
+<td class="tg-xldj "></td>
+<td class="tg-xldj status ok">OK</td>
+<td class="tg-xldj "></td>
+<td class="tg-xldj status ok">OK</td>
+<td class="tg-xldj status ok">OK</td>
+<td class="tg-xldj status ok">OK</td>
+<td class="tg-xldj status ok">OK</td>
+<td class="tg-xldj status undefined"></td>
+<td class="tg-xldj status ok">OK</td>
+<td class="tg-xldj status undefined"></td>
+<td class="tg-xldj status ok">OK</td>
+<td class="tg-xldj ">2.6</td>
+<td class="tg-xldj status ok">OK</td>
+<td class="tg-xldj "></td>
+<td class="tg-xldj"><a href="https://github.com/abapGit-tests/PROG_dynpro_modi.git">Repo</a></td>
+<td class="tg-xldj "></td>
+</tr>
+<tr>
+<td class="tg-xldj key">PROG_dynpro_resize</td>
+<td class="tg-xldj key">$___PROG_DYNPRO_RESIZE</td>
+<td class="tg-xldj "></td>
+<td class="tg-xldj status ok">OK</td>
+<td class="tg-xldj "></td>
+<td class="tg-xldj status ok">OK</td>
+<td class="tg-xldj status ok">OK</td>
+<td class="tg-xldj status ok">OK</td>
+<td class="tg-xldj status ok">OK</td>
+<td class="tg-xldj status undefined"></td>
+<td class="tg-xldj status ok">OK</td>
+<td class="tg-xldj status undefined"></td>
+<td class="tg-xldj status ok">OK</td>
+<td class="tg-xldj ">1.8</td>
+<td class="tg-xldj status ok">OK</td>
+<td class="tg-xldj "></td>
+<td class="tg-xldj"><a href="https://github.com/abapGit-tests/PROG_dynpro_resize.git">Repo</a></td>
+<td class="tg-xldj "></td>
+</tr>
+<tr>
+<td class="tg-xldj key">PROG_lxe</td>
+<td class="tg-xldj key">$___PROG_LXE</td>
+<td class="tg-xldj "></td>
+<td class="tg-xldj status ok">OK</td>
+<td class="tg-xldj "></td>
+<td class="tg-xldj status ok">OK</td>
+<td class="tg-xldj status ok">OK</td>
+<td class="tg-xldj status ok">OK</td>
+<td class="tg-xldj status ok">OK</td>
+<td class="tg-xldj status undefined"></td>
+<td class="tg-xldj status ok">OK</td>
+<td class="tg-xldj status undefined"></td>
+<td class="tg-xldj status ok">OK</td>
+<td class="tg-xldj ">1.9</td>
+<td class="tg-xldj status ok">OK</td>
+<td class="tg-xldj "></td>
+<td class="tg-xldj"><a href="https://github.com/abapGit-tests/PROG_lxe.git">Repo</a></td>
+<td class="tg-xldj "></td>
+</tr>
+<tr>
+<td class="tg-xldj key">PROG_with_text_element</td>
+<td class="tg-xldj key">$___PROG_WITH_TEXT_ELEMENT</td>
+<td class="tg-xldj "></td>
+<td class="tg-xldj status ok">OK</td>
+<td class="tg-xldj "></td>
+<td class="tg-xldj status ok">OK</td>
+<td class="tg-xldj status ok">OK</td>
+<td class="tg-xldj status ok">OK</td>
+<td class="tg-xldj status ok">OK</td>
+<td class="tg-xldj status undefined"></td>
+<td class="tg-xldj status ok">OK</td>
+<td class="tg-xldj status undefined"></td>
+<td class="tg-xldj status ok">OK</td>
+<td class="tg-xldj ">1.5</td>
+<td class="tg-xldj status ok">OK</td>
+<td class="tg-xldj "></td>
+<td class="tg-xldj"><a href="https://github.com/abapGit-tests/PROG_with_text_element.git">Repo</a></td>
+<td class="tg-xldj "></td>
+</tr>
+<tr>
+<td class="tg-xldj key">SCP1</td>
+<td class="tg-xldj key">$___SCP1</td>
+<td class="tg-xldj "></td>
+<td class="tg-xldj status ok">OK</td>
+<td class="tg-xldj "></td>
+<td class="tg-xldj status ok">OK</td>
+<td class="tg-xldj status ok">OK</td>
+<td class="tg-xldj status ok">OK</td>
+<td class="tg-xldj status ok">OK</td>
+<td class="tg-xldj status undefined"></td>
+<td class="tg-xldj status ok">OK</td>
+<td class="tg-xldj status undefined"></td>
+<td class="tg-xldj status ok">OK</td>
+<td class="tg-xldj ">3.8</td>
+<td class="tg-xldj status ok">OK</td>
+<td class="tg-xldj "></td>
+<td class="tg-xldj"><a href="https://github.com/abapGit-tests/SCP1.git">Repo</a></td>
+<td class="tg-xldj "></td>
+</tr>
+<tr>
+<td class="tg-xldj key">SCP1_TOBJ</td>
+<td class="tg-xldj key">$___SCP1_TOBJ</td>
+<td class="tg-xldj "></td>
+<td class="tg-xldj status ok">OK</td>
+<td class="tg-xldj "></td>
+<td class="tg-xldj status ok">OK</td>
+<td class="tg-xldj status ok">OK</td>
+<td class="tg-xldj status ok">OK</td>
+<td class="tg-xldj status ok">OK</td>
+<td class="tg-xldj status undefined"></td>
+<td class="tg-xldj status ok">OK</td>
+<td class="tg-xldj status undefined"></td>
+<td class="tg-xldj status ok">OK</td>
+<td class="tg-xldj ">14.4</td>
+<td class="tg-xldj status ok">OK</td>
+<td class="tg-xldj "></td>
+<td class="tg-xldj"><a href="https://github.com/abapGit-tests/SCP1_TOBJ.git">Repo</a></td>
+<td class="tg-xldj "></td>
+</tr>
+<tr>
+<td class="tg-xldj key">SCP1_hier</td>
+<td class="tg-xldj key">$___SCP1_HIER</td>
+<td class="tg-xldj "></td>
+<td class="tg-xldj status ok">OK</td>
+<td class="tg-xldj "></td>
+<td class="tg-xldj status ok">OK</td>
+<td class="tg-xldj status ok">OK</td>
+<td class="tg-xldj status ok">OK</td>
+<td class="tg-xldj status ok">OK</td>
+<td class="tg-xldj status undefined"></td>
+<td class="tg-xldj status ok">OK</td>
+<td class="tg-xldj status undefined"></td>
+<td class="tg-xldj status ok">OK</td>
+<td class="tg-xldj ">1.6</td>
+<td class="tg-xldj status ok">OK</td>
+<td class="tg-xldj "></td>
+<td class="tg-xldj"><a href="https://github.com/abapGit-tests/SCP1_hier.git">Repo</a></td>
+<td class="tg-xldj "></td>
+</tr>
+<tr>
+<td class="tg-xldj key">SCVI</td>
+<td class="tg-xldj key">$___SCVI</td>
+<td class="tg-xldj "></td>
+<td class="tg-xldj status ok">OK</td>
+<td class="tg-xldj "></td>
+<td class="tg-xldj status ok">OK</td>
+<td class="tg-xldj status ok">OK</td>
+<td class="tg-xldj status ok">OK</td>
+<td class="tg-xldj status ok">OK</td>
+<td class="tg-xldj status undefined"></td>
+<td class="tg-xldj status ok">OK</td>
+<td class="tg-xldj status undefined"></td>
+<td class="tg-xldj status ok">OK</td>
+<td class="tg-xldj ">1.4</td>
+<td class="tg-xldj status ok">OK</td>
+<td class="tg-xldj "></td>
+<td class="tg-xldj"><a href="https://github.com/abapGit-tests/SCVI.git">Repo</a></td>
+<td class="tg-xldj "></td>
+</tr>
+<tr>
+<td class="tg-xldj key">SFBF</td>
+<td class="tg-xldj key">$___SFBF</td>
+<td class="tg-xldj "></td>
+<td class="tg-xldj status ok">OK</td>
+<td class="tg-xldj "></td>
+<td class="tg-xldj status ok">OK</td>
+<td class="tg-xldj status ok">OK</td>
+<td class="tg-xldj status ok">OK</td>
+<td class="tg-xldj status not_ok">NOT_OK</td>
+<td class="tg-xldj status undefined"></td>
+<td class="tg-xldj status ok">OK</td>
+<td class="tg-xldj status undefined"></td>
+<td class="tg-xldj status undefined"></td>
+<td class="tg-xldj ">4.0</td>
+<td class="tg-xldj status not_ok">NOT_OK</td>
+<td class="tg-xldj ">Object SFBF ZABAPGIT_UNIT_TEST isn't active</td>
+<td class="tg-xldj"><a href="https://github.com/abapGit-tests/SFBF.git">Repo</a></td>
+<td class="tg-xldj "></td>
+</tr>
+<tr>
+<td class="tg-xldj key">SFBS</td>
+<td class="tg-xldj key">$___SFBS</td>
+<td class="tg-xldj "></td>
+<td class="tg-xldj status ok">OK</td>
+<td class="tg-xldj "></td>
+<td class="tg-xldj status ok">OK</td>
+<td class="tg-xldj status ok">OK</td>
+<td class="tg-xldj status ok">OK</td>
+<td class="tg-xldj status not_ok">NOT_OK</td>
+<td class="tg-xldj status undefined"></td>
+<td class="tg-xldj status ok">OK</td>
+<td class="tg-xldj status undefined"></td>
+<td class="tg-xldj status undefined"></td>
+<td class="tg-xldj ">1.5</td>
+<td class="tg-xldj status not_ok">NOT_OK</td>
+<td class="tg-xldj ">Object SFBS ZABAPGIT_UNIT_TEST_SET isn't active</td>
+<td class="tg-xldj"><a href="https://github.com/abapGit-tests/SFBS.git">Repo</a></td>
+<td class="tg-xldj "></td>
+</tr>
+<tr>
+<td class="tg-xldj key">SFPF</td>
+<td class="tg-xldj key">$___SFPF</td>
+<td class="tg-xldj "></td>
+<td class="tg-xldj status ok">OK</td>
+<td class="tg-xldj "></td>
+<td class="tg-xldj status ok">OK</td>
+<td class="tg-xldj status not_ok">NOT_OK</td>
+<td class="tg-xldj status undefined"></td>
+<td class="tg-xldj status undefined"></td>
+<td class="tg-xldj status undefined"></td>
+<td class="tg-xldj status ok">OK</td>
+<td class="tg-xldj status undefined"></td>
+<td class="tg-xldj status undefined"></td>
+<td class="tg-xldj ">3.6</td>
+<td class="tg-xldj status not_ok">NOT_OK</td>
+<td class="tg-xldj ">Parameter LSM not in version 0007 of tp configuration</td>
+<td class="tg-xldj"><a href="https://github.com/abapGit-tests/SFPF.git">Repo</a></td>
+<td class="tg-xldj "></td>
+</tr>
+<tr>
+<td class="tg-xldj key">SFSW</td>
+<td class="tg-xldj key">$___SFSW</td>
+<td class="tg-xldj "></td>
+<td class="tg-xldj status ok">OK</td>
+<td class="tg-xldj "></td>
+<td class="tg-xldj status ok">OK</td>
+<td class="tg-xldj status ok">OK</td>
+<td class="tg-xldj status ok">OK</td>
+<td class="tg-xldj status not_ok">NOT_OK</td>
+<td class="tg-xldj status undefined"></td>
+<td class="tg-xldj status ok">OK</td>
+<td class="tg-xldj status undefined"></td>
+<td class="tg-xldj status undefined"></td>
+<td class="tg-xldj ">4.0</td>
+<td class="tg-xldj status not_ok">NOT_OK</td>
+<td class="tg-xldj ">Object SFSW ZABAPGIT_UNIT_TEST isn't active</td>
+<td class="tg-xldj"><a href="https://github.com/abapGit-tests/SFSW.git">Repo</a></td>
+<td class="tg-xldj "></td>
+</tr>
+<tr>
+<td class="tg-xldj key">SHI3</td>
+<td class="tg-xldj key">$___SHI3</td>
+<td class="tg-xldj "></td>
+<td class="tg-xldj status ok">OK</td>
+<td class="tg-xldj "></td>
+<td class="tg-xldj status ok">OK</td>
+<td class="tg-xldj status ok">OK</td>
+<td class="tg-xldj status ok">OK</td>
+<td class="tg-xldj status ok">OK</td>
+<td class="tg-xldj status undefined"></td>
+<td class="tg-xldj status ok">OK</td>
+<td class="tg-xldj status undefined"></td>
+<td class="tg-xldj status ok">OK</td>
+<td class="tg-xldj ">2.1</td>
+<td class="tg-xldj status ok">OK</td>
+<td class="tg-xldj "></td>
+<td class="tg-xldj"><a href="https://github.com/abapGit-tests/SHI3.git">Repo</a></td>
+<td class="tg-xldj "></td>
+</tr>
+<tr>
+<td class="tg-xldj key">SHI3_GHIER</td>
+<td class="tg-xldj key">$___SHI3_GHIER</td>
+<td class="tg-xldj "></td>
+<td class="tg-xldj status ok">OK</td>
+<td class="tg-xldj "></td>
+<td class="tg-xldj status ok">OK</td>
+<td class="tg-xldj status ok">OK</td>
+<td class="tg-xldj status ok">OK</td>
+<td class="tg-xldj status not_ok">NOT_OK</td>
+<td class="tg-xldj status undefined"></td>
+<td class="tg-xldj status ok">OK</td>
+<td class="tg-xldj status undefined"></td>
+<td class="tg-xldj status undefined"></td>
+<td class="tg-xldj ">1.8</td>
+<td class="tg-xldj status not_ok">NOT_OK</td>
+<td class="tg-xldj ">Local file diffs to remote: 00155d0046001eeb8acbe7e41555dd51.shi3.xml</td>
+<td class="tg-xldj"><a href="https://github.com/abapGit-tests/SHI3_GHIER.git">Repo</a></td>
+<td class="tg-xldj "></td>
+</tr>
+<tr>
+<td class="tg-xldj key">SHI5</td>
+<td class="tg-xldj key">$___SHI5</td>
+<td class="tg-xldj "></td>
+<td class="tg-xldj status undefined"></td>
+<td class="tg-xldj "></td>
+<td class="tg-xldj status undefined"></td>
+<td class="tg-xldj status undefined"></td>
+<td class="tg-xldj status undefined"></td>
+<td class="tg-xldj status undefined"></td>
+<td class="tg-xldj status undefined"></td>
+<td class="tg-xldj status undefined"></td>
+<td class="tg-xldj status undefined"></td>
+<td class="tg-xldj status undefined"></td>
+<td class="tg-xldj ">1.8</td>
+<td class="tg-xldj status not_ok">NOT_OK</td>
+<td class="tg-xldj ">Failure in ZABAPGIT_CI_PROCESS_REPO. Subrc = 2 Screen output without connection to user.</td>
+<td class="tg-xldj"><a href="https://github.com/abapGit-tests/SHI5.git">Repo</a></td>
+<td class="tg-xldj "></td>
+</tr>
+<tr>
+<td class="tg-xldj key">SHI5_with_SHI3</td>
+<td class="tg-xldj key">$___SHI5_WITH_SHI3</td>
+<td class="tg-xldj "></td>
+<td class="tg-xldj status undefined"></td>
+<td class="tg-xldj "></td>
+<td class="tg-xldj status undefined"></td>
+<td class="tg-xldj status undefined"></td>
+<td class="tg-xldj status undefined"></td>
+<td class="tg-xldj status undefined"></td>
+<td class="tg-xldj status undefined"></td>
+<td class="tg-xldj status undefined"></td>
+<td class="tg-xldj status undefined"></td>
+<td class="tg-xldj status undefined"></td>
+<td class="tg-xldj ">2.3</td>
+<td class="tg-xldj status not_ok">NOT_OK</td>
+<td class="tg-xldj ">Failure in ZABAPGIT_CI_PROCESS_REPO. Subrc = 2 Screen output without connection to user.</td>
+<td class="tg-xldj"><a href="https://github.com/abapGit-tests/SHI5_with_SHI3.git">Repo</a></td>
+<td class="tg-xldj "></td>
+</tr>
+<tr>
+<td class="tg-xldj key">SHLP</td>
+<td class="tg-xldj key">$___SHLP</td>
+<td class="tg-xldj "></td>
+<td class="tg-xldj status ok">OK</td>
+<td class="tg-xldj "></td>
+<td class="tg-xldj status ok">OK</td>
+<td class="tg-xldj status ok">OK</td>
+<td class="tg-xldj status ok">OK</td>
+<td class="tg-xldj status ok">OK</td>
+<td class="tg-xldj status undefined"></td>
+<td class="tg-xldj status ok">OK</td>
+<td class="tg-xldj status undefined"></td>
+<td class="tg-xldj status ok">OK</td>
+<td class="tg-xldj ">1.5</td>
+<td class="tg-xldj status ok">OK</td>
+<td class="tg-xldj "></td>
+<td class="tg-xldj"><a href="https://github.com/abapGit-tests/SHLP.git">Repo</a></td>
+<td class="tg-xldj "></td>
+</tr>
+<tr>
+<td class="tg-xldj key">SHLP_with_exit</td>
+<td class="tg-xldj key">$___SHLP_WITH_EXIT</td>
+<td class="tg-xldj "></td>
+<td class="tg-xldj status ok">OK</td>
+<td class="tg-xldj "></td>
+<td class="tg-xldj status ok">OK</td>
+<td class="tg-xldj status ok">OK</td>
+<td class="tg-xldj status ok">OK</td>
+<td class="tg-xldj status not_ok">NOT_OK</td>
+<td class="tg-xldj status undefined"></td>
+<td class="tg-xldj status ok">OK</td>
+<td class="tg-xldj status undefined"></td>
+<td class="tg-xldj status undefined"></td>
+<td class="tg-xldj ">4.7</td>
+<td class="tg-xldj status not_ok">NOT_OK</td>
+<td class="tg-xldj ">Local file diffs to remote: zagit_shlp_with_exit.fugr.xml</td>
+<td class="tg-xldj"><a href="https://github.com/abapGit-tests/SHLP_with_exit.git">Repo</a></td>
+<td class="tg-xldj "></td>
+</tr>
+<tr>
+<td class="tg-xldj key">SHMA</td>
+<td class="tg-xldj key">$___SHMA</td>
+<td class="tg-xldj "></td>
+<td class="tg-xldj status ok">OK</td>
+<td class="tg-xldj "></td>
+<td class="tg-xldj status ok">OK</td>
+<td class="tg-xldj status ok">OK</td>
+<td class="tg-xldj status ok">OK</td>
+<td class="tg-xldj status not_ok">NOT_OK</td>
+<td class="tg-xldj status undefined"></td>
+<td class="tg-xldj status ok">OK</td>
+<td class="tg-xldj status undefined"></td>
+<td class="tg-xldj status undefined"></td>
+<td class="tg-xldj ">12.5</td>
+<td class="tg-xldj status not_ok">NOT_OK</td>
+<td class="tg-xldj ">Local file diffs to remote: zabapgit_shma_test.clas.abap</td>
+<td class="tg-xldj"><a href="https://github.com/abapGit-tests/SHMA.git">Repo</a></td>
+<td class="tg-xldj "></td>
+</tr>
+<tr>
+<td class="tg-xldj key">SICF</td>
+<td class="tg-xldj key">$___SICF</td>
+<td class="tg-xldj "></td>
+<td class="tg-xldj status ok">OK</td>
+<td class="tg-xldj "></td>
+<td class="tg-xldj status ok">OK</td>
+<td class="tg-xldj status ok">OK</td>
+<td class="tg-xldj status ok">OK</td>
+<td class="tg-xldj status ok">OK</td>
+<td class="tg-xldj status undefined"></td>
+<td class="tg-xldj status ok">OK</td>
+<td class="tg-xldj status undefined"></td>
+<td class="tg-xldj status ok">OK</td>
+<td class="tg-xldj ">1.5</td>
+<td class="tg-xldj status ok">OK</td>
+<td class="tg-xldj "></td>
+<td class="tg-xldj"><a href="https://github.com/abapGit-tests/SICF.git">Repo</a></td>
+<td class="tg-xldj "></td>
+</tr>
+<tr>
+<td class="tg-xldj key">SICF_with_SOTR</td>
+<td class="tg-xldj key">$___SICF_WITH_SOTR</td>
+<td class="tg-xldj "></td>
+<td class="tg-xldj status ok">OK</td>
+<td class="tg-xldj "></td>
+<td class="tg-xldj status ok">OK</td>
+<td class="tg-xldj status ok">OK</td>
+<td class="tg-xldj status ok">OK</td>
+<td class="tg-xldj status not_ok">NOT_OK</td>
+<td class="tg-xldj status undefined"></td>
+<td class="tg-xldj status ok">OK</td>
+<td class="tg-xldj status undefined"></td>
+<td class="tg-xldj status undefined"></td>
+<td class="tg-xldj ">1.1</td>
+<td class="tg-xldj status not_ok">NOT_OK</td>
+<td class="tg-xldj ">Local file diffs to remote: zag_unit_test d1f122ae89c230fb9189b0284.sicf.xml</td>
+<td class="tg-xldj"><a href="https://github.com/abapGit-tests/SICF_with_SOTR.git">Repo</a></td>
+<td class="tg-xldj "></td>
+</tr>
+<tr>
+<td class="tg-xldj key">SMIM</td>
+<td class="tg-xldj key">$___SMIM</td>
+<td class="tg-xldj "></td>
+<td class="tg-xldj status ok">OK</td>
+<td class="tg-xldj "></td>
+<td class="tg-xldj status ok">OK</td>
+<td class="tg-xldj status ok">OK</td>
+<td class="tg-xldj status ok">OK</td>
+<td class="tg-xldj status ok">OK</td>
+<td class="tg-xldj status undefined"></td>
+<td class="tg-xldj status ok">OK</td>
+<td class="tg-xldj status undefined"></td>
+<td class="tg-xldj status ok">OK</td>
+<td class="tg-xldj ">2.2</td>
+<td class="tg-xldj status ok">OK</td>
+<td class="tg-xldj "></td>
+<td class="tg-xldj"><a href="https://github.com/abapGit-tests/SMIM.git">Repo</a></td>
+<td class="tg-xldj "></td>
+</tr>
+<tr>
+<td class="tg-xldj key">SMTG</td>
+<td class="tg-xldj key">$___SMTG</td>
+<td class="tg-xldj "></td>
+<td class="tg-xldj status ok">OK</td>
+<td class="tg-xldj "></td>
+<td class="tg-xldj status ok">OK</td>
+<td class="tg-xldj status ok">OK</td>
+<td class="tg-xldj status ok">OK</td>
+<td class="tg-xldj status ok">OK</td>
+<td class="tg-xldj status undefined"></td>
+<td class="tg-xldj status ok">OK</td>
+<td class="tg-xldj status undefined"></td>
+<td class="tg-xldj status ok">OK</td>
+<td class="tg-xldj ">1.3</td>
+<td class="tg-xldj status ok">OK</td>
+<td class="tg-xldj "></td>
+<td class="tg-xldj"><a href="https://github.com/abapGit-tests/SMTG.git">Repo</a></td>
+<td class="tg-xldj "></td>
+</tr>
+<tr>
+<td class="tg-xldj key">SOTS</td>
+<td class="tg-xldj key">$___SOTS</td>
+<td class="tg-xldj "></td>
+<td class="tg-xldj status ok">OK</td>
+<td class="tg-xldj "></td>
+<td class="tg-xldj status ok">OK</td>
+<td class="tg-xldj status ok">OK</td>
+<td class="tg-xldj status ok">OK</td>
+<td class="tg-xldj status not_ok">NOT_OK</td>
+<td class="tg-xldj status undefined"></td>
+<td class="tg-xldj status ok">OK</td>
+<td class="tg-xldj status undefined"></td>
+<td class="tg-xldj status undefined"></td>
+<td class="tg-xldj ">1.4</td>
+<td class="tg-xldj status not_ok">NOT_OK</td>
+<td class="tg-xldj ">Remote file diffs to local: ztest_sots.sots.08002743b1381ed987b47394b017c11e_e__0001.txt</td>
+<td class="tg-xldj"><a href="https://github.com/abapGit-tests/SOTS.git">Repo</a></td>
+<td class="tg-xldj "></td>
+</tr>
+<tr>
+<td class="tg-xldj key">SPLO</td>
+<td class="tg-xldj key">$___SPLO</td>
+<td class="tg-xldj "></td>
+<td class="tg-xldj status ok">OK</td>
+<td class="tg-xldj "></td>
+<td class="tg-xldj status ok">OK</td>
+<td class="tg-xldj status ok">OK</td>
+<td class="tg-xldj status ok">OK</td>
+<td class="tg-xldj status ok">OK</td>
+<td class="tg-xldj status undefined"></td>
+<td class="tg-xldj status ok">OK</td>
+<td class="tg-xldj status undefined"></td>
+<td class="tg-xldj status ok">OK</td>
+<td class="tg-xldj ">1.0</td>
+<td class="tg-xldj status ok">OK</td>
+<td class="tg-xldj "></td>
+<td class="tg-xldj"><a href="https://github.com/abapGit-tests/SPLO.git">Repo</a></td>
+<td class="tg-xldj "></td>
+</tr>
+<tr>
+<td class="tg-xldj key">SPRX</td>
+<td class="tg-xldj key">$___SPRX</td>
+<td class="tg-xldj "></td>
+<td class="tg-xldj status ok">OK</td>
+<td class="tg-xldj "></td>
+<td class="tg-xldj status ok">OK</td>
+<td class="tg-xldj status ok">OK</td>
+<td class="tg-xldj status ok">OK</td>
+<td class="tg-xldj status not_ok">NOT_OK</td>
+<td class="tg-xldj status undefined"></td>
+<td class="tg-xldj status ok">OK</td>
+<td class="tg-xldj status undefined"></td>
+<td class="tg-xldj status undefined"></td>
+<td class="tg-xldj ">6.2</td>
+<td class="tg-xldj status not_ok">NOT_OK</td>
+<td class="tg-xldj ">Local file diffs to remote: zblzdetails_type.tabl.xml</td>
+<td class="tg-xldj"><a href="https://github.com/abapGit-tests/SPRX.git">Repo</a></td>
+<td class="tg-xldj "></td>
+</tr>
+<tr>
+<td class="tg-xldj key">SPRX_server_proxy</td>
+<td class="tg-xldj key">$___SPRX_SERVER_PROXY</td>
+<td class="tg-xldj "></td>
+<td class="tg-xldj status ok">OK</td>
+<td class="tg-xldj "></td>
+<td class="tg-xldj status ok">OK</td>
+<td class="tg-xldj status ok">OK</td>
+<td class="tg-xldj status not_ok">NOT_OK</td>
+<td class="tg-xldj status not_ok">NOT_OK</td>
+<td class="tg-xldj status undefined"></td>
+<td class="tg-xldj status ok">OK</td>
+<td class="tg-xldj status undefined"></td>
+<td class="tg-xldj status undefined"></td>
+<td class="tg-xldj ">11.4</td>
+<td class="tg-xldj status not_ok">NOT_OK</td>
+<td class="tg-xldj ">Local file diffs to remote: zzcl_zemail.clas.xml</td>
+<td class="tg-xldj"><a href="https://github.com/abapGit-tests/SPRX_server_proxy.git">Repo</a></td>
+<td class="tg-xldj "></td>
+</tr>
+<tr>
+<td class="tg-xldj key">SQSC</td>
+<td class="tg-xldj key">$___SQSC</td>
+<td class="tg-xldj "></td>
+<td class="tg-xldj status ok">OK</td>
+<td class="tg-xldj "></td>
+<td class="tg-xldj status ok">OK</td>
+<td class="tg-xldj status ok">OK</td>
+<td class="tg-xldj status ok">OK</td>
+<td class="tg-xldj status not_ok">NOT_OK</td>
+<td class="tg-xldj status undefined"></td>
+<td class="tg-xldj status ok">OK</td>
+<td class="tg-xldj status undefined"></td>
+<td class="tg-xldj status undefined"></td>
+<td class="tg-xldj ">2.5</td>
+<td class="tg-xldj status not_ok">NOT_OK</td>
+<td class="tg-xldj ">Object INTF ZIF_ZTEST_PROXY isn't active</td>
+<td class="tg-xldj"><a href="https://github.com/abapGit-tests/SQSC.git">Repo</a></td>
+<td class="tg-xldj "></td>
+</tr>
+<tr>
+<td class="tg-xldj key">SRFC</td>
+<td class="tg-xldj key">$___SRFC</td>
+<td class="tg-xldj "></td>
+<td class="tg-xldj status ok">OK</td>
+<td class="tg-xldj "></td>
+<td class="tg-xldj status ok">OK</td>
+<td class="tg-xldj status ok">OK</td>
+<td class="tg-xldj status ok">OK</td>
+<td class="tg-xldj status ok">OK</td>
+<td class="tg-xldj status undefined"></td>
+<td class="tg-xldj status ok">OK</td>
+<td class="tg-xldj status undefined"></td>
+<td class="tg-xldj status ok">OK</td>
+<td class="tg-xldj ">3.7</td>
+<td class="tg-xldj status ok">OK</td>
+<td class="tg-xldj "></td>
+<td class="tg-xldj"><a href="https://github.com/abapGit-tests/SRFC.git">Repo</a></td>
+<td class="tg-xldj "></td>
+</tr>
+<tr>
+<td class="tg-xldj key">SRVB</td>
+<td class="tg-xldj key">$___SRVB</td>
+<td class="tg-xldj "></td>
+<td class="tg-xldj status ok">OK</td>
+<td class="tg-xldj "></td>
+<td class="tg-xldj status ok">OK</td>
+<td class="tg-xldj status ok">OK</td>
+<td class="tg-xldj status ok">OK</td>
+<td class="tg-xldj status not_ok">NOT_OK</td>
+<td class="tg-xldj status undefined"></td>
+<td class="tg-xldj status ok">OK</td>
+<td class="tg-xldj status undefined"></td>
+<td class="tg-xldj status undefined"></td>
+<td class="tg-xldj ">4.5</td>
+<td class="tg-xldj status not_ok">NOT_OK</td>
+<td class="tg-xldj ">Local file diffs to remote: zservice_binding.srvb.xml</td>
+<td class="tg-xldj"><a href="https://github.com/abapGit-tests/SRVB.git">Repo</a></td>
+<td class="tg-xldj "></td>
+</tr>
+<tr>
+<td class="tg-xldj key">SRVD</td>
+<td class="tg-xldj key">$___SRVD</td>
+<td class="tg-xldj "></td>
+<td class="tg-xldj status ok">OK</td>
+<td class="tg-xldj "></td>
+<td class="tg-xldj status ok">OK</td>
+<td class="tg-xldj status ok">OK</td>
+<td class="tg-xldj status ok">OK</td>
+<td class="tg-xldj status not_ok">NOT_OK</td>
+<td class="tg-xldj status undefined"></td>
+<td class="tg-xldj status ok">OK</td>
+<td class="tg-xldj status undefined"></td>
+<td class="tg-xldj status undefined"></td>
+<td class="tg-xldj ">2.2</td>
+<td class="tg-xldj status not_ok">NOT_OK</td>
+<td class="tg-xldj ">Local file diffs to remote: ztest_service_definition.srvd.xml</td>
+<td class="tg-xldj"><a href="https://github.com/abapGit-tests/SRVD.git">Repo</a></td>
+<td class="tg-xldj "></td>
+</tr>
+<tr>
+<td class="tg-xldj key">SRVD_w_DDLS</td>
+<td class="tg-xldj key">$___SRVD_W_DDLS</td>
+<td class="tg-xldj "></td>
+<td class="tg-xldj status undefined"></td>
+<td class="tg-xldj "></td>
+<td class="tg-xldj status undefined"></td>
+<td class="tg-xldj status undefined"></td>
+<td class="tg-xldj status undefined"></td>
+<td class="tg-xldj status undefined"></td>
+<td class="tg-xldj status undefined"></td>
+<td class="tg-xldj status undefined"></td>
+<td class="tg-xldj status undefined"></td>
+<td class="tg-xldj status undefined"></td>
+<td class="tg-xldj ">1.7</td>
+<td class="tg-xldj status not_ok">NOT_OK</td>
+<td class="tg-xldj ">Failure in ZABAPGIT_CI_PROCESS_REPO. Subrc = 2 Screen output without connection to user.</td>
+<td class="tg-xldj"><a href="https://github.com/abapGit-tests/SRVD_w_DDLS.git">Repo</a></td>
+<td class="tg-xldj "></td>
+</tr>
+<tr>
+<td class="tg-xldj key">SSFO</td>
+<td class="tg-xldj key">$___SSFO</td>
+<td class="tg-xldj "></td>
+<td class="tg-xldj status ok">OK</td>
+<td class="tg-xldj "></td>
+<td class="tg-xldj status ok">OK</td>
+<td class="tg-xldj status ok">OK</td>
+<td class="tg-xldj status ok">OK</td>
+<td class="tg-xldj status ok">OK</td>
+<td class="tg-xldj status undefined"></td>
+<td class="tg-xldj status ok">OK</td>
+<td class="tg-xldj status undefined"></td>
+<td class="tg-xldj status ok">OK</td>
+<td class="tg-xldj ">4.8</td>
+<td class="tg-xldj status ok">OK</td>
+<td class="tg-xldj "></td>
+<td class="tg-xldj"><a href="https://github.com/abapGit-tests/SSFO.git">Repo</a></td>
+<td class="tg-xldj "></td>
+</tr>
+<tr>
+<td class="tg-xldj key">SSFO_multiple_pages</td>
+<td class="tg-xldj key">$___SSFO_MULTIPLE_PAGES</td>
+<td class="tg-xldj "></td>
+<td class="tg-xldj status ok">OK</td>
+<td class="tg-xldj "></td>
+<td class="tg-xldj status ok">OK</td>
+<td class="tg-xldj status ok">OK</td>
+<td class="tg-xldj status ok">OK</td>
+<td class="tg-xldj status ok">OK</td>
+<td class="tg-xldj status undefined"></td>
+<td class="tg-xldj status ok">OK</td>
+<td class="tg-xldj status undefined"></td>
+<td class="tg-xldj status ok">OK</td>
+<td class="tg-xldj ">4.1</td>
+<td class="tg-xldj status ok">OK</td>
+<td class="tg-xldj "></td>
+<td class="tg-xldj"><a href="https://github.com/abapGit-tests/SSFO_multiple_pages.git">Repo</a></td>
+<td class="tg-xldj "></td>
+</tr>
+<tr>
+<td class="tg-xldj key">SSST</td>
+<td class="tg-xldj key">$___SSST</td>
+<td class="tg-xldj "></td>
+<td class="tg-xldj status ok">OK</td>
+<td class="tg-xldj "></td>
+<td class="tg-xldj status ok">OK</td>
+<td class="tg-xldj status ok">OK</td>
+<td class="tg-xldj status ok">OK</td>
+<td class="tg-xldj status ok">OK</td>
+<td class="tg-xldj status undefined"></td>
+<td class="tg-xldj status ok">OK</td>
+<td class="tg-xldj status undefined"></td>
+<td class="tg-xldj status ok">OK</td>
+<td class="tg-xldj ">2.4</td>
+<td class="tg-xldj status ok">OK</td>
+<td class="tg-xldj "></td>
+<td class="tg-xldj"><a href="https://github.com/abapGit-tests/SSST.git">Repo</a></td>
+<td class="tg-xldj "></td>
+</tr>
+<tr>
+<td class="tg-xldj key">STVI</td>
+<td class="tg-xldj key">$___STVI</td>
+<td class="tg-xldj "></td>
+<td class="tg-xldj status ok">OK</td>
+<td class="tg-xldj "></td>
+<td class="tg-xldj status ok">OK</td>
+<td class="tg-xldj status ok">OK</td>
+<td class="tg-xldj status ok">OK</td>
+<td class="tg-xldj status ok">OK</td>
+<td class="tg-xldj status undefined"></td>
+<td class="tg-xldj status ok">OK</td>
+<td class="tg-xldj status undefined"></td>
+<td class="tg-xldj status ok">OK</td>
+<td class="tg-xldj ">1.2</td>
+<td class="tg-xldj status ok">OK</td>
+<td class="tg-xldj "></td>
+<td class="tg-xldj"><a href="https://github.com/abapGit-tests/STVI.git">Repo</a></td>
+<td class="tg-xldj "></td>
+</tr>
+<tr>
+<td class="tg-xldj key">SUCU</td>
+<td class="tg-xldj key">$___SUCU</td>
+<td class="tg-xldj "></td>
+<td class="tg-xldj status ok">OK</td>
+<td class="tg-xldj "></td>
+<td class="tg-xldj status ok">OK</td>
+<td class="tg-xldj status ok">OK</td>
+<td class="tg-xldj status ok">OK</td>
+<td class="tg-xldj status ok">OK</td>
+<td class="tg-xldj status undefined"></td>
+<td class="tg-xldj status ok">OK</td>
+<td class="tg-xldj status undefined"></td>
+<td class="tg-xldj status ok">OK</td>
+<td class="tg-xldj ">1.0</td>
+<td class="tg-xldj status ok">OK</td>
+<td class="tg-xldj "></td>
+<td class="tg-xldj"><a href="https://github.com/abapGit-tests/SUCU.git">Repo</a></td>
+<td class="tg-xldj "></td>
+</tr>
+<tr>
+<td class="tg-xldj key">SUSC_and_SUSO</td>
+<td class="tg-xldj key">$___SUSC_AND_SUSO</td>
+<td class="tg-xldj "></td>
+<td class="tg-xldj status ok">OK</td>
+<td class="tg-xldj "></td>
+<td class="tg-xldj status ok">OK</td>
+<td class="tg-xldj status ok">OK</td>
+<td class="tg-xldj status ok">OK</td>
+<td class="tg-xldj status ok">OK</td>
+<td class="tg-xldj status undefined"></td>
+<td class="tg-xldj status ok">OK</td>
+<td class="tg-xldj status undefined"></td>
+<td class="tg-xldj status not_ok">NOT_OK</td>
+<td class="tg-xldj ">1.8</td>
+<td class="tg-xldj status not_ok">NOT_OK</td>
+<td class="tg-xldj ">Left over package $___SUSC_AND_SUSO</td>
+<td class="tg-xldj"><a href="https://github.com/abapGit-tests/SUSC_and_SUSO.git">Repo</a></td>
+<td class="tg-xldj "></td>
+</tr>
+<tr>
+<td class="tg-xldj key">SUSH</td>
+<td class="tg-xldj key">$___SUSH</td>
+<td class="tg-xldj "></td>
+<td class="tg-xldj status ok">OK</td>
+<td class="tg-xldj "></td>
+<td class="tg-xldj status ok">OK</td>
+<td class="tg-xldj status ok">OK</td>
+<td class="tg-xldj status ok">OK</td>
+<td class="tg-xldj status not_ok">NOT_OK</td>
+<td class="tg-xldj status undefined"></td>
+<td class="tg-xldj status ok">OK</td>
+<td class="tg-xldj status undefined"></td>
+<td class="tg-xldj status undefined"></td>
+<td class="tg-xldj ">0.8</td>
+<td class="tg-xldj status not_ok">NOT_OK</td>
+<td class="tg-xldj ">Local file diffs to remote: .abapgit.xml</td>
+<td class="tg-xldj"><a href="https://github.com/abapGit-tests/SUSH.git">Repo</a></td>
+<td class="tg-xldj "></td>
+</tr>
+<tr>
+<td class="tg-xldj key">SUSO</td>
+<td class="tg-xldj key">$___SUSO</td>
+<td class="tg-xldj "></td>
+<td class="tg-xldj status ok">OK</td>
+<td class="tg-xldj "></td>
+<td class="tg-xldj status ok">OK</td>
+<td class="tg-xldj status ok">OK</td>
+<td class="tg-xldj status ok">OK</td>
+<td class="tg-xldj status ok">OK</td>
+<td class="tg-xldj status undefined"></td>
+<td class="tg-xldj status ok">OK</td>
+<td class="tg-xldj status undefined"></td>
+<td class="tg-xldj status ok">OK</td>
+<td class="tg-xldj ">1.3</td>
+<td class="tg-xldj status ok">OK</td>
+<td class="tg-xldj "></td>
+<td class="tg-xldj"><a href="https://github.com/abapGit-tests/SUSO.git">Repo</a></td>
+<td class="tg-xldj "></td>
+</tr>
+<tr>
+<td class="tg-xldj key">TABL</td>
+<td class="tg-xldj key">$___TABL</td>
+<td class="tg-xldj "></td>
+<td class="tg-xldj status ok">OK</td>
+<td class="tg-xldj "></td>
+<td class="tg-xldj status ok">OK</td>
+<td class="tg-xldj status ok">OK</td>
+<td class="tg-xldj status ok">OK</td>
+<td class="tg-xldj status ok">OK</td>
+<td class="tg-xldj status undefined"></td>
+<td class="tg-xldj status ok">OK</td>
+<td class="tg-xldj status undefined"></td>
+<td class="tg-xldj status ok">OK</td>
+<td class="tg-xldj ">1.9</td>
+<td class="tg-xldj status ok">OK</td>
+<td class="tg-xldj "></td>
+<td class="tg-xldj"><a href="https://github.com/abapGit-tests/TABL.git">Repo</a></td>
+<td class="tg-xldj "></td>
+</tr>
+<tr>
+<td class="tg-xldj key">TABL-AuthorizationGroup</td>
+<td class="tg-xldj key">$___TABL-AUTHORIZATIONGROUP</td>
+<td class="tg-xldj "></td>
+<td class="tg-xldj status ok">OK</td>
+<td class="tg-xldj "></td>
+<td class="tg-xldj status ok">OK</td>
+<td class="tg-xldj status ok">OK</td>
+<td class="tg-xldj status ok">OK</td>
+<td class="tg-xldj status ok">OK</td>
+<td class="tg-xldj status undefined"></td>
+<td class="tg-xldj status ok">OK</td>
+<td class="tg-xldj status undefined"></td>
+<td class="tg-xldj status ok">OK</td>
+<td class="tg-xldj ">1.4</td>
+<td class="tg-xldj status ok">OK</td>
+<td class="tg-xldj "></td>
+<td class="tg-xldj"><a href="https://github.com/abapGit-tests/TABL-AuthorizationGroup.git">Repo</a></td>
+<td class="tg-xldj "></td>
+</tr>
+<tr>
+<td class="tg-xldj key">TABL_GTT</td>
+<td class="tg-xldj key">$___TABL_GTT</td>
+<td class="tg-xldj "></td>
+<td class="tg-xldj status ok">OK</td>
+<td class="tg-xldj "></td>
+<td class="tg-xldj status ok">OK</td>
+<td class="tg-xldj status ok">OK</td>
+<td class="tg-xldj status ok">OK</td>
+<td class="tg-xldj status ok">OK</td>
+<td class="tg-xldj status undefined"></td>
+<td class="tg-xldj status ok">OK</td>
+<td class="tg-xldj status undefined"></td>
+<td class="tg-xldj status ok">OK</td>
+<td class="tg-xldj ">1.3</td>
+<td class="tg-xldj status ok">OK</td>
+<td class="tg-xldj "></td>
+<td class="tg-xldj"><a href="https://github.com/abapGit-tests/TABL_GTT.git">Repo</a></td>
+<td class="tg-xldj "></td>
+</tr>
+<tr>
+<td class="tg-xldj key">TABL_foreign_key</td>
+<td class="tg-xldj key">$___TABL_FOREIGN_KEY</td>
+<td class="tg-xldj "></td>
+<td class="tg-xldj status ok">OK</td>
+<td class="tg-xldj "></td>
+<td class="tg-xldj status ok">OK</td>
+<td class="tg-xldj status ok">OK</td>
+<td class="tg-xldj status ok">OK</td>
+<td class="tg-xldj status ok">OK</td>
+<td class="tg-xldj status undefined"></td>
+<td class="tg-xldj status ok">OK</td>
+<td class="tg-xldj status undefined"></td>
+<td class="tg-xldj status ok">OK</td>
+<td class="tg-xldj ">2.4</td>
+<td class="tg-xldj status ok">OK</td>
+<td class="tg-xldj "></td>
+<td class="tg-xldj"><a href="https://github.com/abapGit-tests/TABL_foreign_key.git">Repo</a></td>
+<td class="tg-xldj "></td>
+</tr>
+<tr>
+<td class="tg-xldj key">TABL_include_VIEW</td>
+<td class="tg-xldj key">$___TABL_INCLUDE_VIEW</td>
+<td class="tg-xldj "></td>
+<td class="tg-xldj status ok">OK</td>
+<td class="tg-xldj "></td>
+<td class="tg-xldj status ok">OK</td>
+<td class="tg-xldj status ok">OK</td>
+<td class="tg-xldj status ok">OK</td>
+<td class="tg-xldj status ok">OK</td>
+<td class="tg-xldj status undefined"></td>
+<td class="tg-xldj status ok">OK</td>
+<td class="tg-xldj status undefined"></td>
+<td class="tg-xldj status ok">OK</td>
+<td class="tg-xldj ">4.5</td>
+<td class="tg-xldj status ok">OK</td>
+<td class="tg-xldj "></td>
+<td class="tg-xldj"><a href="https://github.com/abapGit-tests/TABL_include_VIEW.git">Repo</a></td>
+<td class="tg-xldj "></td>
+</tr>
+<tr>
+<td class="tg-xldj key">TABL_object_reference</td>
+<td class="tg-xldj key">$___TABL_OBJECT_REFERENCE</td>
+<td class="tg-xldj "></td>
+<td class="tg-xldj status ok">OK</td>
+<td class="tg-xldj "></td>
+<td class="tg-xldj status ok">OK</td>
+<td class="tg-xldj status ok">OK</td>
+<td class="tg-xldj status ok">OK</td>
+<td class="tg-xldj status ok">OK</td>
+<td class="tg-xldj status undefined"></td>
+<td class="tg-xldj status ok">OK</td>
+<td class="tg-xldj status undefined"></td>
+<td class="tg-xldj status ok">OK</td>
+<td class="tg-xldj ">1.6</td>
+<td class="tg-xldj status ok">OK</td>
+<td class="tg-xldj "></td>
+<td class="tg-xldj"><a href="https://github.com/abapGit-tests/TABL_object_reference.git">Repo</a></td>
+<td class="tg-xldj "></td>
+</tr>
+<tr>
+<td class="tg-xldj key">TABL_structure</td>
+<td class="tg-xldj key">$___TABL_STRUCTURE</td>
+<td class="tg-xldj "></td>
+<td class="tg-xldj status ok">OK</td>
+<td class="tg-xldj "></td>
+<td class="tg-xldj status ok">OK</td>
+<td class="tg-xldj status ok">OK</td>
+<td class="tg-xldj status ok">OK</td>
+<td class="tg-xldj status ok">OK</td>
+<td class="tg-xldj status undefined"></td>
+<td class="tg-xldj status ok">OK</td>
+<td class="tg-xldj status undefined"></td>
+<td class="tg-xldj status ok">OK</td>
+<td class="tg-xldj ">1.3</td>
+<td class="tg-xldj status ok">OK</td>
+<td class="tg-xldj "></td>
+<td class="tg-xldj"><a href="https://github.com/abapGit-tests/TABL_structure.git">Repo</a></td>
+<td class="tg-xldj "></td>
+</tr>
+<tr>
+<td class="tg-xldj key">TABL_structure_with_structure</td>
+<td class="tg-xldj key">$___TABL_STRUCTURE_WITH_STRUCT</td>
+<td class="tg-xldj "></td>
+<td class="tg-xldj status ok">OK</td>
+<td class="tg-xldj "></td>
+<td class="tg-xldj status ok">OK</td>
+<td class="tg-xldj status ok">OK</td>
+<td class="tg-xldj status ok">OK</td>
+<td class="tg-xldj status ok">OK</td>
+<td class="tg-xldj status undefined"></td>
+<td class="tg-xldj status ok">OK</td>
+<td class="tg-xldj status undefined"></td>
+<td class="tg-xldj status ok">OK</td>
+<td class="tg-xldj ">1.6</td>
+<td class="tg-xldj status ok">OK</td>
+<td class="tg-xldj "></td>
+<td class="tg-xldj"><a href="https://github.com/abapGit-tests/TABL_structure_with_structure.git">Repo</a></td>
+<td class="tg-xldj "></td>
+</tr>
+<tr>
+<td class="tg-xldj key">TABL_structure_with_tabletype</td>
+<td class="tg-xldj key">$___TABL_STRUCTURE_WITH_TABLET</td>
+<td class="tg-xldj "></td>
+<td class="tg-xldj status ok">OK</td>
+<td class="tg-xldj "></td>
+<td class="tg-xldj status ok">OK</td>
+<td class="tg-xldj status ok">OK</td>
+<td class="tg-xldj status ok">OK</td>
+<td class="tg-xldj status ok">OK</td>
+<td class="tg-xldj status undefined"></td>
+<td class="tg-xldj status ok">OK</td>
+<td class="tg-xldj status undefined"></td>
+<td class="tg-xldj status ok">OK</td>
+<td class="tg-xldj ">1.9</td>
+<td class="tg-xldj status ok">OK</td>
+<td class="tg-xldj "></td>
+<td class="tg-xldj"><a href="https://github.com/abapGit-tests/TABL_structure_with_tabletype.git">Repo</a></td>
+<td class="tg-xldj "></td>
+</tr>
+<tr>
+<td class="tg-xldj key">TABL_using_DTEL_using_DOMA</td>
+<td class="tg-xldj key">$___TABL_USING_DTEL_USING_DOMA</td>
+<td class="tg-xldj "></td>
+<td class="tg-xldj status ok">OK</td>
+<td class="tg-xldj "></td>
+<td class="tg-xldj status ok">OK</td>
+<td class="tg-xldj status ok">OK</td>
+<td class="tg-xldj status ok">OK</td>
+<td class="tg-xldj status ok">OK</td>
+<td class="tg-xldj status undefined"></td>
+<td class="tg-xldj status ok">OK</td>
+<td class="tg-xldj status undefined"></td>
+<td class="tg-xldj status ok">OK</td>
+<td class="tg-xldj ">1.8</td>
+<td class="tg-xldj status ok">OK</td>
+<td class="tg-xldj "></td>
+<td class="tg-xldj"><a href="https://github.com/abapGit-tests/TABL_using_DTEL_using_DOMA.git">Repo</a></td>
+<td class="tg-xldj "></td>
+</tr>
+<tr>
+<td class="tg-xldj key">TABL_with_index</td>
+<td class="tg-xldj key">$___TABL_WITH_INDEX</td>
+<td class="tg-xldj "></td>
+<td class="tg-xldj status ok">OK</td>
+<td class="tg-xldj "></td>
+<td class="tg-xldj status ok">OK</td>
+<td class="tg-xldj status ok">OK</td>
+<td class="tg-xldj status ok">OK</td>
+<td class="tg-xldj status not_ok">NOT_OK</td>
+<td class="tg-xldj status undefined"></td>
+<td class="tg-xldj status ok">OK</td>
+<td class="tg-xldj status undefined"></td>
+<td class="tg-xldj status undefined"></td>
+<td class="tg-xldj ">1.5</td>
+<td class="tg-xldj status not_ok">NOT_OK</td>
+<td class="tg-xldj ">Local file diffs to remote: zabapgit_unit_t1.tabl.xml</td>
+<td class="tg-xldj"><a href="https://github.com/abapGit-tests/TABL_with_index.git">Repo</a></td>
+<td class="tg-xldj "></td>
+</tr>
+<tr>
+<td class="tg-xldj key">TRAN</td>
+<td class="tg-xldj key">$___TRAN</td>
+<td class="tg-xldj "></td>
+<td class="tg-xldj status ok">OK</td>
+<td class="tg-xldj "></td>
+<td class="tg-xldj status ok">OK</td>
+<td class="tg-xldj status ok">OK</td>
+<td class="tg-xldj status ok">OK</td>
+<td class="tg-xldj status ok">OK</td>
+<td class="tg-xldj status undefined"></td>
+<td class="tg-xldj status ok">OK</td>
+<td class="tg-xldj status undefined"></td>
+<td class="tg-xldj status ok">OK</td>
+<td class="tg-xldj ">0.9</td>
+<td class="tg-xldj status ok">OK</td>
+<td class="tg-xldj "></td>
+<td class="tg-xldj"><a href="https://github.com/abapGit-tests/TRAN.git">Repo</a></td>
+<td class="tg-xldj "></td>
+</tr>
+<tr>
+<td class="tg-xldj key">TRAN-ParameterTransaction</td>
+<td class="tg-xldj key">$___TRAN-PARAMETERTRANSACTION</td>
+<td class="tg-xldj "></td>
+<td class="tg-xldj status ok">OK</td>
+<td class="tg-xldj "></td>
+<td class="tg-xldj status ok">OK</td>
+<td class="tg-xldj status ok">OK</td>
+<td class="tg-xldj status ok">OK</td>
+<td class="tg-xldj status ok">OK</td>
+<td class="tg-xldj status undefined"></td>
+<td class="tg-xldj status ok">OK</td>
+<td class="tg-xldj status undefined"></td>
+<td class="tg-xldj status ok">OK</td>
+<td class="tg-xldj ">2.0</td>
+<td class="tg-xldj status ok">OK</td>
+<td class="tg-xldj "></td>
+<td class="tg-xldj"><a href="https://github.com/abapGit-tests/TRAN-ParameterTransaction.git">Repo</a></td>
+<td class="tg-xldj "></td>
+</tr>
+<tr>
+<td class="tg-xldj key">TRAN-ReportTransaction</td>
+<td class="tg-xldj key">$___TRAN-REPORTTRANSACTION</td>
+<td class="tg-xldj "></td>
+<td class="tg-xldj status ok">OK</td>
+<td class="tg-xldj "></td>
+<td class="tg-xldj status ok">OK</td>
+<td class="tg-xldj status ok">OK</td>
+<td class="tg-xldj status ok">OK</td>
+<td class="tg-xldj status ok">OK</td>
+<td class="tg-xldj status undefined"></td>
+<td class="tg-xldj status ok">OK</td>
+<td class="tg-xldj status undefined"></td>
+<td class="tg-xldj status ok">OK</td>
+<td class="tg-xldj ">1.6</td>
+<td class="tg-xldj status ok">OK</td>
+<td class="tg-xldj "></td>
+<td class="tg-xldj"><a href="https://github.com/abapGit-tests/TRAN-ReportTransaction.git">Repo</a></td>
+<td class="tg-xldj "></td>
+</tr>
+<tr>
+<td class="tg-xldj key">TRAN-VariantTransaction</td>
+<td class="tg-xldj key">$___TRAN-VARIANTTRANSACTION</td>
+<td class="tg-xldj "></td>
+<td class="tg-xldj status ok">OK</td>
+<td class="tg-xldj "></td>
+<td class="tg-xldj status ok">OK</td>
+<td class="tg-xldj status ok">OK</td>
+<td class="tg-xldj status ok">OK</td>
+<td class="tg-xldj status ok">OK</td>
+<td class="tg-xldj status undefined"></td>
+<td class="tg-xldj status ok">OK</td>
+<td class="tg-xldj status undefined"></td>
+<td class="tg-xldj status ok">OK</td>
+<td class="tg-xldj ">1.9</td>
+<td class="tg-xldj status ok">OK</td>
+<td class="tg-xldj "></td>
+<td class="tg-xldj"><a href="https://github.com/abapGit-tests/TRAN-VariantTransaction.git">Repo</a></td>
+<td class="tg-xldj "></td>
+</tr>
+<tr>
+<td class="tg-xldj key">TRAN_OO</td>
+<td class="tg-xldj key">$___TRAN_OO</td>
+<td class="tg-xldj "></td>
+<td class="tg-xldj status ok">OK</td>
+<td class="tg-xldj "></td>
+<td class="tg-xldj status ok">OK</td>
+<td class="tg-xldj status ok">OK</td>
+<td class="tg-xldj status ok">OK</td>
+<td class="tg-xldj status ok">OK</td>
+<td class="tg-xldj status undefined"></td>
+<td class="tg-xldj status ok">OK</td>
+<td class="tg-xldj status undefined"></td>
+<td class="tg-xldj status ok">OK</td>
+<td class="tg-xldj ">1.2</td>
+<td class="tg-xldj status ok">OK</td>
+<td class="tg-xldj "></td>
+<td class="tg-xldj"><a href="https://github.com/abapGit-tests/TRAN_OO.git">Repo</a></td>
+<td class="tg-xldj "></td>
+</tr>
+<tr>
+<td class="tg-xldj key">TRAN_authorizations</td>
+<td class="tg-xldj key">$___TRAN_AUTHORIZATIONS</td>
+<td class="tg-xldj "></td>
+<td class="tg-xldj status ok">OK</td>
+<td class="tg-xldj "></td>
+<td class="tg-xldj status ok">OK</td>
+<td class="tg-xldj status ok">OK</td>
+<td class="tg-xldj status ok">OK</td>
+<td class="tg-xldj status ok">OK</td>
+<td class="tg-xldj status undefined"></td>
+<td class="tg-xldj status ok">OK</td>
+<td class="tg-xldj status undefined"></td>
+<td class="tg-xldj status ok">OK</td>
+<td class="tg-xldj ">0.9</td>
+<td class="tg-xldj status ok">OK</td>
+<td class="tg-xldj "></td>
+<td class="tg-xldj"><a href="https://github.com/abapGit-tests/TRAN_authorizations.git">Repo</a></td>
+<td class="tg-xldj "></td>
+</tr>
+<tr>
+<td class="tg-xldj key">TTYP</td>
+<td class="tg-xldj key">$___TTYP</td>
+<td class="tg-xldj "></td>
+<td class="tg-xldj status ok">OK</td>
+<td class="tg-xldj "></td>
+<td class="tg-xldj status ok">OK</td>
+<td class="tg-xldj status ok">OK</td>
+<td class="tg-xldj status ok">OK</td>
+<td class="tg-xldj status ok">OK</td>
+<td class="tg-xldj status undefined"></td>
+<td class="tg-xldj status ok">OK</td>
+<td class="tg-xldj status undefined"></td>
+<td class="tg-xldj status ok">OK</td>
+<td class="tg-xldj ">1.2</td>
+<td class="tg-xldj status ok">OK</td>
+<td class="tg-xldj "></td>
+<td class="tg-xldj"><a href="https://github.com/abapGit-tests/TTYP.git">Repo</a></td>
+<td class="tg-xldj "></td>
+</tr>
+<tr>
+<td class="tg-xldj key">TTYP_with_CLAS_reference</td>
+<td class="tg-xldj key">$___TTYP_WITH_CLAS_REFERENCE</td>
+<td class="tg-xldj "></td>
+<td class="tg-xldj status ok">OK</td>
+<td class="tg-xldj "></td>
+<td class="tg-xldj status ok">OK</td>
+<td class="tg-xldj status ok">OK</td>
+<td class="tg-xldj status ok">OK</td>
+<td class="tg-xldj status not_ok">NOT_OK</td>
+<td class="tg-xldj status undefined"></td>
+<td class="tg-xldj status ok">OK</td>
+<td class="tg-xldj status undefined"></td>
+<td class="tg-xldj status undefined"></td>
+<td class="tg-xldj ">3.4</td>
+<td class="tg-xldj status not_ok">NOT_OK</td>
+<td class="tg-xldj ">Local file diffs to remote: zcl_agit_ttyp_with_cls.clas.xml</td>
+<td class="tg-xldj"><a href="https://github.com/abapGit-tests/TTYP_with_CLAS_reference.git">Repo</a></td>
+<td class="tg-xldj "></td>
+</tr>
+<tr>
+<td class="tg-xldj key">TYPE</td>
+<td class="tg-xldj key">$___TYPE</td>
+<td class="tg-xldj "></td>
+<td class="tg-xldj status ok">OK</td>
+<td class="tg-xldj "></td>
+<td class="tg-xldj status ok">OK</td>
+<td class="tg-xldj status ok">OK</td>
+<td class="tg-xldj status ok">OK</td>
+<td class="tg-xldj status ok">OK</td>
+<td class="tg-xldj status undefined"></td>
+<td class="tg-xldj status ok">OK</td>
+<td class="tg-xldj status undefined"></td>
+<td class="tg-xldj status ok">OK</td>
+<td class="tg-xldj ">2.3</td>
+<td class="tg-xldj status ok">OK</td>
+<td class="tg-xldj "></td>
+<td class="tg-xldj"><a href="https://github.com/abapGit-tests/TYPE.git">Repo</a></td>
+<td class="tg-xldj "></td>
+</tr>
+<tr>
+<td class="tg-xldj key">UDMO</td>
+<td class="tg-xldj key">$___UDMO</td>
+<td class="tg-xldj "></td>
+<td class="tg-xldj status ok">OK</td>
+<td class="tg-xldj "></td>
+<td class="tg-xldj status ok">OK</td>
+<td class="tg-xldj status ok">OK</td>
+<td class="tg-xldj status ok">OK</td>
+<td class="tg-xldj status ok">OK</td>
+<td class="tg-xldj status undefined"></td>
+<td class="tg-xldj status ok">OK</td>
+<td class="tg-xldj status undefined"></td>
+<td class="tg-xldj status ok">OK</td>
+<td class="tg-xldj ">0.8</td>
+<td class="tg-xldj status ok">OK</td>
+<td class="tg-xldj "></td>
+<td class="tg-xldj"><a href="https://github.com/abapGit-tests/UDMO.git">Repo</a></td>
+<td class="tg-xldj "></td>
+</tr>
+<tr>
+<td class="tg-xldj key">UENO</td>
+<td class="tg-xldj key">$___UENO</td>
+<td class="tg-xldj "></td>
+<td class="tg-xldj status ok">OK</td>
+<td class="tg-xldj "></td>
+<td class="tg-xldj status ok">OK</td>
+<td class="tg-xldj status ok">OK</td>
+<td class="tg-xldj status ok">OK</td>
+<td class="tg-xldj status not_ok">NOT_OK</td>
+<td class="tg-xldj status undefined"></td>
+<td class="tg-xldj status ok">OK</td>
+<td class="tg-xldj status undefined"></td>
+<td class="tg-xldj status undefined"></td>
+<td class="tg-xldj ">2.6</td>
+<td class="tg-xldj status not_ok">NOT_OK</td>
+<td class="tg-xldj ">Local file diffs to remote: zzbedsock.ueno.xml</td>
+<td class="tg-xldj"><a href="https://github.com/abapGit-tests/UENO.git">Repo</a></td>
+<td class="tg-xldj "></td>
+</tr>
+<tr>
+<td class="tg-xldj key">VCLS</td>
+<td class="tg-xldj key">$___VCLS</td>
+<td class="tg-xldj "></td>
+<td class="tg-xldj status ok">OK</td>
+<td class="tg-xldj "></td>
+<td class="tg-xldj status ok">OK</td>
+<td class="tg-xldj status ok">OK</td>
+<td class="tg-xldj status ok">OK</td>
+<td class="tg-xldj status ok">OK</td>
+<td class="tg-xldj status undefined"></td>
+<td class="tg-xldj status ok">OK</td>
+<td class="tg-xldj status undefined"></td>
+<td class="tg-xldj status ok">OK</td>
+<td class="tg-xldj ">1.6</td>
+<td class="tg-xldj status ok">OK</td>
+<td class="tg-xldj "></td>
+<td class="tg-xldj"><a href="https://github.com/abapGit-tests/VCLS.git">Repo</a></td>
+<td class="tg-xldj "></td>
+</tr>
+<tr>
+<td class="tg-xldj key">VIEW</td>
+<td class="tg-xldj key">$___VIEW</td>
+<td class="tg-xldj "></td>
+<td class="tg-xldj status ok">OK</td>
+<td class="tg-xldj "></td>
+<td class="tg-xldj status ok">OK</td>
+<td class="tg-xldj status ok">OK</td>
+<td class="tg-xldj status ok">OK</td>
+<td class="tg-xldj status ok">OK</td>
+<td class="tg-xldj status undefined"></td>
+<td class="tg-xldj status ok">OK</td>
+<td class="tg-xldj status undefined"></td>
+<td class="tg-xldj status ok">OK</td>
+<td class="tg-xldj ">1.5</td>
+<td class="tg-xldj status ok">OK</td>
+<td class="tg-xldj "></td>
+<td class="tg-xldj"><a href="https://github.com/abapGit-tests/VIEW.git">Repo</a></td>
+<td class="tg-xldj "></td>
+</tr>
+<tr>
+<td class="tg-xldj key">VIEW_with_join</td>
+<td class="tg-xldj key">$___VIEW_WITH_JOIN</td>
+<td class="tg-xldj "></td>
+<td class="tg-xldj status ok">OK</td>
+<td class="tg-xldj "></td>
+<td class="tg-xldj status ok">OK</td>
+<td class="tg-xldj status ok">OK</td>
+<td class="tg-xldj status ok">OK</td>
+<td class="tg-xldj status not_ok">NOT_OK</td>
+<td class="tg-xldj status undefined"></td>
+<td class="tg-xldj status ok">OK</td>
+<td class="tg-xldj status undefined"></td>
+<td class="tg-xldj status undefined"></td>
+<td class="tg-xldj ">3.9</td>
+<td class="tg-xldj status not_ok">NOT_OK</td>
+<td class="tg-xldj ">Local file diffs to remote: zag_unit_test_t1.tabl.xml</td>
+<td class="tg-xldj"><a href="https://github.com/abapGit-tests/VIEW_with_join.git">Repo</a></td>
+<td class="tg-xldj "></td>
+</tr>
+<tr>
+<td class="tg-xldj key">W3MI</td>
+<td class="tg-xldj key">$___W3MI</td>
+<td class="tg-xldj "></td>
+<td class="tg-xldj status ok">OK</td>
+<td class="tg-xldj "></td>
+<td class="tg-xldj status ok">OK</td>
+<td class="tg-xldj status ok">OK</td>
+<td class="tg-xldj status ok">OK</td>
+<td class="tg-xldj status ok">OK</td>
+<td class="tg-xldj status undefined"></td>
+<td class="tg-xldj status ok">OK</td>
+<td class="tg-xldj status undefined"></td>
+<td class="tg-xldj status ok">OK</td>
+<td class="tg-xldj ">1.0</td>
+<td class="tg-xldj status ok">OK</td>
+<td class="tg-xldj "></td>
+<td class="tg-xldj"><a href="https://github.com/abapGit-tests/W3MI.git">Repo</a></td>
+<td class="tg-xldj "></td>
+</tr>
+<tr>
+<td class="tg-xldj key">W3MI_names</td>
+<td class="tg-xldj key">$___W3MI_NAMES</td>
+<td class="tg-xldj "></td>
+<td class="tg-xldj status ok">OK</td>
+<td class="tg-xldj "></td>
+<td class="tg-xldj status ok">OK</td>
+<td class="tg-xldj status ok">OK</td>
+<td class="tg-xldj status ok">OK</td>
+<td class="tg-xldj status not_ok">NOT_OK</td>
+<td class="tg-xldj status undefined"></td>
+<td class="tg-xldj status ok">OK</td>
+<td class="tg-xldj status undefined"></td>
+<td class="tg-xldj status undefined"></td>
+<td class="tg-xldj ">1.3</td>
+<td class="tg-xldj status not_ok">NOT_OK</td>
+<td class="tg-xldj ">Local file diffs to remote: .abapgit.xml</td>
+<td class="tg-xldj"><a href="https://github.com/abapGit-tests/W3MI_names.git">Repo</a></td>
+<td class="tg-xldj "></td>
+</tr>
+<tr>
+<td class="tg-xldj key">WAPA</td>
+<td class="tg-xldj key">$___WAPA</td>
+<td class="tg-xldj "></td>
+<td class="tg-xldj status ok">OK</td>
+<td class="tg-xldj "></td>
+<td class="tg-xldj status ok">OK</td>
+<td class="tg-xldj status ok">OK</td>
+<td class="tg-xldj status ok">OK</td>
+<td class="tg-xldj status ok">OK</td>
+<td class="tg-xldj status undefined"></td>
+<td class="tg-xldj status ok">OK</td>
+<td class="tg-xldj status undefined"></td>
+<td class="tg-xldj status ok">OK</td>
+<td class="tg-xldj ">8.4</td>
+<td class="tg-xldj status ok">OK</td>
+<td class="tg-xldj "></td>
+<td class="tg-xldj"><a href="https://github.com/abapGit-tests/WAPA.git">Repo</a></td>
+<td class="tg-xldj "></td>
+</tr>
+<tr>
+<td class="tg-xldj key">WDCA</td>
+<td class="tg-xldj key">$___WDCA</td>
+<td class="tg-xldj "></td>
+<td class="tg-xldj status ok">OK</td>
+<td class="tg-xldj "></td>
+<td class="tg-xldj status ok">OK</td>
+<td class="tg-xldj status ok">OK</td>
+<td class="tg-xldj status ok">OK</td>
+<td class="tg-xldj status not_ok">NOT_OK</td>
+<td class="tg-xldj status undefined"></td>
+<td class="tg-xldj status ok">OK</td>
+<td class="tg-xldj status undefined"></td>
+<td class="tg-xldj status undefined"></td>
+<td class="tg-xldj ">17.0</td>
+<td class="tg-xldj status not_ok">NOT_OK</td>
+<td class="tg-xldj ">Local file diffs to remote: zwdr_appl_config    02.wdca.xml</td>
+<td class="tg-xldj"><a href="https://github.com/abapGit-tests/WDCA.git">Repo</a></td>
+<td class="tg-xldj "></td>
+</tr>
+<tr>
+<td class="tg-xldj key">WDCC</td>
+<td class="tg-xldj key">$___WDCC</td>
+<td class="tg-xldj "></td>
+<td class="tg-xldj status ok">OK</td>
+<td class="tg-xldj "></td>
+<td class="tg-xldj status ok">OK</td>
+<td class="tg-xldj status ok">OK</td>
+<td class="tg-xldj status ok">OK</td>
+<td class="tg-xldj status not_ok">NOT_OK</td>
+<td class="tg-xldj status undefined"></td>
+<td class="tg-xldj status ok">OK</td>
+<td class="tg-xldj status undefined"></td>
+<td class="tg-xldj status undefined"></td>
+<td class="tg-xldj ">12.5</td>
+<td class="tg-xldj status not_ok">NOT_OK</td>
+<td class="tg-xldj ">Local file diffs to remote: zwdr_test_config.wdyn.xml</td>
+<td class="tg-xldj"><a href="https://github.com/abapGit-tests/WDCC.git">Repo</a></td>
+<td class="tg-xldj "></td>
+</tr>
+<tr>
+<td class="tg-xldj key">WDYA_and_WDYN</td>
+<td class="tg-xldj key">$___WDYA_AND_WDYN</td>
+<td class="tg-xldj "></td>
+<td class="tg-xldj status ok">OK</td>
+<td class="tg-xldj "></td>
+<td class="tg-xldj status ok">OK</td>
+<td class="tg-xldj status ok">OK</td>
+<td class="tg-xldj status ok">OK</td>
+<td class="tg-xldj status ok">OK</td>
+<td class="tg-xldj status undefined"></td>
+<td class="tg-xldj status ok">OK</td>
+<td class="tg-xldj status undefined"></td>
+<td class="tg-xldj status ok">OK</td>
+<td class="tg-xldj ">5.8</td>
+<td class="tg-xldj status ok">OK</td>
+<td class="tg-xldj "></td>
+<td class="tg-xldj"><a href="https://github.com/abapGit-tests/WDYA_and_WDYN.git">Repo</a></td>
+<td class="tg-xldj "></td>
+</tr>
+<tr>
+<td class="tg-xldj key">WDYN</td>
+<td class="tg-xldj key">$___WDYN</td>
+<td class="tg-xldj "></td>
+<td class="tg-xldj status ok">OK</td>
+<td class="tg-xldj "></td>
+<td class="tg-xldj status ok">OK</td>
+<td class="tg-xldj status ok">OK</td>
+<td class="tg-xldj status ok">OK</td>
+<td class="tg-xldj status ok">OK</td>
+<td class="tg-xldj status undefined"></td>
+<td class="tg-xldj status ok">OK</td>
+<td class="tg-xldj status undefined"></td>
+<td class="tg-xldj status ok">OK</td>
+<td class="tg-xldj ">6.3</td>
+<td class="tg-xldj status ok">OK</td>
+<td class="tg-xldj "></td>
+<td class="tg-xldj"><a href="https://github.com/abapGit-tests/WDYN.git">Repo</a></td>
+<td class="tg-xldj "></td>
+</tr>
+<tr>
+<td class="tg-xldj key">WEBI</td>
+<td class="tg-xldj key">$___WEBI</td>
+<td class="tg-xldj "></td>
+<td class="tg-xldj status ok">OK</td>
+<td class="tg-xldj "></td>
+<td class="tg-xldj status ok">OK</td>
+<td class="tg-xldj status ok">OK</td>
+<td class="tg-xldj status ok">OK</td>
+<td class="tg-xldj status not_ok">NOT_OK</td>
+<td class="tg-xldj status undefined"></td>
+<td class="tg-xldj status ok">OK</td>
+<td class="tg-xldj status undefined"></td>
+<td class="tg-xldj status undefined"></td>
+<td class="tg-xldj ">6.2</td>
+<td class="tg-xldj status not_ok">NOT_OK</td>
+<td class="tg-xldj ">Remote file diffs to local: ztestwebi.webi.xml</td>
+<td class="tg-xldj"><a href="https://github.com/abapGit-tests/WEBI.git">Repo</a></td>
+<td class="tg-xldj "></td>
+</tr>
+<tr>
+<td class="tg-xldj key">XINX</td>
+<td class="tg-xldj key">$___XINX</td>
+<td class="tg-xldj "></td>
+<td class="tg-xldj status ok">OK</td>
+<td class="tg-xldj "></td>
+<td class="tg-xldj status ok">OK</td>
+<td class="tg-xldj status ok">OK</td>
+<td class="tg-xldj status ok">OK</td>
+<td class="tg-xldj status ok">OK</td>
+<td class="tg-xldj status undefined"></td>
+<td class="tg-xldj status ok">OK</td>
+<td class="tg-xldj status undefined"></td>
+<td class="tg-xldj status ok">OK</td>
+<td class="tg-xldj ">6.2</td>
+<td class="tg-xldj status ok">OK</td>
+<td class="tg-xldj "></td>
+<td class="tg-xldj"><a href="https://github.com/abapGit-tests/XINX.git">Repo</a></td>
+<td class="tg-xldj "></td>
+</tr>
+<tr>
+<td class="tg-xldj key">XSLT</td>
+<td class="tg-xldj key">$___XSLT</td>
+<td class="tg-xldj "></td>
+<td class="tg-xldj status ok">OK</td>
+<td class="tg-xldj "></td>
+<td class="tg-xldj status ok">OK</td>
+<td class="tg-xldj status ok">OK</td>
+<td class="tg-xldj status ok">OK</td>
+<td class="tg-xldj status ok">OK</td>
+<td class="tg-xldj status undefined"></td>
+<td class="tg-xldj status ok">OK</td>
+<td class="tg-xldj status undefined"></td>
+<td class="tg-xldj status ok">OK</td>
+<td class="tg-xldj ">1.4</td>
+<td class="tg-xldj status ok">OK</td>
+<td class="tg-xldj "></td>
+<td class="tg-xldj"><a href="https://github.com/abapGit-tests/XSLT.git">Repo</a></td>
+<td class="tg-xldj "></td>
+</tr>
+<tr>
+<td class="tg-xldj key">data1</td>
+<td class="tg-xldj key">$___DATA1</td>
+<td class="tg-xldj "></td>
+<td class="tg-xldj status ok">OK</td>
+<td class="tg-xldj "></td>
+<td class="tg-xldj status ok">OK</td>
+<td class="tg-xldj status ok">OK</td>
+<td class="tg-xldj status ok">OK</td>
+<td class="tg-xldj status not_ok">NOT_OK</td>
+<td class="tg-xldj status undefined"></td>
+<td class="tg-xldj status ok">OK</td>
+<td class="tg-xldj status undefined"></td>
+<td class="tg-xldj status undefined"></td>
+<td class="tg-xldj ">1.7</td>
+<td class="tg-xldj status not_ok">NOT_OK</td>
+<td class="tg-xldj ">Local file diffs to remote: zdata1.tabl.xml</td>
+<td class="tg-xldj"><a href="https://github.com/abapGit-tests/data1.git">Repo</a></td>
+<td class="tg-xldj "></td>
+</tr>
+<tr>
+<td class="tg-xldj key">odata4</td>
+<td class="tg-xldj key">$___ODATA4</td>
+<td class="tg-xldj "></td>
+<td class="tg-xldj status ok">OK</td>
+<td class="tg-xldj "></td>
+<td class="tg-xldj status ok">OK</td>
+<td class="tg-xldj status ok">OK</td>
+<td class="tg-xldj status ok">OK</td>
+<td class="tg-xldj status ok">OK</td>
+<td class="tg-xldj status undefined"></td>
+<td class="tg-xldj status ok">OK</td>
+<td class="tg-xldj status undefined"></td>
+<td class="tg-xldj status ok">OK</td>
+<td class="tg-xldj ">10.4</td>
+<td class="tg-xldj status ok">OK</td>
+<td class="tg-xldj "></td>
+<td class="tg-xldj"><a href="https://github.com/abapGit-tests/odata4.git">Repo</a></td>
+<td class="tg-xldj "></td>
+</tr>
+</tbody>
+</table>
+
+    <br/><br/>
+  </body>
+</html>

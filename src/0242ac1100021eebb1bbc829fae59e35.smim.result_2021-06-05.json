@@ -1,0 +1,108 @@
+{
+  "ci_has_errors": false,
+  "generic_result_list": [
+    {
+      "description": "Check latest abapGit build",
+      "duration": 6.6,
+      "message": "",
+      "status": "OK"
+    },
+    {
+      "description": "Run abapGit unit tests",
+      "duration": 6.0,
+      "message": "",
+      "status": "OK"
+    }
+  ],
+  "repo_result_list": [
+    {
+      "check_create_transport": "",
+      "check_delete_transport": "",
+      "check_leftovers": "OK",
+      "clone": "OK",
+      "clone_url": "https://github.com/abapGit-tests/DTEL.git",
+      "create_package": "OK",
+      "do_not_purge": "",
+      "duration": 1.3,
+      "layer": "",
+      "message": "",
+      "name": "DTEL",
+      "object_check": "OK",
+      "package": "$___DTEL",
+      "pull": "OK",
+      "purge": "OK",
+      "skip": "",
+      "status": "OK",
+      "syntax_check": "OK"
+    },
+    {
+      "check_create_transport": "OK",
+      "check_delete_transport": "OK",
+      "check_leftovers": "OK",
+      "clone": "OK",
+      "clone_url": "https://github.com/abapGit-tests/DTEL.git",
+      "create_package": "",
+      "do_not_purge": "",
+      "duration": 11.9,
+      "layer": "ZA4H",
+      "message": "",
+      "name": "DTEL",
+      "object_check": "OK",
+      "package": "Z___DTEL",
+      "pull": "OK",
+      "purge": "OK",
+      "skip": "",
+      "status": "OK",
+      "syntax_check": "OK"
+    },
+    {
+      "check_create_transport": "",
+      "check_delete_transport": "",
+      "check_leftovers": "OK",
+      "clone": "OK",
+      "clone_url": "https://github.com/abapGit-tests/TABL.git",
+      "create_package": "OK",
+      "do_not_purge": "",
+      "duration": 1.4,
+      "layer": "",
+      "message": "",
+      "name": "TABL",
+      "object_check": "OK",
+      "package": "$___TABL",
+      "pull": "OK",
+      "purge": "OK",
+      "skip": "",
+      "status": "OK",
+      "syntax_check": "OK"
+    },
+    {
+      "check_create_transport": "OK",
+      "check_delete_transport": "OK",
+      "check_leftovers": "OK",
+      "clone": "OK",
+      "clone_url": "https://github.com/abapGit-tests/TABL.git",
+      "create_package": "",
+      "do_not_purge": "",
+      "duration": 12.7,
+      "layer": "ZA4H",
+      "message": "",
+      "name": "TABL",
+      "object_check": "OK",
+      "package": "Z___TABL",
+      "pull": "OK",
+      "purge": "OK",
+      "skip": "",
+      "status": "OK",
+      "syntax_check": "OK"
+    }
+  ],
+  "statistics": {
+    "duration_in_seconds": 42,
+    "finish_timestamp": 20210605112039.8508300,
+    "test_cases": {
+      "failed": 0,
+      "successful": 6,
+      "total": 6
+    }
+  }
+}
