@@ -1,28 +1,28 @@
 {
   "category_list": [],
-  "ci_has_errors": true,
+  "ci_has_errors": false,
   "generic_result_list": [
     {
       "description": "Run abapGit unit tests",
-      "duration": 212.0,
+      "duration": 18.4,
       "message": "",
       "status": "OK"
     },
     {
       "description": "Check latest abapGit build",
-      "duration": 1.2,
-      "message": "HTTP status code 404 from https://raw.githubusercontent.com/abapGit/build/main/zabapgit.abap",
-      "status": "NOT_OK"
+      "duration": 7.4,
+      "message": "",
+      "status": "OK"
     }
   ],
   "repo_result_list": [],
   "statistics": {
-    "duration_in_seconds": 223,
-    "finish_timestamp": 20221201150340.3473620,
+    "duration_in_seconds": 33,
+    "finish_timestamp": 20221206193208.9472970,
     "test_cases": {
-      "failed": 1,
+      "failed": 0,
       "skipped": 0,
-      "successful": 1,
+      "successful": 2,
       "total": 2
     }
   }
