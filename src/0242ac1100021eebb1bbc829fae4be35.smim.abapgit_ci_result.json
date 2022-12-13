@@ -4,21 +4,21 @@
   "generic_result_list": [
     {
       "description": "Run abapGit unit tests",
-      "duration": 13.7,
+      "duration": 14.8,
       "message": "",
       "status": "OK"
     },
     {
       "description": "Check latest abapGit build",
-      "duration": 7.6,
+      "duration": 7.9,
       "message": "",
       "status": "OK"
     }
   ],
   "repo_result_list": [],
   "statistics": {
-    "duration_in_seconds": 25,
-    "finish_timestamp": 20221213182209.8933040,
+    "duration_in_seconds": 27,
+    "finish_timestamp": 20221213211337.6774390,
     "test_cases": {
       "failed": 0,
       "skipped": 0,
